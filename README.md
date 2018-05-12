@@ -2,7 +2,7 @@ My Maven TODO list
 =========
 
 ## Core 3.5.x
-- jansi 1.7.1 release
+- jansi [1.7.1 release](https://github.com/fusesource/jansi/issues/114)
 - [MNG-6411](https://issues.apache.org/jira/browse/MNG-6411) readability of available modules
 - [MNG-6028](https://issues.apache.org/jira/browse/MNG-6028) -rf goals expand
 - [MNG-6410](https://issues.apache.org/jira/browse/MNG-6410) multiple modules with same artifactId
