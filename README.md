@@ -25,7 +25,6 @@ My Maven TODO list
 ## Misc
 - [MPLUGIN-339](https://issues.apache.org/jira/browse/MPLUGIN-339) maven-plugin-tools-javadoc broken by com.sun.tools.doclets removal in Java 10
 - [MPLUGIN-317](https://issues.apache.org/jira/browse/MPLUGIN-317) plugin-tools complex types
-- [MPLUGIN-328](https://issues.apache.org/jira/browse/MPLUGIN-328) PR AspectJ
 - maven-release-plugin conf phases
 - [Classworlds](https://codehaus-plexus.github.io/plexus-classworlds/) ~~doc~~ + dump + graph
 - doc new packaging in [Plugin Developers Centre](https://maven.apache.org/plugin-developers/index.html)
@@ -33,7 +32,6 @@ My Maven TODO list
 - [resource bundles](https://maven.apache.org/apache-resource-bundles/) to Git
 - [INFRA-16467](https://issues.apache.org/jira/browse/INFRA-16467) move components out of CMS space
 - [Vestige](https://gaellalire.fr/gitlab/vestige/vestige/wikis/home)
-- TLS 1.2
 
 
 [projects.apache.org](http://projects.apache.org)
