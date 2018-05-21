@@ -14,6 +14,7 @@ My Maven TODO list
 - relocation
 - [Build vs Consumer POM](https://cwiki.apache.org/confluence/display/MAVEN/Build+vs+Consumer+POM)
 - [Verifiable Builds](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=74682318)
+- [MNG-5814](https://issues.apache.org/jira/browse/MNG-5814) check signature of plugins against trusted list
 
 ## Doxia/site/pdf
 - [DOXIA-569](https://issues.apache.org/jira/browse/DOXIA-569) Markdown Sink
