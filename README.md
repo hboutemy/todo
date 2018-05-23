@@ -18,7 +18,7 @@ My Maven TODO list
 
 ## Doxia/site/pdf
 - [DOXIA-569](https://issues.apache.org/jira/browse/DOXIA-569) Markdown Sink
-- [MPDF-8](https://issues.apache.org/jira/browse/MPDF-8) pdf multi-modules
+- [MPDF-8](https://issues.apache.org/jira/browse/MPDF-8) pdf multi-modules, **merge [m-pdf-p PR1](https://github.com/apache/maven-pdf-plugin/pull/1)**
 - [DOXIA-570](https://issues.apache.org/jira/browse/DOXIA-570) links escape
 - m-site-p classloader provide Doxia
 - Doxia Book Git repo from [renderer and maven-plugin](https://github.com/apache/maven-doxia-tools/)
