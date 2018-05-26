@@ -8,6 +8,9 @@ My Maven TODO list
 
 ## Core 3.6
 - [MNG-5951](https://issues.apache.org/jira/browse/MNG-5951) add an option to avoid path addition to inherited URLs
+  - more flexible idea would be to have multiple strategies with a Plexus role and multiple hints:
+    by default, appends artifactId (or project.directory) like currently, another would not add anything (hint id to be found),
+    another hint could work with git specific url rules. Interface = `String getInheritedUrl( String parentUrl, MavenProject parent, MavenProject child )`
 - [MNG-4508](https://issues.apache.org/jira/browse/MNG-4508) No way to avoid adding artifactId to site urls
 
 ## Core future
