@@ -21,7 +21,7 @@ My Maven TODO list
 
 ## Doxia/site/pdf
 - [DOXIA-569](https://issues.apache.org/jira/browse/DOXIA-569) Markdown Sink
-- [MPDF-8](https://issues.apache.org/jira/browse/MPDF-8) pdf multi-modules, **merge [m-pdf-p PR1](https://github.com/apache/maven-pdf-plugin/pull/1)**
+- ~~[MPDF-8](https://issues.apache.org/jira/browse/MPDF-8) pdf multi-modules, **merge [m-pdf-p PR1](https://github.com/apache/maven-pdf-plugin/pull/1)**~~
 - [MPDF-89](https://issues.apache.org/jira/browse/MPDF-89) missing "Project Information" and "Project Reports" pages
 - [MPDF-10](https://issues.apache.org/jira/browse/MPDF-10) Support menu sub-items in table of contents
 - [DOXIA-570](https://issues.apache.org/jira/browse/DOXIA-570) links escape
@@ -30,13 +30,13 @@ My Maven TODO list
 
 ## Misc
 - [MPLUGIN-339](https://issues.apache.org/jira/browse/MPLUGIN-339) maven-plugin-tools-javadoc broken by com.sun.tools.doclets removal in Java 10
-- [MPLUGIN-317](https://issues.apache.org/jira/browse/MPLUGIN-317) plugin-tools complex types
+- [MPLUGIN-308](https://issues.apache.org/jira/browse/MPLUGIN-308) plugin-tools complex types
 - maven-release-plugin conf phases
 - [Classworlds](https://codehaus-plexus.github.io/plexus-classworlds/) ~~doc~~ + dump + graph
 - doc new packaging in [Plugin Developers Centre](https://maven.apache.org/plugin-developers/index.html)
 - tutorial new default lifecycle phases
-- [resource bundles](https://maven.apache.org/apache-resource-bundles/) to Git
-- [INFRA-16467](https://issues.apache.org/jira/browse/INFRA-16467) move components out of CMS space
+- [MASFRES-20](https://issues.apache.org/jira/browse/MASFRES-20) [resource bundles](https://maven.apache.org/apache-resource-bundles/) to Git as single multi-module build and removal of parent POM from Maven parent POMs
+- ~~[INFRA-16467](https://issues.apache.org/jira/browse/INFRA-16467) move components out of CMS space~~
 - [Vestige](https://gaellalire.fr/gitlab/vestige/vestige/wikis/home)
 
 
