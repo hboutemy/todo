@@ -38,6 +38,7 @@ My Maven TODO list
 - [MASFRES-20](https://issues.apache.org/jira/browse/MASFRES-20) [resource bundles](https://maven.apache.org/apache-resource-bundles/) to Git as single multi-module build and removal of parent POM from Maven parent POMs
 - ~~[INFRA-16467](https://issues.apache.org/jira/browse/INFRA-16467) move components out of CMS space~~
 - [Vestige](https://gaellalire.fr/gitlab/vestige/vestige/wikis/home)
+- replace plexus-default-container with sisu in tests and anywhere else
 
 
 [projects.apache.org](http://projects.apache.org)
