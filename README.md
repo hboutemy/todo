@@ -39,6 +39,7 @@ My Maven TODO list
 - ~~[INFRA-16467](https://issues.apache.org/jira/browse/INFRA-16467) move components out of CMS space~~
 - [Vestige](https://gaellalire.fr/gitlab/vestige/vestige/wikis/home)
 - replace plexus-default-container with sisu in tests and anywhere else
+- [MINSTALL-138](https://issues.apache.org/jira/browse/MINSTALL-138) option to calculate more checksum such sha-256 sha-512
 
 
 [projects.apache.org](http://projects.apache.org)
