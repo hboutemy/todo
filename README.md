@@ -7,13 +7,13 @@ My Maven TODO list
 - ~~[MNG-6410](https://issues.apache.org/jira/browse/MNG-6410) multiple modules with same artifactId~~
 
 ## Core 3.6
-- [MNG-5951](https://issues.apache.org/jira/browse/MNG-5951) add an option to avoid path addition to inherited URLs
+- ~~[MNG-5951](https://issues.apache.org/jira/browse/MNG-5951) add an option to avoid path addition to inherited URLs~~
   - more flexible idea would be to have multiple strategies with a Plexus role and multiple hints:
     by default, appends artifactId (or project.directory) like currently, another would not add anything (hint id to be found),
     another hint could work with git specific url rules. Interface = `String getInheritedUrl( String parentUrl, MavenProject parent, MavenProject child )`
     issue: this would create a dependency on Plexus container/Sisu
-- [MNG-4508](https://issues.apache.org/jira/browse/MNG-4508) No way to avoid adding artifactId to site urls
-- [MNG-6059](https://issues.apache.org/jira/browse/MNG-6059) Important use cases not covered, as child.inherit.append.path affects all children
+- ~~[MNG-4508](https://issues.apache.org/jira/browse/MNG-4508) No way to avoid adding artifactId to site urls
+- ~~[MNG-6059](https://issues.apache.org/jira/browse/MNG-6059) Important use cases not covered, as child.inherit.append.path affects all children
 
 ## Core future
 - relocation (poi:poi becomes officially org.apache.poi:poi) vs unofficial release (someone publishes a release in my.personal.group:poi, independently from original project and with same java package names) vs fork with classes conflict (a wanted fork but keeping same package names for compatibility) vs fork with package names rework (to avoid any conflict)
@@ -37,11 +37,12 @@ My Maven TODO list
 - [Classworlds](https://codehaus-plexus.github.io/plexus-classworlds/) ~~doc~~ + dump + graph
 - doc new packaging in [Plugin Developers Centre](https://maven.apache.org/plugin-developers/index.html)
 - tutorial new default lifecycle phases
+- [extension demo](https://maven.apache.org/studies/extension-demo/)
+- extensions list like [plugins](https://maven.apache.org/plugins/)
 - [MASFRES-20](https://issues.apache.org/jira/browse/MASFRES-20) [resource bundles](https://maven.apache.org/apache-resource-bundles/) to Git as single multi-module build and removal of parent POM from Maven parent POMs
 - ~~[INFRA-16467](https://issues.apache.org/jira/browse/INFRA-16467) move components out of CMS space~~
 - [Vestige](https://gaellalire.fr/gitlab/vestige/vestige/wikis/home)
 - replace plexus-default-container with sisu in tests and anywhere else
-- [MINSTALL-138](https://issues.apache.org/jira/browse/MINSTALL-138) option to calculate more checksum such sha-256 sha-512
 
 
 [projects.apache.org](http://projects.apache.org)
