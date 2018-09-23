@@ -46,6 +46,14 @@ My Maven TODO list
 - [Vestige](https://gaellalire.fr/gitlab/vestige/vestige/wikis/home)
 - replace plexus-default-container with sisu in tests and anywhere else
 
+## Conf
+- ~~12/6/2018 [Paris JUG](https://www.parisjug.org/xwiki/wiki/oldversion/view/Meeting/20180612)~~
+- ~~20/9/2018 [Bordeaux JUG](http://www.bordeauxjug.org/)~~
+- 25/9/2018 [Orleans JUG](http://www.jugorleans.fr/soiree-apache-maven-35-et-java-9/)
+- 22-25/10/2018 [JenkinsWorld Nice](https://www.cloudbees.com/devops-world/nice)
+- 12-16/11/2018 Devoxx Belgium
+- 5-6/12/2018 [Paris Open Source Summit](http://www.opensourcesummit.paris/)
+
 
 [projects.apache.org](http://projects.apache.org)
 ========
