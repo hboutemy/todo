@@ -51,9 +51,9 @@ My Maven TODO list
 ## Conf
 - ~~12/6/2018 [Paris JUG](https://www.parisjug.org/xwiki/wiki/oldversion/view/Meeting/20180612)~~
 - ~~20/9/2018 [Bordeaux JUG](http://www.bordeauxjug.org/)~~
-- 25/9/2018 [Orleans JUG](http://www.jugorleans.fr/soiree-apache-maven-35-et-java-9/)
-- 22-25/10/2018 [JenkinsWorld Nice](https://www.cloudbees.com/devops-world/nice)
-- 12-16/11/2018 Devoxx Belgium
+- ~~25/9/2018 [Orleans JUG](http://www.jugorleans.fr/soiree-apache-maven-35-et-java-9/)~~
+- 13/11/2018 Devoxx Belgium [BOF](https://dvbe18.confinabox.com/talk/EVC-1727/Apache_Maven_BOF)
+- 15/11/2018 [Lyon JUG](http://www.lyonjug.org/)
 - 5-6/12/2018 [Paris Open Source Summit](http://www.opensourcesummit.paris/)
 
 
