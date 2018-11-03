@@ -34,7 +34,7 @@ My Maven TODO list
 - [DOXIASITETOOLS-174](https://issues.apache.org/jira/projects/DOXIASITETOOLS/issues/DOXIASITETOOLS-174) rename site.xml's "project" root tag
 
 ## Misc
-- [maven-remote-resources-plugin](https://maven.apache.org/plugins/maven-remote-resources-plugin/) release [version 1.6.0](https://issues.apache.org/jira/projects/MRRESOURCES/versions/12331230)
+- ~~[maven-remote-resources-plugin](https://maven.apache.org/plugins/maven-remote-resources-plugin/) release [version 1.6.0](https://issues.apache.org/jira/projects/MRRESOURCES/versions/12331230)~~
 - [MPIR-373](https://issues.apache.org/jira/browse/MPIR-373) warnings in 3.0.0
 - [MPLUGIN-339](https://issues.apache.org/jira/browse/MPLUGIN-339) maven-plugin-tools-javadoc broken by com.sun.tools.doclets removal in Java 10
 - [MPLUGIN-308](https://issues.apache.org/jira/browse/MPLUGIN-308) plugin-tools complex types
