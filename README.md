@@ -14,6 +14,9 @@ My Maven TODO list
     issue: this would create a dependency on Plexus container/Sisu
 - ~~[MNG-4508](https://issues.apache.org/jira/browse/MNG-4508) No way to avoid adding artifactId to site urls~~
 - [MNG-6059](https://issues.apache.org/jira/browse/MNG-6059) Important use cases not covered, as child.inherit.append.path affects all children
+- [MNG-6505](https://issues.apache.org/jira/browse/MNG-6505) inheritance
+- Maven 3.6.0 regression in IntelliJ
+- OSSRH & others Nexus staging controls for new attributes from MNG-6059
 
 ## Core future
 - relocation (poi:poi becomes officially org.apache.poi:poi) vs unofficial release (someone publishes a release in my.personal.group:poi, independently from original project and with same java package names) vs fork with classes conflict (a wanted fork but keeping same package names for compatibility) vs fork with package names rework (to avoid any conflict)
