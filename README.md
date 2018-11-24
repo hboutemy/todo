@@ -13,6 +13,8 @@ My Maven TODO list
     another hint could work with git specific url rules. Interface = `String getInheritedUrl( String parentUrl, MavenProject parent, MavenProject child )`
     issue: this would create a dependency on Plexus container/Sisu
 - ~~[MNG-4508](https://issues.apache.org/jira/browse/MNG-4508) No way to avoid adding artifactId to site urls~~
+
+3.6.1
 - [MNG-6059](https://issues.apache.org/jira/browse/MNG-6059) Important use cases not covered, as child.inherit.append.path affects all children
 - [MNG-6505](https://issues.apache.org/jira/browse/MNG-6505) inheritance
 - Maven 3.6.0 regression in IntelliJ [IDEA-201282](https://youtrack.jetbrains.com/issue/IDEA-201282) caused by [MRESOLVER-36](https://issues.apache.org/jira/browse/MRESOLVER-36)
