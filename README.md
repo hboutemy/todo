@@ -15,8 +15,8 @@ My Maven TODO list
 - ~~[MNG-4508](https://issues.apache.org/jira/browse/MNG-4508) No way to avoid adding artifactId to site urls~~
 
 3.6.1
-- [MNG-6059](https://issues.apache.org/jira/browse/MNG-6059) Important use cases not covered, as child.inherit.append.path affects all children
-- [MNG-6505](https://issues.apache.org/jira/browse/MNG-6505) inheritance
+- ~~[MNG-6059](https://issues.apache.org/jira/browse/MNG-6059) Important use cases not covered, as child.inherit.append.path affects all children~~
+- ~~[MNG-6505](https://issues.apache.org/jira/browse/MNG-6505) inheritance~~
 - Maven 3.6.0 regression in IntelliJ [IDEA-201282](https://youtrack.jetbrains.com/issue/IDEA-201282) caused by [MRESOLVER-36](https://issues.apache.org/jira/browse/MRESOLVER-36)
 - OSSRH & others Nexus staging controls for new attributes from MNG-6059
 
@@ -55,7 +55,8 @@ My Maven TODO list
 - ~~[INFRA-16467](https://issues.apache.org/jira/browse/INFRA-16467) move components out of CMS space~~
 - [Vestige](https://gaellalire.fr/gitlab/vestige/vestige/wikis/home)
 - replace plexus-default-container with sisu in tests and anywhere else
-- help:effecgive-pom with source location display
+- help:effective-pom with source location display
+- help:effective-plan
 
 ## Conf
 - ~~12/6/2018 [Paris JUG](https://www.parisjug.org/xwiki/wiki/oldversion/view/Meeting/20180612)~~
