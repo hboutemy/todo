@@ -17,7 +17,7 @@ My Maven TODO list
 3.6.1
 - ~~[MNG-6059](https://issues.apache.org/jira/browse/MNG-6059) Important use cases not covered, as child.inherit.append.path affects all children~~
 - ~~[MNG-6505](https://issues.apache.org/jira/browse/MNG-6505) inheritance~~
-- Maven 3.6.0 regression in IntelliJ [IDEA-201282](https://youtrack.jetbrains.com/issue/IDEA-201282) caused by [MRESOLVER-36](https://issues.apache.org/jira/browse/MRESOLVER-36)
+- [MRESOLVER-64](https://issues.apache.org/jira/browse/MRESOLVER-64) Maven 3.6.0 regression in IntelliJ [IDEA-201282](https://youtrack.jetbrains.com/issue/IDEA-201282) caused by [MRESOLVER-36](https://issues.apache.org/jira/browse/MRESOLVER-36)
 - OSSRH & others Nexus staging controls for new attributes from MNG-6059
 
 ## Core future
@@ -56,15 +56,15 @@ My Maven TODO list
 - [Vestige](https://gaellalire.fr/gitlab/vestige/vestige/wikis/home)
 - replace plexus-default-container with sisu in tests and anywhere else
 - help:effective-pom with source location display
-- help:effective-plan
+- help:build-plan
 
 ## Conf
 - ~~12/6/2018 [Paris JUG](https://www.parisjug.org/xwiki/wiki/oldversion/view/Meeting/20180612)~~
 - ~~20/9/2018 [Bordeaux JUG](http://www.bordeauxjug.org/)~~
 - ~~25/9/2018 [Orleans JUG](http://www.jugorleans.fr/soiree-apache-maven-35-et-java-9/)~~
-- 13/11/2018 Devoxx Belgium [BOF](https://dvbe18.confinabox.com/talk/EVC-1727/Apache_Maven_BOF)
-- 15/11/2018 [Lyon JUG](http://www.lyonjug.org/)
-- 5-6/12/2018 [Paris Open Source Summit](http://www.opensourcesummit.paris/)
+- ~~13/11/2018 Devoxx Belgium [BOF](https://dvbe18.confinabox.com/talk/EVC-1727/Apache_Maven_BOF)~~
+- ~~15/11/2018 [Lyon JUG](http://www.lyonjug.org/)~~
+- ~~5-6/12/2018 [Paris Open Source Summit](http://www.opensourcesummit.paris/)~~
 
 
 [projects.apache.org](http://projects.apache.org)
