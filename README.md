@@ -26,7 +26,8 @@ My Maven TODO list
 - [Verifiable Builds](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=74682318)
 - [MNG-5814](https://issues.apache.org/jira/browse/MNG-5814) check signature of plugins against trusted list
 - ascii progress bar, probably using ansi escape codes
-- check artifact magic numbers, at least for zips, to detect download failures without sha1
+- check artifact magic numbers, at least for zips, to detect download failures without downloading sha1 files
+- [MNG-5001](https://issues.apache.org/jira/browse/MNG-5001) @readonly Mojo parameter annotation doesn't work
 
 ## Doxia/site/pdf
 - [DOXIA-569](https://issues.apache.org/jira/browse/DOXIA-569) Markdown Sink
@@ -38,6 +39,7 @@ My Maven TODO list
 - Doxia Book Git repo from [renderer and maven-plugin](https://github.com/apache/maven-doxia-tools/)
 - [DOXIASITETOOLS-174](https://issues.apache.org/jira/projects/DOXIASITETOOLS/issues/DOXIASITETOOLS-174) rename site.xml's "project" root tag
 - add live reload to site when run with `mvn site:run`
+- [DOXIA-575](https://issues.apache.org/jira/browse/DOXIA-575) Add support for (X)HTML5
 
 ## Misc
 - ~~[maven-remote-resources-plugin](https://maven.apache.org/plugins/maven-remote-resources-plugin/) release [version 1.6.0](https://issues.apache.org/jira/projects/MRRESOURCES/versions/12331230)~~
