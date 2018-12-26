@@ -19,8 +19,9 @@ My Maven TODO list
 - ~~[MNG-6505](https://issues.apache.org/jira/browse/MNG-6505) inheritance~~
 - [MRESOLVER-64](https://issues.apache.org/jira/browse/MRESOLVER-64) Maven 3.6.0 regression in IntelliJ [IDEA-201282](https://youtrack.jetbrains.com/issue/IDEA-201282) caused by [MRESOLVER-36](https://issues.apache.org/jira/browse/MRESOLVER-36)
 - OSSRH & others Nexus staging controls for new attributes from MNG-6059
-- merge Mickael Istria's [MNG-6529](https://issues.apache.org/jira/browse/MNG-6529) [PR 193](https://github.com/apache/maven/pull/193)
-- merge Mickael Istria's [MNG-6533](https://issues.apache.org/jira/browse/MNG-6533) [PR 197](https://github.com/apache/maven/pull/197)
+- merge Mickael Istria's [MNG-6529](https://issues.apache.org/jira/browse/MNG-6529) [PR 193](https://github.com/apache/maven/pull/193) for Eclipse m2e performance
+- merge Mickael Istria's [MNG-6533](https://issues.apache.org/jira/browse/MNG-6533) [PR 197](https://github.com/apache/maven/pull/197) for Eclipse m2e performance
+- review Mickael Istria's [MNG-6530](https://issues.apache.org/jira/browse/MNG-6530) [PR 194](https://github.com/apache/maven/pull/194) for Model cache
 
 ## Core future
 - relocation (poi:poi becomes officially org.apache.poi:poi) vs unofficial release (someone publishes a release in my.personal.group:poi, independently from original project and with same java package names) vs fork with classes conflict (a wanted fork but keeping same package names for compatibility) vs fork with package names rework (to avoid any conflict)
