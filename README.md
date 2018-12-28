@@ -62,7 +62,7 @@ My Maven TODO list
 - replace plexus-default-container with sisu in tests and anywhere else
 - [MPH-160](https://issues.apache.org/jira/browse/MPH-160) help:effective-pom with source location display
 - help:build-plan
-- rebuild GCE
+- ~~rebuild GCE~~
 - ~~[MARCHETYPES-63](https://issues.apache.org/jira/browse/MARCHETYPES-63) archetypes should work with Java 11~~
 
 ## Conf
@@ -72,7 +72,7 @@ My Maven TODO list
 - ~~13/11/2018 Devoxx Belgium [BOF](https://dvbe18.confinabox.com/talk/EVC-1727/Apache_Maven_BOF)~~
 - ~~15/11/2018 [Lyon JUG](http://www.lyonjug.org/)~~
 - ~~5-6/12/2018 [Paris Open Source Summit](http://www.opensourcesummit.paris/)~~
-- 11/12/2018 [Reproducible Builds Summit 2018 in Paris](https://reproducible-builds.org/events/paris2018/)
+- ~~11/12/2018 [Reproducible Builds Summit 2018 in Paris](https://reproducible-builds.org/events/paris2018/)~~
 
 
 [projects.apache.org](http://projects.apache.org)
