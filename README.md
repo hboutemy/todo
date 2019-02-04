@@ -23,8 +23,10 @@ My Maven TODO list
 - ~~merge Mickael Istria's [MNG-6533](https://issues.apache.org/jira/browse/MNG-6533) [PR 197](https://github.com/apache/maven/pull/197) for Eclipse m2e performance~~
 - ~~review Mickael Istria's [MNG-6530](https://issues.apache.org/jira/browse/MNG-6530) [PR 194](https://github.com/apache/maven/pull/194) for Model cache~~
 - revert [MNG-6548](https://issues.apache.org/jira/browse/MNG-6548)?
+- [MNG-6571](https://issues.apache.org/jira/browse/MNG-6571) memory consumption
+- [MNG-6572](https://issues.apache.org/jira/browse/MNG-6572) int or long instead of BigInteger
 
-3.7.0
+## Core 3.7
 - [MNG-6562](https://issues.apache.org/jira/browse/MNG-6562) WARN if plugins injected by default lifecycle bindings don't have their version locked in pom.xml or parent
 
 ## Core future
