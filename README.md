@@ -23,12 +23,14 @@ My Maven TODO list
 - ~~merge Mickael Istria's [MNG-6533](https://issues.apache.org/jira/browse/MNG-6533) [PR 197](https://github.com/apache/maven/pull/197) for Eclipse m2e performance~~
 - ~~review Mickael Istria's [MNG-6530](https://issues.apache.org/jira/browse/MNG-6530) [PR 194](https://github.com/apache/maven/pull/194) for Model cache~~
 - revert [MNG-6548](https://issues.apache.org/jira/browse/MNG-6548)?
+
+3.7.0
 - [MNG-6562](https://issues.apache.org/jira/browse/MNG-6562) WARN if plugins injected by default lifecycle bindings don't have their version locked in pom.xml or parent
 
 ## Core future
 - relocation (poi:poi becomes officially org.apache.poi:poi) vs unofficial release (someone publishes a release in my.personal.group:poi, independently from original project and with same java package names) vs fork with classes conflict (a wanted fork but keeping same package names for compatibility) vs fork with package names rework (to avoid any conflict)
 - [Build vs Consumer POM](https://cwiki.apache.org/confluence/display/MAVEN/Build+vs+Consumer+POM)
-- [Verifiable Builds](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=74682318)
+- [Reproducible/Verifiable Builds](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=74682318)
 - [MNG-5814](https://issues.apache.org/jira/browse/MNG-5814) check signature of plugins against trusted list
 - ascii progress bar, probably using ansi escape codes
 - check artifact magic numbers, at least for zips, to detect download failures without downloading sha1 files
@@ -75,6 +77,7 @@ My Maven TODO list
 - ~~15/11/2018 [Lyon JUG](http://www.lyonjug.org/)~~
 - ~~5-6/12/2018 [Paris Open Source Summit](http://www.opensourcesummit.paris/)~~
 - ~~11/12/2018 [Reproducible Builds Summit 2018 in Paris](https://reproducible-builds.org/events/paris2018/)~~
+- ~~2-3/2/2019 [FOSDEM](https://cwiki.apache.org/confluence/display/MAVEN/FOSDEM)~~
 
 
 [projects.apache.org](http://projects.apache.org)
