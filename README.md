@@ -25,6 +25,8 @@ My Maven TODO list
 - ~~revert [MNG-6548](https://issues.apache.org/jira/browse/MNG-6548)~~
 - ~~[MNG-6571](https://issues.apache.org/jira/browse/MNG-6571) memory consumption~~
 - [MNG-6572](https://issues.apache.org/jira/browse/MNG-6572) int or long instead of BigInteger
+- [MNG-6374](https://issues.apache.org/jira/browse/MNG-6374) infinite loop for invalid XML content
+- input location tracking improvement: [MNG-6597](https://issues.apache.org/jira/browse/MNG-6597) [MNG-6599](https://issues.apache.org/jira/browse/MNG-6599) [MNG-6600](https://issues.apache.org/jira/browse/MNG-6600) [MNG-6601](https://issues.apache.org/jira/browse/MNG-6601)
 
 ## Core 3.7
 - [MNG-6562](https://issues.apache.org/jira/browse/MNG-6562) WARN if plugins injected by default lifecycle bindings don't have their version locked in pom.xml or parent
