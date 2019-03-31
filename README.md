@@ -24,7 +24,7 @@ My Maven TODO list
 - ~~review Mickael Istria's [MNG-6530](https://issues.apache.org/jira/browse/MNG-6530) [PR 194](https://github.com/apache/maven/pull/194) for Model cache~~
 - ~~revert [MNG-6548](https://issues.apache.org/jira/browse/MNG-6548)~~
 - ~~[MNG-6571](https://issues.apache.org/jira/browse/MNG-6571) memory consumption~~
-- [MNG-6572](https://issues.apache.org/jira/browse/MNG-6572) int or long instead of BigInteger
+- ~~[MNG-6572](https://issues.apache.org/jira/browse/MNG-6572) int or long instead of BigInteger~~
 - ~~[MNG-6374](https://issues.apache.org/jira/browse/MNG-6374) infinite loop for invalid XML content~~
 - ~~input location tracking improvement: [MNG-6597](https://issues.apache.org/jira/browse/MNG-6597) [MNG-6599](https://issues.apache.org/jira/browse/MNG-6599) [MNG-6600](https://issues.apache.org/jira/browse/MNG-6600) [MNG-6601](https://issues.apache.org/jira/browse/MNG-6601)~~
 
@@ -51,6 +51,7 @@ My Maven TODO list
 - [DOXIASITETOOLS-174](https://issues.apache.org/jira/projects/DOXIASITETOOLS/issues/DOXIASITETOOLS-174) rename site.xml's "project" root tag
 - add live reload to site when run with `mvn site:run`
 - [DOXIA-575](https://issues.apache.org/jira/browse/DOXIA-575) Add support for (X)HTML5
+- [MSITE-836](https://issues.apache.org/jira/browse/MSITE-836) show report plugin when it fails with RuntimeException
 
 ## Misc
 - ~~[maven-remote-resources-plugin](https://maven.apache.org/plugins/maven-remote-resources-plugin/) release [version 1.6.0](https://issues.apache.org/jira/projects/MRRESOURCES/versions/12331230)~~
