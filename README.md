@@ -47,7 +47,8 @@ My Maven TODO list
 - [Reproducible/Verifiable Builds](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=74682318) IT maven-jar-plugin jar reproductible (sans .class car dépend de version de JDK) et/ou sources
 - [MNG-5814](https://issues.apache.org/jira/browse/MNG-5814) check signature of plugins against trusted list
 - ascii progress bar, probably using ansi escape codes
-- check artifact magic numbers, at least for zips, to detect download failures without downloading sha1 files
+- check artifact magic numbers, at least for zips, to detect download failures without downloading sha1 files (see [test case](https://github.com/Arnaud-Nauwynck/test-snippets/tree/master/test-http-repo))
+- [MNG-5689](https://issues.apache.org/jira/browse/MNG-5689) define strict checksum per repository
 - [MNG-5001](https://issues.apache.org/jira/browse/MNG-5001) @readonly Mojo parameter annotation doesn't work
 
 ## Doxia/site/pdf
