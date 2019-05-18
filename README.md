@@ -29,14 +29,14 @@ My Maven TODO list
 - ~~input location tracking improvement: [MNG-6597](https://issues.apache.org/jira/browse/MNG-6597) [MNG-6599](https://issues.apache.org/jira/browse/MNG-6599) [MNG-6600](https://issues.apache.org/jira/browse/MNG-6600) [MNG-6601](https://issues.apache.org/jira/browse/MNG-6601)~~
 
 3.6.2
-- [MNG-6636](https://issues.apache.org/jira/browse/MNG-6636) NPE on reporting convertion (DefaultReportingConverter) when inheritance of with no reports
+- ~~[MNG-6636](https://issues.apache.org/jira/browse/MNG-6636) NPE on reporting convertion (DefaultReportingConverter) when inheritance of with no reports~~
 - [Modello PR#31](https://github.com/codehaus-plexus/modello/pull/31) Make location handling more memory efficient
-- [MNG-6629](https://issues.apache.org/jira/browse/MNG-6629) Make ID validation faster
-- [MNG-6630](https://issues.apache.org/jira/browse/MNG-6630) Make ComparableVersion faster
-- [MNG-6631](https://issues.apache.org/jira/browse/MNG-6631) Make DefaultArtifactVersion faster
-- [MNG-6632](https://issues.apache.org/jira/browse/MNG-6632) Remember artifact handlers after they've been used once
-- [MNG-6633](https://issues.apache.org/jira/browse/MNG-6633) Reduce memory usage of excludes
-- [MNG-6638](https://issues.apache.org/jira/browse/MNG-6638) Prevent reparsing POMs in MavenMetadataSource
+- ~~[MNG-6629 PR](https://issues.apache.org/jira/browse/MNG-6629) Make ID validation faster~~
+- ~~[MNG-6630 PR](https://issues.apache.org/jira/browse/MNG-6630) Make ComparableVersion faster~~
+- ~~[MNG-6631 PR](https://issues.apache.org/jira/browse/MNG-6631) Make DefaultArtifactVersion faster~~
+- ~~[MNG-6632 PR](https://issues.apache.org/jira/browse/MNG-6632) Remember artifact handlers after they've been used once~~
+- [MNG-6633 PR](https://issues.apache.org/jira/browse/MNG-6633) Reduce memory usage of excludes
+- [MNG-6638 PR](https://issues.apache.org/jira/browse/MNG-6638) Prevent reparsing POMs in MavenMetadataSource
 
 ## Core 3.7
 - [MNG-6562](https://issues.apache.org/jira/browse/MNG-6562) WARN if plugins injected by default lifecycle bindings don't have their version locked in pom.xml or parent
