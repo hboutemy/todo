@@ -42,7 +42,10 @@ My Maven TODO list
 - [MNG-6562](https://issues.apache.org/jira/browse/MNG-6562) WARN if plugins injected by default lifecycle bindings don't have their version locked in pom.xml or parent
 
 ## Core future
-- relocation (poi:poi becomes officially org.apache.poi:poi) vs unofficial release (someone publishes a release in my.personal.group:poi, independently from original project and with same java package names) vs fork with classes conflict (a wanted fork but keeping same package names for compatibility) vs fork with package names rework (to avoid any conflict)
+- relocation (poi:poi becomes officially org.apache.poi:poi)\
+vs unofficial release (someone publishes a release in my.personal.group:poi, independently from original project and with same java package names)\
+vs fork with classes conflict (a wanted fork but keeping same package names for compatibility)\
+vs fork with package names rework (to avoid any conflict)
 - [Build vs Consumer POM](https://cwiki.apache.org/confluence/display/MAVEN/Build+vs+Consumer+POM)
 - [Reproducible/Verifiable Builds](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=74682318) IT maven-jar-plugin jar reproductible (sans .class car dépend de version de JDK) et/ou sources
 - [MNG-5814](https://issues.apache.org/jira/browse/MNG-5814) check signature of plugins against trusted list
