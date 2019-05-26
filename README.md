@@ -98,7 +98,13 @@ vs fork with package names rework (to avoid any conflict)
 - ~~5-6/12/2018 [Paris Open Source Summit](http://www.opensourcesummit.paris/)~~
 - ~~11/12/2018 [Reproducible Builds Summit 2018 in Paris](https://reproducible-builds.org/events/paris2018/)~~
 - ~~2-3/2/2019 [FOSDEM](https://cwiki.apache.org/confluence/display/MAVEN/FOSDEM)~~
-
+- 15/6/2019 [Hack Commit Push](https://hack-commit-pu.sh/)
+  - site content fixes and improvement
+  - README.md améliorations et généralisation
+  - low hanging fruits: see [up-for-grabs issues](https://s.apache.org/for-the-grabs_maven)
+  - Jansi (console color) performance measure and improvement (particularly on Windows)
+  - Reproducible Builds: archive entries timestamp configuration
+  - depending on contributor knowledge or interest (web design <== WANTED!!!, performance, some specific plugins), oriented contribution
 
 [projects.apache.org](http://projects.apache.org)
 ========
