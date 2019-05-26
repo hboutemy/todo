@@ -105,6 +105,7 @@ vs fork with package names rework (to avoid any conflict)
   - Jansi (console color) performance measure and improvement (particularly on Windows)
   - Reproducible Builds: archive entries timestamp configuration
   - depending on contributor knowledge or interest (web design <== WANTED!!!, performance, some specific plugins), oriented contribution
+  - looking for help on scripting Google Storage work...
 
 [projects.apache.org](http://projects.apache.org)
 ========
