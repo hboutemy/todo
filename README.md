@@ -30,7 +30,7 @@ My Maven TODO list
 
 3.6.2
 - ~~[MNG-6636](https://issues.apache.org/jira/browse/MNG-6636) NPE on reporting convertion (DefaultReportingConverter) when inheritance of with no reports~~
-- [Modello PR#31](https://github.com/codehaus-plexus/modello/pull/31) Make location handling more memory efficient
+- ~~[MNG-6668](https://issues.apache.org/jira/browse/MNG-6668) [Modello PR#31](https://github.com/codehaus-plexus/modello/pull/31) Make location handling more memory efficient~~
 - ~~[MNG-6629 PR](https://issues.apache.org/jira/browse/MNG-6629) Make ID validation faster~~
 - ~~[MNG-6630 PR](https://issues.apache.org/jira/browse/MNG-6630) Make ComparableVersion faster~~
 - ~~[MNG-6631 PR](https://issues.apache.org/jira/browse/MNG-6631) Make DefaultArtifactVersion faster~~
