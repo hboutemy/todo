@@ -85,7 +85,7 @@ vs fork with package names rework (to avoid any conflict)
 - ~~[INFRA-16467](https://issues.apache.org/jira/browse/INFRA-16467) move components out of CMS space~~
 - [Vestige](https://gaellalire.fr/gitlab/vestige/vestige/wikis/home)
 - replace plexus-default-container with sisu in tests and anywhere else
-- [MPH-160](https://issues.apache.org/jira/browse/MPH-160) help:effective-pom with source location display
+- ~~[MPH-160](https://issues.apache.org/jira/browse/MPH-160) help:effective-pom with source location display~~
 - help:build-plan
 - ~~rebuild GCE~~
 - ~~[MARCHETYPES-63](https://issues.apache.org/jira/browse/MARCHETYPES-63) archetypes should work with Java 11~~
