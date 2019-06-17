@@ -45,6 +45,7 @@ My Maven TODO list
 - [MNG-6562](https://issues.apache.org/jira/browse/MNG-6562) WARN if plugins injected by default lifecycle bindings don't have their version locked in pom.xml or parent
 - [MNG-6682](https://issues.apache.org/jira/browse/MNG-6682) source-release dependency type
 - jansi Windows perf improvements
+- [MNG-5001](https://issues.apache.org/jira/browse/MNG-5001) @readonly Mojo parameter annotation doesn't work
 
 ## Core future
 - relocation (poi:poi becomes officially org.apache.poi:poi)\
@@ -57,7 +58,6 @@ vs fork with package names rework (to avoid any conflict)
 - ascii progress bar, probably using ansi escape codes
 - check artifact magic numbers, at least for zips, to detect download failures without downloading sha1 files (see [test case](https://github.com/Arnaud-Nauwynck/test-snippets/tree/master/test-http-repo))
 - [MNG-5689](https://issues.apache.org/jira/browse/MNG-5689) define strict checksum per repository
-- [MNG-5001](https://issues.apache.org/jira/browse/MNG-5001) @readonly Mojo parameter annotation doesn't work
 
 ## Doxia/site/pdf
 - [DOXIA-569](https://issues.apache.org/jira/browse/DOXIA-569) Markdown Sink
