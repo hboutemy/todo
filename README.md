@@ -90,6 +90,7 @@ vs fork with package names rework (to avoid any conflict)
 - ~~rebuild GCE~~
 - ~~[MARCHETYPES-63](https://issues.apache.org/jira/browse/MARCHETYPES-63) archetypes should work with Java 11~~
 - [MVNCENTRAL-4841](https://issues.sonatype.org/browse/MVNCENTRAL-4841) update central sync requirements
+- [NEXUS-19912](https://issues.sonatype.org/browse/NEXUS-19912) Nexus Repo Pro update for POM format
 
 ## Conf
 - ~~12/6/2018 [Paris JUG](https://www.parisjug.org/xwiki/wiki/oldversion/view/Meeting/20180612)~~
