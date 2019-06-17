@@ -17,10 +17,10 @@ My Maven TODO list
 3.6.1
 - ~~[MNG-6059](https://issues.apache.org/jira/browse/MNG-6059) Important use cases not covered, as child.inherit.append.path affects all children~~
 - ~~[MNG-6505](https://issues.apache.org/jira/browse/MNG-6505) inheritance~~
-- ~~[MNG-6538](https://issues.apache.org/jira/browse/MNG-6538) [MRESOLVER-64](https://issues.apache.org/jira/browse/MRESOLVER-64) Maven 3.6.0 regression in IntelliJ~~ [IDEA-201282](https://youtrack.jetbrains.com/issue/IDEA-201282) caused by [MRESOLVER-36](https://issues.apache.org/jira/browse/MRESOLVER-36)
 - OSSRH & others Nexus staging controls for new attributes from MNG-6059
   - [MVNCENTRAL-4841](https://issues.sonatype.org/browse/MVNCENTRAL-4841) update central sync requirements
   - ~~[NEXUS-19912](https://issues.sonatype.org/browse/NEXUS-19912) Nexus Repo Pro update for POM format~~
+- ~~[MNG-6538](https://issues.apache.org/jira/browse/MNG-6538) [MRESOLVER-64](https://issues.apache.org/jira/browse/MRESOLVER-64) Maven 3.6.0 regression in IntelliJ~~ [IDEA-201282](https://youtrack.jetbrains.com/issue/IDEA-201282) caused by [MRESOLVER-36](https://issues.apache.org/jira/browse/MRESOLVER-36)
 - ~~merge Mickael Istria's [MNG-6529](https://issues.apache.org/jira/browse/MNG-6529) [PR 193](https://github.com/apache/maven/pull/193) for Eclipse m2e performance~~
 - ~~merge Mickael Istria's [MNG-6533](https://issues.apache.org/jira/browse/MNG-6533) [PR 197](https://github.com/apache/maven/pull/197) for Eclipse m2e performance~~
 - ~~review Mickael Istria's [MNG-6530](https://issues.apache.org/jira/browse/MNG-6530) [PR 194](https://github.com/apache/maven/pull/194) for Model cache~~
