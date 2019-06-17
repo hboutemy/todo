@@ -44,6 +44,7 @@ My Maven TODO list
 ## Core 3.7
 - [MNG-6562](https://issues.apache.org/jira/browse/MNG-6562) WARN if plugins injected by default lifecycle bindings don't have their version locked in pom.xml or parent
 - [MNG-6682](https://issues.apache.org/jira/browse/MNG-6682) source-release dependency type
+- jansi Windows perf improvements
 
 ## Core future
 - relocation (poi:poi becomes officially org.apache.poi:poi)\
@@ -91,6 +92,7 @@ vs fork with package names rework (to avoid any conflict)
 - help:build-plan
 - ~~rebuild GCE~~
 - ~~[MARCHETYPES-63](https://issues.apache.org/jira/browse/MARCHETYPES-63) archetypes should work with Java 11~~
+- [Package url](https://github.com/package-url/purl-spec) refinements: type vs extension, meaning of no type nor classifier
 
 ## Conf
 - ~~12/6/2018 [Paris JUG](https://www.parisjug.org/xwiki/wiki/oldversion/view/Meeting/20180612)~~
