@@ -108,7 +108,7 @@ vs fork with package names rework (to avoid any conflict)
   - Reproducible Builds: archive entries timestamp configuration
   - depending on contributor knowledge or interest (web design <== WANTED!!!, performance, some specific plugins), oriented contribution
   - looking for help on scripting Google Storage work...
-  - ~~[MNG-6682](https://issues.apache.org/jira/browse/MNG-6682) up-for-grabs generator meta tag~~
+  - ~~[MSKINS-107](https://issues.apache.org/jira/browse/MSKINS-107) up-for-grabs generator meta tag, done by Antoine~~
 
 [projects.apache.org](http://projects.apache.org)
 ========
