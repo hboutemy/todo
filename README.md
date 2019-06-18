@@ -112,6 +112,13 @@ vs fork with package names rework (to avoid any conflict)
   - depending on contributor knowledge or interest (web design <== WANTED!!!, performance, some specific plugins), oriented contribution
   - looking for help on scripting Google Storage work...
   - ~~[MSKINS-107](https://issues.apache.org/jira/browse/MSKINS-107) up-for-grabs generator meta tag, done by Antoine~~
+  - [DOXIATOOLS-59](https://issues.apache.org/jira/browse/DOXIATOOLS-59) up-for-grabs linkcheck issue, wip by ...
+  - [MNGSITE-353](https://issues.apache.org/jira/browse/MNGSITE-353) up-for-grabs Document maven.repo.local system property, wip by Elmehdi
+  - how to [get full Maven sources](https://maven.apache.org/scm.html) on Windows, given Google Repo does not work here? wip by Joseph
+  - [MSKINS-97](https://issues.apache.org/jira/projects/MSKINS/issues/MSKINS-97) upgrade Fluido Skins Bootstrap version from 2.3 to 4, wip by Vasile
+  - check of pgp signatures for plugins, wip by Andrei and Charles
+  - Reproducible Builds force archive entries timestamp in plexus-archiver: explain/review/improve [PR #113](https://github.com/codehaus-plexus/plexus-archiver/pull/113) in light of pre-existing [PR #49](https://github.com/codehaus-plexus/plexus-archiver/pull/49), wip by Arnaud
+  - Jansi improvements explanations/review (see [PR 146 to 153](https://github.com/fusesource/jansi/pulls)), wip by Arnaud
 
 [projects.apache.org](http://projects.apache.org)
 ========
