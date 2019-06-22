@@ -113,7 +113,7 @@ vs fork with package names rework (to avoid any conflict)
   - looking for help on scripting Google Storage work...
 - ~~15/6/2019 [Hack Commit Push](https://hack-commit-pu.sh/) actual contributions:~~
   - ~~[MSKINS-107](https://issues.apache.org/jira/browse/MSKINS-107) up-for-grabs generator meta tag, done by Antoine~~
-  - [DOXIATOOLS-59](https://issues.apache.org/jira/browse/DOXIATOOLS-59) up-for-grabs linkcheck issue, wip by ...
+  - [DOXIATOOLS-59](https://issues.apache.org/jira/browse/DOXIATOOLS-59) up-for-grabs linkcheck issue, wip by Chris
   - [MNGSITE-353](https://issues.apache.org/jira/browse/MNGSITE-353) up-for-grabs Document maven.repo.local system property, wip by Elmehdi
   - how to [get full Maven sources](https://maven.apache.org/scm.html) on Windows, given Google Repo does not work here? wip by Joseph
   - [MSKINS-97](https://issues.apache.org/jira/projects/MSKINS/issues/MSKINS-97) upgrade Fluido Skins Bootstrap version from 2.3 to 4, wip by Vasile
