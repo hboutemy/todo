@@ -40,7 +40,7 @@ My Maven TODO list
 - ~~[MNG-6633 PR](https://issues.apache.org/jira/browse/MNG-6633) Reduce memory usage of excludes~~
 - ~~[MNG-6638 PR](https://issues.apache.org/jira/browse/MNG-6638) Prevent reparsing POMs in MavenMetadataSource~~
 - ~~[MNG-6681](https://issues.apache.org/jira/browse/MNG-6681) dependency type documentation~~
-- [MNG-6549](https://issues.apache.org/jira/browse/MNG-6549) Remove unused transitive dependencies of Guava
+- ~~[MNG-6549](https://issues.apache.org/jira/browse/MNG-6549) Remove unused transitive dependencies of Guava~~
 
 ## Core 3.7
 - [MNG-6562](https://issues.apache.org/jira/browse/MNG-6562) WARN if plugins injected by default lifecycle bindings don't have their version locked in pom.xml or parent
