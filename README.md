@@ -101,6 +101,7 @@ vs fork with package names rework (to avoid any conflict)
 - ~~[MARCHETYPES-63](https://issues.apache.org/jira/browse/MARCHETYPES-63) archetypes should work with Java 11~~
 - [Package url](https://github.com/package-url/purl-spec) refinements: type vs extension, meaning of no type nor classifier
 - ~~[MDEP-653](https://issues.apache.org/jira/browse/MDEP-653) add info message to purge-local-repository goal~~
+- [MDEP-662](https://issues.apache.org/jira/browse/MDEP-662) Re-Add Dependency Tree Verbose
 
 ## Conf
 - ~~12/6/2018 [Paris JUG](https://www.parisjug.org/xwiki/wiki/oldversion/view/Meeting/20180612)~~
