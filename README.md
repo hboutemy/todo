@@ -2,19 +2,26 @@ My Maven TODO list
 =========
 
 ## Core 3.5.x
+<details><summary>details</summary>
+
 - ~~jansi [1.7.1 release](https://github.com/fusesource/jansi/issues/114)~~
 - ~~[MNG-6411](https://issues.apache.org/jira/browse/MNG-6411) readability of available modules~~
 - ~~[MNG-6410](https://issues.apache.org/jira/browse/MNG-6410) multiple modules with same artifactId~~
+</details>
 
 ## Core 3.6
+<details><summary>3.6.0</summary>
+
 - ~~[MNG-5951](https://issues.apache.org/jira/browse/MNG-5951) add an option to avoid path addition to inherited URLs~~
   - more flexible idea would be to have multiple strategies with a Plexus role and multiple hints:
     by default, appends artifactId (or project.directory) like currently, another would not add anything (hint id to be found),
     another hint could work with git specific url rules. Interface = `String getInheritedUrl( String parentUrl, MavenProject parent, MavenProject child )`
     issue: this would create a dependency on Plexus container/Sisu
 - ~~[MNG-4508](https://issues.apache.org/jira/browse/MNG-4508) No way to avoid adding artifactId to site urls~~
+</details>
 
-3.6.1
+<details><summary>3.6.1</summary>
+
 - ~~[MNG-6059](https://issues.apache.org/jira/browse/MNG-6059) Important use cases not covered, as child.inherit.append.path affects all children~~
 - ~~[MNG-6505](https://issues.apache.org/jira/browse/MNG-6505) inheritance~~
 - OSSRH & others Nexus staging controls for new attributes from MNG-6059
@@ -29,8 +36,10 @@ My Maven TODO list
 - ~~[MNG-6572](https://issues.apache.org/jira/browse/MNG-6572) int or long instead of BigInteger~~
 - ~~[MNG-6374](https://issues.apache.org/jira/browse/MNG-6374) infinite loop for invalid XML content~~
 - ~~input location tracking improvement: [MNG-6597](https://issues.apache.org/jira/browse/MNG-6597) [MNG-6599](https://issues.apache.org/jira/browse/MNG-6599) [MNG-6600](https://issues.apache.org/jira/browse/MNG-6600) [MNG-6601](https://issues.apache.org/jira/browse/MNG-6601)~~
+</details>
 
-3.6.2
+<details><summary>3.6.2</summary>
+
 - ~~[MNG-6636](https://issues.apache.org/jira/browse/MNG-6636) NPE on reporting convertion (DefaultReportingConverter) when inheritance of with no reports~~
 - ~~[MNG-6668](https://issues.apache.org/jira/browse/MNG-6668) [Modello PR#31](https://github.com/codehaus-plexus/modello/pull/31) Make location handling more memory efficient~~
 - ~~[MNG-6629 PR](https://issues.apache.org/jira/browse/MNG-6629) Make ID validation faster~~
@@ -41,6 +50,7 @@ My Maven TODO list
 - ~~[MNG-6638 PR](https://issues.apache.org/jira/browse/MNG-6638) Prevent reparsing POMs in MavenMetadataSource~~
 - ~~[MNG-6681](https://issues.apache.org/jira/browse/MNG-6681) dependency type documentation~~
 - ~~[MNG-6549](https://issues.apache.org/jira/browse/MNG-6549) Remove unused transitive dependencies of Guava~~
+</details>
 
 3.6.3
 - ~~[MNG-6765](https://issues.apache.org/jira/browse/MNG-6765) Regression tycho pom-less builds fails with 3.6.2~~
@@ -131,7 +141,7 @@ vs fork with package names rework (to avoid any conflict)
   - check of pgp signatures for plugins, wip by Andrei and Charles
   - Reproducible Builds force archive entries timestamp in plexus-archiver: explain/review/improve [PR #113](https://github.com/codehaus-plexus/plexus-archiver/pull/113) in light of pre-existing [PR #49](https://github.com/codehaus-plexus/plexus-archiver/pull/49), wip by Arnaud
   - Jansi improvements explanations/review (see [PR 146 to 153](https://github.com/fusesource/jansi/pulls)), wip by Arnaud
-- 22-24/10/2019 [ApacheCon Europe 2019](https://aceu19.apachecon.com/)
+- ~~22-24/10/2019 [ApacheCon Europe 2019](https://aceu19.apachecon.com/)~~
 
 [projects.apache.org](http://projects.apache.org)
 ========
