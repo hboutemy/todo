@@ -52,11 +52,13 @@ My Maven TODO list
 - ~~[MNG-6549](https://issues.apache.org/jira/browse/MNG-6549) Remove unused transitive dependencies of Guava~~
 </details>
 
-3.6.3
+<details><summary>3.6.3</summary>
+
 - ~~[MNG-6765](https://issues.apache.org/jira/browse/MNG-6765) Regression tycho pom-less builds fails with 3.6.2~~
 - [MNG-6771](https://issues.apache.org/jira/browse/MNG-6771) licensing issues (not really "up for grabs", but quite specific issue)
 - ~~[MNG-6584](https://issues.apache.org/jira/browse/MNG-6584) Maven version 3.6.0 does not show ReasonPhrase anymore~~
 - ~~[MNG-6789](https://issues.apache.org/jira/browse/MNG-6789) Maven Reproducible Build~~
+</details>
 
 ## Core 3.7
 - [MNG-6562](https://issues.apache.org/jira/browse/MNG-6562) WARN if plugins injected by default lifecycle bindings don't have their version locked in pom.xml or parent
@@ -71,7 +73,7 @@ vs unofficial release (someone publishes a release in my.personal.group:poi, ind
 vs fork with classes conflict (a wanted fork but keeping same package names for compatibility)\
 vs fork with package names rework (to avoid any conflict)
 - [Build vs Consumer POM](https://cwiki.apache.org/confluence/display/MAVEN/Build+vs+Consumer+POM)
-- [Reproducible/Verifiable Builds](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=74682318) IT maven-jar-plugin jar reproductible (sans .class car dépend de version de JDK) et/ou sources
+- ~~[Reproducible/Verifiable Builds](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=74682318) IT maven-jar-plugin jar reproductible (sans .class car dépend de version de JDK) et/ou sources~~
 - [MNG-5814](https://issues.apache.org/jira/browse/MNG-5814) check signature of plugins against trusted list
 - ascii progress bar, probably using ansi escape codes
 - check artifact magic numbers, at least for zips, to detect download failures without downloading sha1 files (see [test case](https://github.com/Arnaud-Nauwynck/test-snippets/tree/master/test-http-repo))
