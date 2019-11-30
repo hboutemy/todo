@@ -73,12 +73,15 @@ vs unofficial release (someone publishes a release in my.personal.group:poi, ind
 vs fork with classes conflict (a wanted fork but keeping same package names for compatibility)\
 vs fork with package names rework (to avoid any conflict)
 - [Build vs Consumer POM](https://cwiki.apache.org/confluence/display/MAVEN/Build+vs+Consumer+POM)
-- ~~[Reproducible/Verifiable Builds](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=74682318) IT maven-jar-plugin jar reproductible (sans .class car dépend de version de JDK) et/ou sources~~
 - [MNG-5814](https://issues.apache.org/jira/browse/MNG-5814) check signature of plugins against trusted list
 - ascii progress bar, probably using ansi escape codes
 - check artifact magic numbers, at least for zips, to detect download failures without downloading sha1 files (see [test case](https://github.com/Arnaud-Nauwynck/test-snippets/tree/master/test-http-repo))
 - [MNG-5689](https://issues.apache.org/jira/browse/MNG-5689) define strict checksum per repository
 - [MNG-6679](https://issues.apache.org/jira/browse/MNG-6679)/[MRESOLVER-90](https://issues.apache.org/jira/browse/MRESOLVER-90) HTML content in POM: Maven should validate content before storing in local repo
+
+## [Reproducible/Verifiable Builds](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=74682318)
+- ~~[MRELEASE-1029](https://issues.apache.org/jira/browse/MRELEASE-1029) maven-release-plugin update outputTimestamp~~
+- [Buildinfo](https://reproducible-builds.org/docs/jvm/) plugin
 
 ## Doxia/site/pdf
 - [DOXIA-569](https://issues.apache.org/jira/browse/DOXIA-569) Markdown Sink
