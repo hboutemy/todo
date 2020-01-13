@@ -82,6 +82,10 @@ vs fork with package names rework (to avoid any conflict)
 ## [Reproducible/Verifiable Builds](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=74682318)
 - ~~[MRELEASE-1029](https://issues.apache.org/jira/browse/MRELEASE-1029) maven-release-plugin update outputTimestamp~~
 - [Buildinfo](https://reproducible-builds.org/docs/jvm/) plugin
+- ~~ASF 22 parent POM release, with RB activated~~
+- Maven parent POM 34, with RB activated
+- track Maven Central for (effective) pom with reproducible timestamp
+- test reproducibility of these
 
 ## Doxia/site/pdf
 - [DOXIA-569](https://issues.apache.org/jira/browse/DOXIA-569) Markdown Sink
@@ -119,6 +123,7 @@ vs fork with package names rework (to avoid any conflict)
 - [Package url](https://github.com/package-url/purl-spec) refinements: type vs extension, meaning of no type nor classifier
 - ~~[MDEP-653](https://issues.apache.org/jira/browse/MDEP-653) add info message to purge-local-repository goal~~
 - [MDEP-662](https://issues.apache.org/jira/browse/MDEP-662) Re-Add Dependency Tree Verbose
+- archive old Maven Git repositories
 
 ## Conf
 - ~~12/6/2018 [Paris JUG](https://www.parisjug.org/xwiki/wiki/oldversion/view/Meeting/20180612)~~
