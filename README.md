@@ -82,10 +82,13 @@ vs fork with package names rework (to avoid any conflict)
 ## [Reproducible/Verifiable Builds](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=74682318)
 - ~~[MRELEASE-1029](https://issues.apache.org/jira/browse/MRELEASE-1029) maven-release-plugin update outputTimestamp~~
 - [Buildinfo](https://reproducible-builds.org/docs/jvm/) plugin
-- ~~ASF 22 parent POM release, with RB activated~~
-- Maven parent POM 34, with RB activated
+- ~~[ASF 22](https://issues.apache.org/jira/projects/MPOM/versions/12343925) parent POM release, with RB activated~~
+- maven-remote-resources-plugin 1.7.0 with [MRRESOURCES-114](https://issues.apache.org/jira/browse/MRRESOURCES-114)
+- [ASF 23](https://issues.apache.org/jira/projects/MPOM/versions/12346503) parent POM release, with RB fix
+- [Maven parent POM 34](https://issues.apache.org/jira/projects/MPOM/versions/12344077), with RB activated
 - track Maven Central for (effective) pom with reproducible timestamp
 - test reproducibility of these
+- Git repo to track and share
 
 ## Doxia/site/pdf
 - [DOXIA-569](https://issues.apache.org/jira/browse/DOXIA-569) Markdown Sink
