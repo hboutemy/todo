@@ -95,9 +95,9 @@ vs fork with package names rework (to avoid any conflict)
 - ~~[MPDF-8](https://issues.apache.org/jira/browse/MPDF-8) pdf multi-modules, **merge [m-pdf-p PR1](https://github.com/apache/maven-pdf-plugin/pull/1)**~~
 - [MPDF-89](https://issues.apache.org/jira/browse/MPDF-89) missing "Project Information" and "Project Reports" pages
 - [MPDF-10](https://issues.apache.org/jira/browse/MPDF-10) Support menu sub-items in table of contents
-- [DOXIA-570](https://issues.apache.org/jira/browse/DOXIA-570) links escape
+- ~~[DOXIA-570](https://issues.apache.org/jira/browse/DOXIA-570) links escape~~
 - m-site-p classloader provide Doxia
-- Doxia Book Git repo from [renderer and maven-plugin](https://github.com/apache/maven-doxia-tools/)
+- ~~Doxia Book Git repo from [renderer and maven-plugin](https://github.com/apache/maven-doxia-tools/)~~
 - [DOXIASITETOOLS-174](https://issues.apache.org/jira/projects/DOXIASITETOOLS/issues/DOXIASITETOOLS-174) rename site.xml's "project" root tag
 - add live reload to site when run with `mvn site:run`
 - ~~[DOXIA-575](https://issues.apache.org/jira/browse/DOXIA-575) Add support for (X)HTML5~~
@@ -105,7 +105,7 @@ vs fork with package names rework (to avoid any conflict)
 
 ## Misc
 - ~~[maven-remote-resources-plugin](https://maven.apache.org/plugins/maven-remote-resources-plugin/) release [version 1.6.0](https://issues.apache.org/jira/projects/MRRESOURCES/versions/12331230)~~
-- [MPIR-373](https://issues.apache.org/jira/browse/MPIR-373) warnings in 3.0.0
+- ~~[MPIR-373](https://issues.apache.org/jira/browse/MPIR-373) warnings in 3.0.0~~
 - ~~[MPIR-375](https://issues.apache.org/jira/browse/MPIR-375) add plugin excludes feature for plugin-management report~~
 - [MPLUGIN-339](https://issues.apache.org/jira/browse/MPLUGIN-339) maven-plugin-tools-javadoc broken by com.sun.tools.doclets removal in Java 10
 - [MPLUGIN-308](https://issues.apache.org/jira/browse/MPLUGIN-308) plugin-tools complex types
@@ -126,7 +126,7 @@ vs fork with package names rework (to avoid any conflict)
 - [Package url](https://github.com/package-url/purl-spec) refinements: type vs extension, meaning of no type nor classifier
 - ~~[MDEP-653](https://issues.apache.org/jira/browse/MDEP-653) add info message to purge-local-repository goal~~
 - [MDEP-662](https://issues.apache.org/jira/browse/MDEP-662) Re-Add Dependency Tree Verbose
-- archive old Maven Git repositories
+- ~~archive old Maven Git repositories~~
 
 ## Conf
 - ~~12/6/2018 [Paris JUG](https://www.parisjug.org/xwiki/wiki/oldversion/view/Meeting/20180612)~~
@@ -152,7 +152,7 @@ vs fork with package names rework (to avoid any conflict)
   - how to [get full Maven sources](https://maven.apache.org/scm.html) on Windows, given Google Repo does not work here? wip by Joseph
   - [MSKINS-97](https://issues.apache.org/jira/projects/MSKINS/issues/MSKINS-97) upgrade Fluido Skins Bootstrap version from 2.3 to 4, wip by Vasile
   - check of pgp signatures for plugins, wip by Andrei and Charles
-  - Reproducible Builds force archive entries timestamp in plexus-archiver: explain/review/improve [PR #113](https://github.com/codehaus-plexus/plexus-archiver/pull/113) in light of pre-existing [PR #49](https://github.com/codehaus-plexus/plexus-archiver/pull/49), wip by Arnaud
+  - ~~Reproducible Builds force archive entries timestamp in plexus-archiver: explain/review/improve [PR #113](https://github.com/codehaus-plexus/plexus-archiver/pull/113) in light of pre-existing [PR #49](https://github.com/codehaus-plexus/plexus-archiver/pull/49), wip by Arnaud~~
   - Jansi improvements explanations/review (see [PR 146 to 153](https://github.com/fusesource/jansi/pulls)), wip by Arnaud
 - ~~22-24/10/2019 [ApacheCon Europe 2019](https://aceu19.apachecon.com/)~~
 
