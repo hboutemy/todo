@@ -68,7 +68,7 @@ My Maven TODO list
 - [MNG-6795](https://issues.apache.org/jira/browse/MNG-6795) define a replacement for ReasonPhrase to display details about transfert failures
 
 ## Core future
-- relocation (poi:poi becomes officially org.apache.poi:poi)\
+- [relocation](https://maven.apache.org/guides/mini/guide-relocation.html) (poi:poi becomes officially org.apache.poi:poi)\
 vs unofficial release (someone publishes a release in my.personal.group:poi, independently from original project and with same java package names)\
 vs fork with classes conflict (a wanted fork but keeping same package names for compatibility)\
 vs fork with package names rework (to avoid any conflict)
@@ -86,7 +86,7 @@ vs fork with package names rework (to avoid any conflict)
 - ~~maven-remote-resources-plugin 1.7.0 with [MRRESOURCES-114](https://issues.apache.org/jira/browse/MRRESOURCES-114)~~
 - ~~[ASF 23](https://issues.apache.org/jira/projects/MPOM/versions/12346503) parent POM release, with RB fix~~
 - ~~[Maven parent POM 34](https://issues.apache.org/jira/projects/MPOM/versions/12344077), with RB activated~~
-- track Maven Central for (effective) pom with reproducible timestamp
+- ~~track Maven Central for (effective) pom with reproducible timestamp~~
 - test reproducibility of these
 - Git repo to track and share
 
@@ -155,6 +155,7 @@ vs fork with package names rework (to avoid any conflict)
   - ~~Reproducible Builds force archive entries timestamp in plexus-archiver: explain/review/improve [PR #113](https://github.com/codehaus-plexus/plexus-archiver/pull/113) in light of pre-existing [PR #49](https://github.com/codehaus-plexus/plexus-archiver/pull/49), wip by Arnaud~~
   - Jansi improvements explanations/review (see [PR 146 to 153](https://github.com/fusesource/jansi/pulls)), wip by Arnaud
 - ~~22-24/10/2019 [ApacheCon Europe 2019](https://aceu19.apachecon.com/)~~
+- 11-15/3/2020 [JChateau](https://www.jchateau.org/)
 
 [projects.apache.org](http://projects.apache.org)
 ========
