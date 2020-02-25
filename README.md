@@ -129,6 +129,8 @@ vs fork with package names rework (to avoid any conflict)
 - ~~archive old Maven Git repositories~~
 
 ## Conf
+<details><summary>2018</summary>
+  
 - ~~12/6/2018 [Paris JUG](https://www.parisjug.org/xwiki/wiki/oldversion/view/Meeting/20180612)~~
 - ~~20/9/2018 [Bordeaux JUG](http://www.bordeauxjug.org/)~~
 - ~~25/9/2018 [Orleans JUG](http://www.jugorleans.fr/soiree-apache-maven-35-et-java-9/)~~
@@ -136,6 +138,9 @@ vs fork with package names rework (to avoid any conflict)
 - ~~15/11/2018 [Lyon JUG](http://www.lyonjug.org/)~~
 - ~~5-6/12/2018 [Paris Open Source Summit](http://www.opensourcesummit.paris/)~~
 - ~~11/12/2018 [Reproducible Builds Summit 2018 in Paris](https://reproducible-builds.org/events/paris2018/)~~
+</details>
+<details><summary>2019</summary>
+  
 - ~~2-3/2/2019 [FOSDEM](https://cwiki.apache.org/confluence/display/MAVEN/FOSDEM)~~
 - ~~15/6/2019 [Hack Commit Push](https://hack-commit-pu.sh/) contributions expected:~~
   - site content fixes and improvement
@@ -155,6 +160,8 @@ vs fork with package names rework (to avoid any conflict)
   - ~~Reproducible Builds force archive entries timestamp in plexus-archiver: explain/review/improve [PR #113](https://github.com/codehaus-plexus/plexus-archiver/pull/113) in light of pre-existing [PR #49](https://github.com/codehaus-plexus/plexus-archiver/pull/49), wip by Arnaud~~
   - Jansi improvements explanations/review (see [PR 146 to 153](https://github.com/fusesource/jansi/pulls)), wip by Arnaud
 - ~~22-24/10/2019 [ApacheCon Europe 2019](https://aceu19.apachecon.com/)~~
+</details>
+
 - 25/2/2020 Hackergarten
   - make [Quickperf](https://github.com/quick-perf/quickperf) build reproducible (Minh-Trieu Ha)
   - make [Logback](https://github.com/qos-ch/logback) build reproducible (Bakary Djiba)
