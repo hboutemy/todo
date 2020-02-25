@@ -158,6 +158,7 @@ vs fork with package names rework (to avoid any conflict)
 - 25/2/2020 Hackergarten
   - make [Quickperf](https://github.com/quick-perf/quickperf) build reproducible (Minh-Trieu Ha)
   - make commons-lang build reproducible (and other commons) (Bakary Djiba)
+  - make Felix bundle-maven-plugin output reproducible (Arnaud)
 - 11-15/3/2020 [JChateau](https://www.jchateau.org/)
 
 [projects.apache.org](http://projects.apache.org)
