@@ -157,6 +157,7 @@ vs fork with package names rework (to avoid any conflict)
 - ~~22-24/10/2019 [ApacheCon Europe 2019](https://aceu19.apachecon.com/)~~
 - Hackergarten 25/2/2020
   - Minh-Trieu Ha make Quickperf build reproducible
+  - Bakary Djiba make commons-lang build reproducible (and other commons)
 - 11-15/3/2020 [JChateau](https://www.jchateau.org/)
 
 [projects.apache.org](http://projects.apache.org)
