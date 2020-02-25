@@ -155,6 +155,8 @@ vs fork with package names rework (to avoid any conflict)
   - ~~Reproducible Builds force archive entries timestamp in plexus-archiver: explain/review/improve [PR #113](https://github.com/codehaus-plexus/plexus-archiver/pull/113) in light of pre-existing [PR #49](https://github.com/codehaus-plexus/plexus-archiver/pull/49), wip by Arnaud~~
   - Jansi improvements explanations/review (see [PR 146 to 153](https://github.com/fusesource/jansi/pulls)), wip by Arnaud
 - ~~22-24/10/2019 [ApacheCon Europe 2019](https://aceu19.apachecon.com/)~~
+- Hackergarten 25/2/2020
+  - Minh-Trieu Ha make Quickperf build reproducible
 - 11-15/3/2020 [JChateau](https://www.jchateau.org/)
 
 [projects.apache.org](http://projects.apache.org)
