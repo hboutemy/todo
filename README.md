@@ -163,7 +163,7 @@ vs fork with package names rework (to avoid any conflict)
 </details>
 
 - 25/2/2020 Hackergarten
-  - make [Quickperf](https://github.com/quick-perf/quickperf) build reproducible (Minh-Trieu Ha)
+  - [PR #58](https://github.com/quick-perf/quickperf/pull/58) make [Quickperf](https://github.com/quick-perf/quickperf) build reproducible (Minh-Trieu Ha)
   - make [Logback](https://github.com/qos-ch/logback) build reproducible (Bakary Djiba)
   - make Felix bundle-maven-plugin output reproducible (Arnaud)
 - 11-15/3/2020 [JChateau](https://www.jchateau.org/)
