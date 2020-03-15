@@ -81,12 +81,15 @@ vs fork with package names rework (to avoid any conflict)
 
 ## [Reproducible/Verifiable Builds](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=74682318)
 - ~~[MRELEASE-1029](https://issues.apache.org/jira/browse/MRELEASE-1029) maven-release-plugin update outputTimestamp~~
-- [Buildinfo](https://reproducible-builds.org/docs/jvm/) plugin
 - ~~[ASF 22](https://issues.apache.org/jira/projects/MPOM/versions/12343925) parent POM release, with RB activated~~
 - ~~maven-remote-resources-plugin 1.7.0 with [MRRESOURCES-114](https://issues.apache.org/jira/browse/MRRESOURCES-114)~~
 - ~~[ASF 23](https://issues.apache.org/jira/projects/MPOM/versions/12346503) parent POM release, with RB fix~~
 - ~~[Maven parent POM 34](https://issues.apache.org/jira/projects/MPOM/versions/12344077), with RB activated~~
 - ~~track Maven Central for (effective) pom with reproducible timestamp~~
+- [Buildinfo plugin](https://github.com/apache/maven-studies/tree/maven-buildinfo-plugin)
+  - ~~ability to generate [buildinfo file](https://reproducible-builds.org/docs/jvm/)~~
+  - ~~ability to check local build output against reference build~~
+  - ability to detect JDK+OS from reference build
 - test reproducibility of these
 - Git repo to track and share rebuild recipes
 - add Maven to [RB's "who is involved"](https://reproducible-builds.org/who/)
@@ -173,7 +176,7 @@ vs fork with package names rework (to avoid any conflict)
   - ~~[PR #58](https://github.com/quick-perf/quickperf/pull/58) make [Quickperf](https://github.com/quick-perf/quickperf) build reproducible (Minh-Trieu Ha)~~
   - make [Logback](https://github.com/qos-ch/logback) build reproducible (Bakary Djiba)
   - make Felix bundle-maven-plugin output reproducible (Arnaud)
-- 11-15/3/2020 [JChateau](https://www.jchateau.org/)
+- ~~11-15/3/2020 [JChateau](https://www.jchateau.org/)~~
 
 [projects.apache.org](http://projects.apache.org)
 ========
