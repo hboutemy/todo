@@ -88,7 +88,14 @@ vs fork with package names rework (to avoid any conflict)
 - ~~[Maven parent POM 34](https://issues.apache.org/jira/projects/MPOM/versions/12344077), with RB activated~~
 - ~~track Maven Central for (effective) pom with reproducible timestamp~~
 - test reproducibility of these
-- Git repo to track and share
+- Git repo to track and share rebuild recipes
+- add Maven to [RB's "who is involved"](https://reproducible-builds.org/who/)
+- [dist-tool-plugin](https://builds.apache.org/view/M-R/view/Maven/job/dist-tool-plugin/site/) report on reproducibility for Maven projects
+- provide PRs to make projects reproducible:
+  - ~~AWS java SDK [PR #2223](https://github.com/aws/aws-sdk-java/pull/2223)~~
+  - [Arthas](https://github.com/alibaba/arthas)
+  - [Quarkus](https://github.com/quarkusio/quarkus)
+- check of dependencies (projects dependencies, but also build dependencies, ie parent+plugins+their deps)
 
 ## Doxia/site/pdf
 - [DOXIA-569](https://issues.apache.org/jira/browse/DOXIA-569) Markdown Sink
@@ -167,7 +174,6 @@ vs fork with package names rework (to avoid any conflict)
   - make [Logback](https://github.com/qos-ch/logback) build reproducible (Bakary Djiba)
   - make Felix bundle-maven-plugin output reproducible (Arnaud)
 - 11-15/3/2020 [JChateau](https://www.jchateau.org/)
-- TODO future Hackergarten Reproducible: [Arthas](https://github.com/alibaba/arthas)
 
 [projects.apache.org](http://projects.apache.org)
 ========
