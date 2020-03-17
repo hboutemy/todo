@@ -78,6 +78,8 @@ vs fork with package names rework (to avoid any conflict)
 - check artifact magic numbers, at least for zips, to detect download failures without downloading sha1 files (see [test case](https://github.com/Arnaud-Nauwynck/test-snippets/tree/master/test-http-repo))
 - [MNG-5689](https://issues.apache.org/jira/browse/MNG-5689) define strict checksum per repository
 - [MNG-6679](https://issues.apache.org/jira/browse/MNG-6679)/[MRESOLVER-90](https://issues.apache.org/jira/browse/MRESOLVER-90) HTML content in POM: Maven should validate content before storing in local repo
+- provide CLI test demo program to do artifact resolution then easily debug in an IDE
+- provide CLI test demo program to launch a Maven build then easily debug in an IDE
 
 ## [Reproducible/Verifiable Builds](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=74682318)
 - ~~[MRELEASE-1029](https://issues.apache.org/jira/browse/MRELEASE-1029) maven-release-plugin update outputTimestamp~~
@@ -94,11 +96,14 @@ vs fork with package names rework (to avoid any conflict)
 - Git repo to track and share rebuild recipes
 - add Maven to [RB's "who is involved"](https://reproducible-builds.org/who/)
 - [dist-tool-plugin](https://builds.apache.org/view/M-R/view/Maven/job/dist-tool-plugin/site/) report on reproducibility for Maven projects
-- provide PRs to make projects reproducible:
+- provide PRs to make projects builds reproducible:
   - ~~AWS java SDK [PR #2223](https://github.com/aws/aws-sdk-java/pull/2223)~~
   - [Arthas](https://github.com/alibaba/arthas)
   - [Quarkus](https://github.com/quarkusio/quarkus)
 - check of dependencies (projects dependencies, but also build dependencies, ie parent+plugins+their deps)
+- [MSHADE-352](https://issues.apache.org/jira/browse/MSHADE-352) fix m-shade-p when using transorfmer
+- [FELIX-6203](https://issues.apache.org/jira/browse/FELIX-6203) fix Felix maven-bundle-plugin
+- check if Quarkus output is reproducible
 
 ## Doxia/site/pdf
 - [DOXIA-569](https://issues.apache.org/jira/browse/DOXIA-569) Markdown Sink
