@@ -62,6 +62,7 @@ My Maven TODO list
 
 ## Core 3.7
 - ~~[MNG-6562](https://issues.apache.org/jira/browse/MNG-6562) WARN if plugins injected by default lifecycle bindings don't have their version locked in pom.xml or parent~~
+- provide easy way to define default plugins versions (after MNG-6562): pluginManagement import like dependencyManagement?
 - [MNG-6682](https://issues.apache.org/jira/browse/MNG-6682) source-release dependency type
 - [jansi Windows perf improvements](https://github.com/fusesource/jansi/pull/150)
 - [MNG-5001](https://issues.apache.org/jira/browse/MNG-5001) @readonly Mojo parameter annotation doesn't work
