@@ -101,10 +101,12 @@ vs fork with package names rework (to avoid any conflict)
   - ~~AWS java SDK [PR #2223](https://github.com/aws/aws-sdk-java/pull/2223)~~
   - [Arthas](https://github.com/alibaba/arthas)
   - [Quarkus](https://github.com/quarkusio/quarkus)
+  - [Jenkins](https://github.com/jenkinsci/jenkins)
 - check of dependencies (projects dependencies, but also build dependencies, ie parent+plugins+their deps)
 - [MSHADE-352](https://issues.apache.org/jira/browse/MSHADE-352) fix m-shade-p when using transorfmer
 - [FELIX-6203](https://issues.apache.org/jira/browse/FELIX-6203) fix Felix maven-bundle-plugin
 - check if Quarkus output is reproducible
+- check if [Jenkins hpi plugin](https://github.com/jenkinsci/maven-hpi-plugin) output is reproducible
 
 ## Doxia/site/pdf
 - [DOXIA-569](https://issues.apache.org/jira/browse/DOXIA-569) Markdown Sink
