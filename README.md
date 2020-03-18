@@ -85,14 +85,16 @@ vs fork with package names rework (to avoid any conflict)
 ## [Reproducible/Verifiable Builds](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=74682318)
 - ~~[MRELEASE-1029](https://issues.apache.org/jira/browse/MRELEASE-1029) maven-release-plugin update outputTimestamp~~
 - ~~[ASF 22](https://issues.apache.org/jira/projects/MPOM/versions/12343925) parent POM release, with RB activated~~
-- ~~maven-remote-resources-plugin 1.7.0 with [MRRESOURCES-114](https://issues.apache.org/jira/browse/MRRESOURCES-114)~~
 - ~~[ASF 23](https://issues.apache.org/jira/projects/MPOM/versions/12346503) parent POM release, with RB fix~~
 - ~~[Maven parent POM 34](https://issues.apache.org/jira/projects/MPOM/versions/12344077), with RB activated~~
-- ~~track Maven Central for (effective) pom with reproducible timestamp~~
 - [Buildinfo plugin](https://github.com/apache/maven-studies/tree/maven-buildinfo-plugin)
   - ~~ability to generate [buildinfo file](https://reproducible-builds.org/docs/jvm/)~~
   - ~~ability to check local build output against reference build~~
   - ability to detect JDK+OS from reference build
+  - refactor to add separate check mojo in addition to check during buildinfo
+  - add explanations on how to test locally reproducibility (deploy reference to local dir)
+- ~~track Maven Central for (effective) pom with reproducible timestamp~~
+- track Maven Central for projects built with Maven, that could be enhanced to have reproducible build
 - test reproducibility of these
 - Git repo to track and share rebuild recipes
 - add Maven to [RB's "who is involved"](https://reproducible-builds.org/who/)
@@ -102,11 +104,14 @@ vs fork with package names rework (to avoid any conflict)
   - [Arthas](https://github.com/alibaba/arthas)
   - [Quarkus](https://github.com/quarkusio/quarkus)
   - [Jenkins](https://github.com/jenkinsci/jenkins)
-- check of dependencies (projects dependencies, but also build dependencies, ie parent+plugins+their deps)
-- [MSHADE-352](https://issues.apache.org/jira/browse/MSHADE-352) fix m-shade-p when using transorfmer
-- [FELIX-6203](https://issues.apache.org/jira/browse/FELIX-6203) fix Felix maven-bundle-plugin
-- check if Quarkus output is reproducible
-- check if [Jenkins hpi plugin](https://github.com/jenkinsci/maven-hpi-plugin) output is reproducible
+- fix plugins issues to produce reproducible output:
+  - ~~maven-remote-resources-plugin 1.7.0 with [MRRESOURCES-114](https://issues.apache.org/jira/browse/MRRESOURCES-114)~~
+  - [MSHADE-352](https://issues.apache.org/jira/browse/MSHADE-352) fix m-shade-p when using transorfmer
+  - [FELIX-6203](https://issues.apache.org/jira/browse/FELIX-6203) fix Felix maven-bundle-plugin
+- check if plugins are able to produce reproducible output:
+  - Quarkus
+  - [Jenkins hpi plugin](https://github.com/jenkinsci/maven-hpi-plugin)
+- provide process/tooling to check dependencies (projects dependencies, but also build dependencies, ie parent+plugins+their deps)
 
 ## Doxia/site/pdf
 - [DOXIA-569](https://issues.apache.org/jira/browse/DOXIA-569) Markdown Sink
