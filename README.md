@@ -81,6 +81,7 @@ vs fork with package names rework (to avoid any conflict)
 - [MNG-6679](https://issues.apache.org/jira/browse/MNG-6679)/[MRESOLVER-90](https://issues.apache.org/jira/browse/MRESOLVER-90) HTML content in POM: Maven should validate content before storing in local repo
 - provide CLI test demo program to do artifact resolution then easily debug in an IDE
 - provide CLI test demo program to launch a Maven build then easily debug in an IDE
+- import [mvnsh](https://github.com/jdillon/mvnsh)
 
 ## [Reproducible/Verifiable Builds](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=74682318)
 - ~~[MRELEASE-1029](https://issues.apache.org/jira/browse/MRELEASE-1029) maven-release-plugin update outputTimestamp~~
