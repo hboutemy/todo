@@ -93,13 +93,14 @@ vs fork with package names rework (to avoid any conflict)
   - ~~ability to check local build output against reference build~~
   - ability to detect JDK+OS from reference build
   - refactor to add separate check mojo in addition to check during buildinfo
-  - add explanations on how to test locally reproducibility (deploy reference to local dir)
-  - save comparison result of local build vs reference artifact
+  - ~~add explanations on how to test locally reproducibility (deploy reference to local dir)~~
+  - ~~save comparison result of local build vs reference artifact~~
 - ~~track Maven Central for (effective) pom with reproducible timestamp~~
 - track Maven Central for projects built with Maven, that could be enhanced to have reproducible build
 - ~~test reproducibility of these, manually or with containers~~
 - ~~Git repo to track and share rebuild recipes:~~ [reproducible-central](https://github.com/jvm-repo-rebuild/reproducible-central)
-- statistics on reproduced builds in [reproducible-central](https://github.com/jvm-repo-rebuild/reproducible-central)
+- ~~statistics on reproduced builds in [reproducible-central](https://github.com/jvm-repo-rebuild/reproducible-central)~~
+- statistics on Maven-owned projects reproducibility
 - (DREAM) provide a GitHub badge showing that a project has reproducible build
 - add Maven to [RB's "who is involved"](https://reproducible-builds.org/who/)
 - [dist-tool-plugin](https://builds.apache.org/view/M-R/view/Maven/job/dist-tool-plugin/site/) report on reproducibility for Maven projects
