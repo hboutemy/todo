@@ -108,6 +108,9 @@ vs fork with package names rework (to avoid any conflict)
   - [Arthas](https://github.com/alibaba/arthas)
   - [Quarkus](https://github.com/quarkusio/quarkus)
   - [Jenkins](https://github.com/jenkinsci/jenkins)
+  - [Jakarta EE APIs and RIs](https://github.com/eclipse-ee4j)
+  - [Drools](https://github.com/kiegroup/drools)
+  - [Vaadin](https://github.com/vaadin/platform)
 - fix plugins issues to produce reproducible output:
   - ~~maven-remote-resources-plugin 1.7.0 with [MRRESOURCES-114](https://issues.apache.org/jira/browse/MRRESOURCES-114)~~
   - [MSHADE-352](https://issues.apache.org/jira/browse/MSHADE-352) fix m-shade-p when using transorfmer
