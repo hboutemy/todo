@@ -132,7 +132,7 @@ vs fork with package names rework (to avoid any conflict)
 - fix plugins issues to produce reproducible output:
   - ~~maven-remote-resources-plugin 1.7.0 with [MRRESOURCES-114](https://issues.apache.org/jira/browse/MRRESOURCES-114)~~
   - [MSHADE-352](https://issues.apache.org/jira/browse/MSHADE-352) fix m-shade-p when using transorfmer
-  - [FELIX-6203](https://issues.apache.org/jira/browse/FELIX-6203) fix Felix maven-bundle-plugin
+  - springboot-maven-plugin:repackage
 - check if plugins are able to produce reproducible output:
   - Quarkus
   - [Jenkins hpi plugin](https://github.com/jenkinsci/maven-hpi-plugin)
