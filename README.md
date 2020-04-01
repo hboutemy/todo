@@ -106,12 +106,29 @@ vs fork with package names rework (to avoid any conflict)
 - [dist-tool-plugin](https://builds.apache.org/view/M-R/view/Maven/job/dist-tool-plugin/site/) report on reproducibility for Maven projects
 - provide PRs to make projects builds reproducible:
   - ~~AWS java SDK [PR #2223](https://github.com/aws/aws-sdk-java/pull/2223)~~
+  - [Logback](https://github.com/qos-ch/logback)
   - [Arthas](https://github.com/alibaba/arthas)
   - [Quarkus](https://github.com/quarkusio/quarkus)
   - [Jenkins](https://github.com/jenkinsci/jenkins)
   - [Jakarta EE APIs and RIs](https://github.com/eclipse-ee4j)
   - [Drools](https://github.com/kiegroup/drools)
   - [Vaadin](https://github.com/vaadin/platform)
+  - Apache CXF
+  - Apache Dubbo
+  - Apache Johnzon
+  - Apache OpenWebBeans
+  - Apache ServiceMix
+  - Hibernate
+  - JBPM
+  - Neo4j
+  - Webjars
+  - WSO2 Carbon
+  - XWiki
+  - [Airbus Cybersecurity Graylog plugins](https://github.com/airbus-cyber?q=graylog)
+  - [Guiced EE](https://guicedee.com/)
+  - Liferay
+  - Cucumber
+  - Vertx
 - fix plugins issues to produce reproducible output:
   - ~~maven-remote-resources-plugin 1.7.0 with [MRRESOURCES-114](https://issues.apache.org/jira/browse/MRRESOURCES-114)~~
   - [MSHADE-352](https://issues.apache.org/jira/browse/MSHADE-352) fix m-shade-p when using transorfmer
