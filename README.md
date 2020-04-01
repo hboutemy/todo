@@ -114,7 +114,7 @@ vs fork with package names rework (to avoid any conflict)
   - [Drools](https://github.com/kiegroup/drools)
   - [Vaadin](https://github.com/vaadin/platform)
   - [Apache CXF](https://github.com/apache/cxf)
-  - [Apache Dubbo](https://github.com/apache/dubbo)
+  - ~~[Apache Dubbo](https://github.com/apache/dubbo/pull/5954)~~ to be merged
   - [Apache Johnzon](https://github.com/apache/johnzon)
   - [Apache OpenWebBeans](https://github.com/apache/openwebbeans)
   - [Apache ServiceMix](https://github.com/apache/servicemix)
