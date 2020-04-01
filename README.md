@@ -106,7 +106,7 @@ vs fork with package names rework (to avoid any conflict)
 - [dist-tool-plugin](https://builds.apache.org/view/M-R/view/Maven/job/dist-tool-plugin/site/) report on reproducibility for Maven projects
 - provide PRs to make projects builds reproducible:
   - ~~AWS java SDK [PR #2223](https://github.com/aws/aws-sdk-java/pull/2223)~~
-  - [Logback](https://github.com/qos-ch/logback)
+  - ~~[Logback](https://github.com/qos-ch/logback) [PR#484](https://github.com/qos-ch/logback/pull/484)~~ to be merged
   - [Arthas](https://github.com/alibaba/arthas)
   - [Quarkus](https://github.com/quarkusio/quarkus)
   - [Jenkins](https://github.com/jenkinsci/jenkins)
@@ -214,6 +214,9 @@ vs fork with package names rework (to avoid any conflict)
   - ~~[PR #58](https://github.com/quick-perf/quickperf/pull/58) make [Quickperf](https://github.com/quick-perf/quickperf) build reproducible (Minh-Trieu Ha)~~
   - make [Logback](https://github.com/qos-ch/logback) build reproducible (Bakary Djiba)
   - make Felix bundle-maven-plugin output reproducible (Arnaud)
+- 31/03/2020 Hackergarten
+  - make [Logback](https://github.com/qos-ch/logback) build reproducible (Bakary Djiba)
+  [PR#484](https://github.com/qos-ch/logback/pull/484)
 - ~~11-15/3/2020 [JChateau](https://www.jchateau.org/)~~
 
 [projects.apache.org](http://projects.apache.org)
