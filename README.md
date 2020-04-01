@@ -113,11 +113,11 @@ vs fork with package names rework (to avoid any conflict)
   - [Jakarta EE APIs and RIs](https://github.com/eclipse-ee4j)
   - [Drools](https://github.com/kiegroup/drools)
   - [Vaadin](https://github.com/vaadin/platform)
-  - Apache CXF
-  - Apache Dubbo
-  - Apache Johnzon
-  - Apache OpenWebBeans
-  - Apache ServiceMix
+  - [Apache CXF](https://github.com/apache/cxf)
+  - [Apache Dubbo](https://github.com/apache/dubbo)
+  - [Apache Johnzon](https://github.com/apache/johnzon)
+  - [Apache OpenWebBeans](https://github.com/apache/openwebbeans)
+  - [Apache ServiceMix](https://github.com/apache/servicemix)
   - Hibernate
   - JBPM
   - Neo4j
