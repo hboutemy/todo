@@ -106,7 +106,7 @@ vs fork with package names rework (to avoid any conflict)
 - [dist-tool-plugin](https://builds.apache.org/view/M-R/view/Maven/job/dist-tool-plugin/site/) report on reproducibility for Maven projects
 - provide PRs to make projects builds reproducible:
   - ~~AWS java SDK [PR #2223](https://github.com/aws/aws-sdk-java/pull/2223)~~ to be merged
-  - [AWS SDK for Java v2](https://github.com/aws/aws-sdk-java-v2)
+  - ~~AWS SDK for Java v2 [PR #1759](https://github.com/aws/aws-sdk-java-v2/pull/1759)~~ to be merged
   - ~~[Logback](https://github.com/qos-ch/logback) [PR#484](https://github.com/qos-ch/logback/pull/484)~~ to be merged
   - [Arthas](https://github.com/alibaba/arthas)
   - [Quarkus](https://github.com/quarkusio/quarkus)
