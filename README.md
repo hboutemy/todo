@@ -130,6 +130,10 @@ vs fork with package names rework (to avoid any conflict)
   - Liferay
   - Cucumber
   - Vertx
+  - [Google Cloud Java client libraries](https://github.com/googleapis/java-shared-config)
+  - [Micronaut Maven plugin](https://github.com/micronaut-projects/micronaut-maven-plugin)
+  - [Swagger](https://github.com/swagger-api/swagger-core)
+  - Eclipse RDF4J
 - fix plugins issues to produce reproducible output:
   - ~~maven-remote-resources-plugin 1.7.0 with [MRRESOURCES-114](https://issues.apache.org/jira/browse/MRRESOURCES-114)~~
   - [MSHADE-352](https://issues.apache.org/jira/browse/MSHADE-352) fix m-shade-p when using transorfmer
