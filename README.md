@@ -119,6 +119,8 @@ vs fork with package names rework (to avoid any conflict)
   - [Apache Johnzon](https://github.com/apache/johnzon)
   - [Apache OpenWebBeans](https://github.com/apache/openwebbeans)
   - [Apache ServiceMix](https://github.com/apache/servicemix)
+  - org.apache.hbase
+  - org.apache.qpid
   - Hibernate
   - JBPM
   - Neo4j
@@ -134,6 +136,9 @@ vs fork with package names rework (to avoid any conflict)
   - [Micronaut Maven plugin](https://github.com/micronaut-projects/micronaut-maven-plugin)
   - [Swagger](https://github.com/swagger-api/swagger-core)
   - Eclipse RDF4J
+  - Societe Generale [ci-droid*](https://github.com/societe-generale?q=ci-droid)
+  - com.vladsch.flexmark:flexmark
+  - org.jline
 - fix plugins issues to produce reproducible output:
   - ~~maven-remote-resources-plugin 1.7.0 with [MRRESOURCES-114](https://issues.apache.org/jira/browse/MRRESOURCES-114)~~
   - [MSHADE-352](https://issues.apache.org/jira/browse/MSHADE-352) fix m-shade-p when using transorfmer
