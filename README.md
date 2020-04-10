@@ -128,7 +128,7 @@ vs fork with package names rework (to avoid any conflict)
   - WSO2 Carbon
   - XWiki
   - [Airbus Cybersecurity Graylog plugins](https://github.com/airbus-cyber?q=graylog)
-  - [Guiced EE](https://guicedee.com/)
+  - ~~[Guiced EE](https://guicedee.com/) [PR#3](https://github.com/GedMarc/JWebMPDevKit/pull/3)~~ to be merged
   - Liferay
   - Cucumber
   - Vertx
@@ -141,7 +141,7 @@ vs fork with package names rework (to avoid any conflict)
   - org.jline
 - fix plugins issues to produce reproducible output:
   - ~~maven-remote-resources-plugin 1.7.0 with [MRRESOURCES-114](https://issues.apache.org/jira/browse/MRRESOURCES-114)~~
-  - [MSHADE-352](https://issues.apache.org/jira/browse/MSHADE-352) fix m-shade-p when using transorfmer
+  - ~~[MSHADE-352](https://issues.apache.org/jira/browse/MSHADE-352) fix m-shade-p when using transorfmer~~
   - springboot-maven-plugin:repackage
 - check if plugins are able to produce reproducible output:
   - Quarkus
