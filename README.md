@@ -125,10 +125,10 @@ vs fork with package names rework (to avoid any conflict)
   - JBPM
   - Neo4j
   - Webjars
-  - WSO2 Carbon
+  - ~~WSO2 Carbon [PR #50](https://github.com/wso2/carbon-parent/pull/50)~~ to be merged
   - XWiki
   - [Airbus Cybersecurity Graylog plugins](https://github.com/airbus-cyber?q=graylog)
-  - ~~[Guiced EE](https://guicedee.com/) [PR#3](https://github.com/GedMarc/JWebMPDevKit/pull/3)~~ to be merged
+  - ~~[Guiced EE](https://guicedee.com/) [PR#3](https://github.com/GedMarc/JWebMPDevKit/pull/3)~~
   - Liferay
   - Cucumber
   - Vertx
