@@ -227,6 +227,8 @@ vs fork with package names rework (to avoid any conflict)
 - 31/03/2020 Hackergarten
   - make [Logback](https://github.com/qos-ch/logback) build reproducible (Bakary Djiba)
   [PR#484](https://github.com/qos-ch/logback/pull/484)
+- 14/4/2020 Hackergarten
+  - [MKSINS-167](https://issues.apache.org/jira/browse/MSKINS-167) add anchors to headers (Bakary Djiba)
 - ~~11-15/3/2020 [JChateau](https://www.jchateau.org/)~~
 
 [projects.apache.org](http://projects.apache.org)
