@@ -133,7 +133,7 @@ vs fork with package names rework (to avoid any conflict)
   - Cucumber
   - Vertx
   - [Google Cloud Java client libraries](https://github.com/googleapis/java-shared-config)
-  - [Micronaut Maven plugin](https://github.com/micronaut-projects/micronaut-maven-plugin)
+  - ~~[Micronaut Maven plugin](https://github.com/micronaut-projects/micronaut-maven-plugin) [PR#11](https://github.com/micronaut-projects/micronaut-maven-plugin/pull/11)~~ to be merged
   - [Swagger](https://github.com/swagger-api/swagger-core)
   - Eclipse RDF4J
   - Societe Generale [ci-droid*](https://github.com/societe-generale?q=ci-droid)
