@@ -108,7 +108,7 @@ vs fork with package names rework (to avoid any conflict)
   - ~~AWS java SDK [PR #2223](https://github.com/aws/aws-sdk-java/pull/2223)~~ to be merged
   - ~~AWS SDK for Java v2 [PR #1759](https://github.com/aws/aws-sdk-java-v2/pull/1759)~~ to be merged
   - ~~[Logback](https://github.com/qos-ch/logback) [PR#484](https://github.com/qos-ch/logback/pull/484)~~ to be merged
-  - [Arthas](https://github.com/alibaba/arthas)
+  - ~~[Arthas](https://github.com/alibaba/arthas) [PR#1128](https://github.com/alibaba/arthas/pull/1128)~~ to be merged
   - [Quarkus](https://github.com/quarkusio/quarkus)
   - [Jenkins](https://github.com/jenkinsci/jenkins)
   - [Jakarta EE APIs and RIs](https://github.com/eclipse-ee4j)
