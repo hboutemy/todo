@@ -140,10 +140,12 @@ vs fork with package names rework (to avoid any conflict)
   - Societe Generale [ci-droid*](https://github.com/societe-generale?q=ci-droid)
   - com.vladsch.flexmark:flexmark
   - org.jline
+  - [JFlex](https://jflex.de/)
 - fix plugins issues to produce reproducible output:
   - ~~maven-remote-resources-plugin 1.7.0 with [MRRESOURCES-114](https://issues.apache.org/jira/browse/MRRESOURCES-114)~~
   - ~~[MSHADE-352](https://issues.apache.org/jira/browse/MSHADE-352) fix m-shade-p when using transorfmer~~
   - springboot-maven-plugin:repackage
+  - [JFlex Maven Plugin](https://github.com/jflex-de/jflex) generates .java files containing current timestamp
 - check if plugins are able to produce reproducible output:
   - Quarkus
   - [Jenkins hpi plugin](https://github.com/jenkinsci/maven-hpi-plugin)
