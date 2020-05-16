@@ -140,7 +140,7 @@ vs fork with package names rework (to avoid any conflict)
   - Societe Generale [ci-droid*](https://github.com/societe-generale?q=ci-droid)
   - com.vladsch.flexmark:flexmark
   - org.jline
-  - [JFlex](https://jflex.de/)
+  - ~~[JFlex](https://jflex.de/) [PR#765](https://github.com/jflex-de/jflex/pull/765)~~ to be merged
 - fix plugins issues to produce reproducible output:
   - ~~maven-remote-resources-plugin 1.7.0 with [MRRESOURCES-114](https://issues.apache.org/jira/browse/MRRESOURCES-114)~~
   - ~~[MSHADE-352](https://issues.apache.org/jira/browse/MSHADE-352) fix m-shade-p when using transorfmer~~
