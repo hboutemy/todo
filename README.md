@@ -194,6 +194,7 @@ vs fork with package names rework (to avoid any conflict)
 - [MDEP-644](https://issues.apache.org/jira/browse/MDEP-644) Re-Add Dependency Tree Verbose
 - ~~archive old Maven Git repositories~~
 - contribute Maven Plugin to [Uno-Jar](https://github.com/nsoft/uno-jar)
+- add repository format intro to [repositories documentation](http://maven.apache.org/guides/introduction/introduction-to-repositories.html)
 
 ## Conf
 <details><summary>2018</summary>
