@@ -95,7 +95,8 @@ vs fork with package names rework (to avoid any conflict)
   - refactor to add separate check mojo in addition to check during buildinfo
   - ~~add explanations on how to test locally reproducibility (deploy reference to local dir)~~
   - ~~save comparison result of local build vs reference artifact~~
-  - detect that a Maven module is not install or deployed, then should not be part of buildinfo
+  - ~~detect that a Maven module is not installed or deployed, then should not be part of buildinfo~~
+  - move code from studies to [maven-artifact-plugin](https://github.com/apache/maven-artifact-plugin)
 - ~~track Maven Central for (effective) pom with reproducible timestamp~~
 - track Maven Central for projects built with Maven, that could be enhanced to have reproducible build
 - ~~test reproducibility of these, manually or with containers~~
