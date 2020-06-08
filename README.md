@@ -168,6 +168,7 @@ vs fork with package names rework (to avoid any conflict)
 - add live reload to site when run with `mvn site:run`
 - ~~[DOXIA-575](https://issues.apache.org/jira/browse/DOXIA-575) Add support for (X)HTML5~~
 - ~~[MSITE-836](https://issues.apache.org/jira/browse/MSITE-836) show report plugin when it fails with RuntimeException~~
+- [MSHARED-650](https://issues.apache.org/jira/browse/MSHARED-650) Fire ExecutionEvent from DefaultMavenReportExecutor
 
 ## Misc
 - ~~[maven-remote-resources-plugin](https://maven.apache.org/plugins/maven-remote-resources-plugin/) release [version 1.6.0](https://issues.apache.org/jira/projects/MRRESOURCES/versions/12331230)~~
