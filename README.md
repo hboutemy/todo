@@ -91,12 +91,13 @@ vs fork with package names rework (to avoid any conflict)
 - [Buildinfo plugin](https://github.com/apache/maven-studies/tree/maven-buildinfo-plugin)
   - ~~ability to generate [buildinfo file](https://reproducible-builds.org/docs/jvm/)~~
   - ~~ability to check local build output against reference build~~
-  - ability to detect JDK+OS from reference build
+  - ability to detect JDK+OS from reference build, display (from reference buildinfo or manifest) and add to generated minimal buildinfo when no reference available
   - refactor to add separate check mojo in addition to check during buildinfo
   - ~~add explanations on how to test locally reproducibility (deploy reference to local dir)~~
   - ~~save comparison result of local build vs reference artifact~~
   - ~~detect that a Maven module is not installed or deployed, then should not be part of buildinfo~~
   - move code from studies buildinfo:buildinfo to [maven-artifact-plugin](https://github.com/apache/maven-artifact-plugin):buildinfo
+  - detect used plugins/goals and display if known non-reproducible
 - effective reproducibility tracking:
   - ~~track Maven Central for (effective) pom with reproducible timestamp~~
   - track Maven Central for projects built with Maven, that could be enhanced to have reproducible build
