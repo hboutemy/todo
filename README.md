@@ -170,12 +170,13 @@ vs fork with package names rework (to avoid any conflict)
 - ~~[DOXIA-575](https://issues.apache.org/jira/browse/DOXIA-575) Add support for (X)HTML5~~
 - ~~[MSITE-836](https://issues.apache.org/jira/browse/MSITE-836) show report plugin when it fails with RuntimeException~~
 - [MSHARED-650](https://issues.apache.org/jira/browse/MSHARED-650) Fire ExecutionEvent from DefaultMavenReportExecutor
+- [DOXIA-614](https://issues.apache.org/jira/browse/DOXIA-614) source reference in Doxia Parser
 
 ## Misc
 - ~~[maven-remote-resources-plugin](https://maven.apache.org/plugins/maven-remote-resources-plugin/) release [version 1.6.0](https://issues.apache.org/jira/projects/MRRESOURCES/versions/12331230)~~
 - ~~[MPIR-373](https://issues.apache.org/jira/browse/MPIR-373) warnings in 3.0.0~~
 - ~~[MPIR-375](https://issues.apache.org/jira/browse/MPIR-375) add plugin excludes feature for plugin-management report~~
-- [MPLUGIN-339](https://issues.apache.org/jira/browse/MPLUGIN-339) maven-plugin-tools-javadoc broken by com.sun.tools.doclets removal in Java 10
+- ~~[MPLUGIN-339](https://issues.apache.org/jira/browse/MPLUGIN-339) maven-plugin-tools-javadoc broken by com.sun.tools.doclets removal in Java 10~~
 - [MPLUGIN-308](https://issues.apache.org/jira/browse/MPLUGIN-308) plugin-tools complex types
 - maven-release-plugin conf phases
 - [Classworlds](https://codehaus-plexus.github.io/plexus-classworlds/) ~~doc~~ + dump + graph
@@ -241,8 +242,9 @@ vs fork with package names rework (to avoid any conflict)
   - make [Logback](https://github.com/qos-ch/logback) build reproducible (Bakary Djiba)
   [PR#484](https://github.com/qos-ch/logback/pull/484)
 - 14/4/2020 Hackergarten
-  - [MKSINS-167](https://issues.apache.org/jira/browse/MSKINS-167) add anchors to headers (Bakary Djiba)
+  - ~~[MKSINS-167](https://issues.apache.org/jira/browse/MSKINS-167) add anchors to headers (Bakary Djiba)~~
 - ~~11-15/3/2020 [JChateau](https://www.jchateau.org/)~~
+- ~~27/6/2020 [Hack Commit Push](https://paris2020.hack-commit-pu.sh/)~~
 
 [projects.apache.org](http://projects.apache.org)
 ========
