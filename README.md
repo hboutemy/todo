@@ -66,6 +66,7 @@ My Maven TODO list
 - [MNG-6682](https://issues.apache.org/jira/browse/MNG-6682) source-release dependency type
 - [jansi Windows perf improvements](https://github.com/fusesource/jansi/pull/150)
 - [MNG-5001](https://issues.apache.org/jira/browse/MNG-5001) @readonly Mojo parameter annotation doesn't work
+- [MNG-5222](https://issues.apache.org/jira/browse/MNG-5222) warn when using deprecated plugin parameter
 - [MNG-6795](https://issues.apache.org/jira/browse/MNG-6795) define a replacement for ReasonPhrase to display details about transfert failures
 
 ## Core future
