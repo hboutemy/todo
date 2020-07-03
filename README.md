@@ -185,6 +185,7 @@ vs fork with package names rework (to avoid any conflict)
 - tutorial new default lifecycle phases
 - [extension demo](https://maven.apache.org/studies/extension-demo/)
 - extensions list like [plugins](https://maven.apache.org/plugins/)
+  - [raydac/mvn-finisher](https://github.com/raydac/mvn-finisher)
 - [MASFRES-20](https://issues.apache.org/jira/browse/MASFRES-20) [resource bundles](https://maven.apache.org/apache-resource-bundles/) to Git as single multi-module build and removal of parent POM from Maven parent POMs
 - ~~[INFRA-16467](https://issues.apache.org/jira/browse/INFRA-16467) move components out of CMS space~~
 - [Vestige](https://gaellalire.fr/gitlab/vestige/vestige/wikis/home)
@@ -200,6 +201,9 @@ vs fork with package names rework (to avoid any conflict)
 - contribute Maven Plugin to [Uno-Jar](https://github.com/nsoft/uno-jar)
 - add repository format intro to [repositories documentation](http://maven.apache.org/guides/introduction/introduction-to-repositories.html)
 - [MWAR-433](https://issues.apache.org/jira/browse/MWAR-433) war oudated feature deletes generated content
+- profile builds: [jcgay](https://jeanchristophegay.com/posts/maven-profiler/) [takari/maven-profiler](https://github.com/takari/maven-profiler)
+  - [jcgay](https://jeanchristophegay.com/posts/maven-profiler/) [jcgay/maven-profiler](https://github.com/jcgay/maven-profiler)
+  - [intuit](https://medium.com/@alex_collins/10x-faster-maven-builds-at-intuit-5b7bb60c65e6)[intuit/maven-build-scanner](https://github.com/intuit/maven-build-scanner)
 
 ## Conf
 <details><summary>2018</summary>
