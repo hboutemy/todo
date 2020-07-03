@@ -99,6 +99,7 @@ vs fork with package names rework (to avoid any conflict)
   - ~~detect that a Maven module is not installed or deployed, then should not be part of buildinfo~~
   - ~~move code from studies buildinfo:buildinfo to [maven-artifact-plugin](https://github.com/apache/maven-artifact-plugin):buildinfo~~
   - detect used plugins/goals and display if known non-reproducible
+  - add a goal to report on dependencies reproducibility (against a trusted list...)
 - effective reproducibility tracking:
   - ~~track Maven Central for (effective) pom with reproducible timestamp~~
   - track Maven Central for projects built with Maven, that could be enhanced to have reproducible build
