@@ -111,7 +111,7 @@ vs fork with package names rework (to avoid any conflict)
   - statistics on Plexus-owned projects reproducibility [reproducible-plexus-HEAD](https://github.com/jvm-repo-rebuild/reproducible-plexus-HEAD)
   - statistics on MojoHaus-owned projects reproducibility [reproducible-mojohaus-HEAD](https://github.com/jvm-repo-rebuild/reproducible-mojohaus-HEAD)
 - [dist-tool-plugin](https://builds.apache.org/view/M-R/view/Maven/job/dist-tool-plugin/site/) report on reproducibility for Maven projects
-- (DREAM) provide a GitHub badge showing that a project has reproducible build
+- (DREAM) provide a GitHub badge showing that a project has Reproducible Build with link to [reproducible central](https://github.com/jvm-repo-rebuild/reproducible-central) proof
 - add Maven to [RB's "who is involved"](https://reproducible-builds.org/who/)
 - provide PRs to make projects builds reproducible:
   - ~~AWS java SDK [PR #2223](https://github.com/aws/aws-sdk-java/pull/2223)~~ to be merged
