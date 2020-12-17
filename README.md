@@ -118,8 +118,8 @@ vs fork with package names rework (to avoid any conflict)
   - ~~AWS SDK for Java v2 [PR #1759](https://github.com/aws/aws-sdk-java-v2/pull/1759)~~ to be merged
   - ~~[Logback](https://github.com/qos-ch/logback) [PR#484](https://github.com/qos-ch/logback/pull/484)~~ to be merged
   - ~~[Arthas](https://github.com/alibaba/arthas) [PR#1128](https://github.com/alibaba/arthas/pull/1128)~~
-  - ~~CycloneDX core java [PR63](https://github.com/CycloneDX/cyclonedx-core-java/pull/63)~~ to be merged
-  - [CycloneDX Maven Plugin](https://github.com/CycloneDX/cyclonedx-maven-plugin)
+  - ~~[CycloneDX core java PR #63](https://github.com/CycloneDX/cyclonedx-core-java/pull/63)~~ to be merged
+  - ~~[CycloneDX Maven Plugin PR #78](https://github.com/CycloneDX/cyclonedx-maven-plugin/pull/78)~~ to be merged
   - [Quarkus](https://github.com/quarkusio/quarkus)
   - [Jenkins](https://github.com/jenkinsci/jenkins)
   - [Jakarta EE APIs and RIs](https://github.com/eclipse-ee4j)
