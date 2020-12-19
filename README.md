@@ -123,6 +123,9 @@ vs fork with package names rework (to avoid any conflict)
   - [Quarkus](https://github.com/quarkusio/quarkus)
   - [Jenkins](https://github.com/jenkinsci/jenkins)
   - [Jakarta EE APIs and RIs](https://github.com/eclipse-ee4j)
+    - ~~[ee4j parent PR #71](https://github.com/eclipse-ee4j/ee4j/pull/71)~~ to be merged
+    - ~~[Servlet API PR #384](https://github.com/eclipse-ee4j/servlet-api/pull/384)~~ to be merged
+    - ~~[JakartaEE API PR #96](https://github.com/eclipse-ee4j/jakartaee-api/pull/96)~~ to be merged
   - [Drools](https://github.com/kiegroup/drools)
   - [Vaadin](https://github.com/vaadin/platform)
   - [Apache CXF](https://github.com/apache/cxf)
