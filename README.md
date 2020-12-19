@@ -203,7 +203,7 @@ vs fork with package names rework (to avoid any conflict)
 - ~~archive old Maven Git repositories~~
 - contribute Maven Plugin to [Uno-Jar](https://github.com/nsoft/uno-jar)
 - add repository format intro to [repositories documentation](http://maven.apache.org/guides/introduction/introduction-to-repositories.html)
-- [MWAR-433](https://issues.apache.org/jira/browse/MWAR-433) war oudated feature deletes generated content
+- ~~[MWAR-433](https://issues.apache.org/jira/browse/MWAR-433) war oudated feature deletes generated content~~
 - profile builds:
   - [MNG-4639](https://issues.apache.org/jira/browse/MNG-4639)
   - [takari/maven-profiler](https://github.com/takari/maven-profiler)
