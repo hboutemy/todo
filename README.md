@@ -120,6 +120,7 @@ vs fork with package names rework (to avoid any conflict)
   - ~~[Arthas](https://github.com/alibaba/arthas) [PR#1128](https://github.com/alibaba/arthas/pull/1128)~~
   - ~~[CycloneDX core java PR #63](https://github.com/CycloneDX/cyclonedx-core-java/pull/63)~~
   - ~~[CycloneDX Maven Plugin PR #78](https://github.com/CycloneDX/cyclonedx-maven-plugin/pull/78)~~ to be merged
+  - [Package URL Java](https://github.com/package-url/packageurl-java)
   - [Quarkus](https://github.com/quarkusio/quarkus)
   - [Jenkins](https://github.com/jenkinsci/jenkins)
   - [Jakarta EE APIs and RIs](https://github.com/eclipse-ee4j)
