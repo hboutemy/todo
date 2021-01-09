@@ -130,6 +130,7 @@ vs fork with package names rework (to avoid any conflict)
   - [Drools](https://github.com/kiegroup/drools)
   - [Vaadin](https://github.com/vaadin/platform)
   - [Apache CXF](https://github.com/apache/cxf)
+  - [Apache DS](https://github.com/apache?q=directory-)
   - ~~[Apache Dubbo](https://github.com/apache/dubbo/pull/5954)~~
   - [Apache Johnzon](https://github.com/apache/johnzon)
   - [Apache OpenWebBeans](https://github.com/apache/openwebbeans)
