@@ -151,6 +151,7 @@ vs fork with package names rework (to avoid any conflict)
   - Hibernate
   - JBPM
   - Neo4j
+  - [OWASP Dependency Check](https://github.com/jeremylong/DependencyCheck)
   - Webjars
   - ~~WSO2 Carbon [PR #50](https://github.com/wso2/carbon-parent/pull/50)~~ to be merged
   - XWiki
