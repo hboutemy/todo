@@ -68,6 +68,7 @@ My Maven TODO list
 - [MNG-5001](https://issues.apache.org/jira/browse/MNG-5001) @readonly Mojo parameter annotation doesn't work
 - [MNG-5222](https://issues.apache.org/jira/browse/MNG-5222) warn when using deprecated plugin parameter
 - [MNG-6795](https://issues.apache.org/jira/browse/MNG-6795) define a replacement for ReasonPhrase to display details about transfert failures
+- [MNG-6763](https://issues.apache.org/jira/browse/MNG-6763) Restrict repositories to specific groupIds
 
 ## Core future
 - [relocation](https://maven.apache.org/guides/mini/guide-relocation.html) (poi:poi becomes officially org.apache.poi:poi)\
