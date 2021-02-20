@@ -169,12 +169,13 @@ vs fork with package names rework (to avoid any conflict)
   - com.vladsch.flexmark:flexmark
   - ~~[org.jline3 PR #628](https://github.com/jline/jline3/pull/628)~~ to be merged
   - ~~[JFlex](https://jflex.de/) [PR#765](https://github.com/jflex-de/jflex/pull/765)~~ to be merged
-  - ~~[Fabric8 Kubernetes Client](http://fabric8.io/) [PR#2760](https://github.com/fabric8io/kubernetes-client/pull/2760)~~
+  - ~~[Fabric8 Kubernetes Client](http://fabric8.io/) [PR#2604](https://github.com/fabric8io/kubernetes-client/pull/2604)~~
 - fix plugins issues to produce reproducible output:
   - ~~maven-remote-resources-plugin 1.7.0 with [MRRESOURCES-114](https://issues.apache.org/jira/browse/MRRESOURCES-114)~~
   - ~~[MSHADE-352](https://issues.apache.org/jira/browse/MSHADE-352) fix m-shade-p when using transorfmer~~
   - springboot-maven-plugin:repackage
   - [JFlex Maven Plugin](https://github.com/jflex-de/jflex) generates .java files containing current timestamp
+  - [org.jboss.jandex:jandex-maven-plugin](https://github.com/wildfly/jandex-maven-plugin) .idx
 - check if plugins are able to produce reproducible output:
   - Quarkus
   - [Jenkins hpi plugin](https://github.com/jenkinsci/maven-hpi-plugin)
