@@ -60,8 +60,9 @@ My Maven TODO list
 - ~~[MNG-6789](https://issues.apache.org/jira/browse/MNG-6789) Maven Reproducible Build~~
 </details>
 
-## Core 3.7
+## Core 4
 - ~~[MNG-6562](https://issues.apache.org/jira/browse/MNG-6562) WARN if plugins injected by default lifecycle bindings don't have their version locked in pom.xml or parent~~
+- [Build vs Consumer POM](https://cwiki.apache.org/confluence/display/MAVEN/Build+vs+Consumer+POM)
 - [MNG-5588](https://issues.apache.org/jira/browse/MNG-5588) provide easy way to define default plugins versions (after MNG-6562): pluginManagement import like dependencyManagement
 - [MNG-6682](https://issues.apache.org/jira/browse/MNG-6682) source-release dependency type
 - [jansi Windows perf improvements](https://github.com/fusesource/jansi/pull/150)
@@ -75,7 +76,6 @@ My Maven TODO list
 vs unofficial release (someone publishes a release in my.personal.group:poi, independently from original project and with same java package names)\
 vs fork with classes conflict (a wanted fork but keeping same package names for compatibility)\
 vs fork with package names rework (to avoid any conflict)
-- [Build vs Consumer POM](https://cwiki.apache.org/confluence/display/MAVEN/Build+vs+Consumer+POM)
 - [MNG-5814](https://issues.apache.org/jira/browse/MNG-5814) check signature of plugins against trusted list
 - ascii progress bar, probably using ansi escape codes
 - check artifact magic numbers, at least for zips, to detect download failures without downloading sha1 files (see [test case](https://github.com/Arnaud-Nauwynck/test-snippets/tree/master/test-http-repo))
