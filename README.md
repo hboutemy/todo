@@ -62,6 +62,10 @@ My Maven TODO list
 - ~~[MNG-6789](https://issues.apache.org/jira/browse/MNG-6789) Maven Reproducible Build~~
 </details>
 </details>
+<details><summary>3.8.0</summary>
+
+- ~~[MNG-7118](https://issues.apache.org/jira/browse/MNG-7118) Block HTTP repositories by default~~
+</details>
 
 ## Core 4
 - ~~[MNG-6562](https://issues.apache.org/jira/browse/MNG-6562) WARN if plugins injected by default lifecycle bindings don't have their version locked in pom.xml or parent~~
