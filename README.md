@@ -1,6 +1,8 @@
 My Maven TODO list
 =========
 
+<details><summary>past</summary>
+
 ## Core 3.5.x
 <details><summary>details</summary>
 
@@ -58,6 +60,7 @@ My Maven TODO list
 - ~~[MNG-6771](https://issues.apache.org/jira/browse/MNG-6771) licensing issues (not really "up for grabs", but quite specific issue)~~
 - ~~[MNG-6584](https://issues.apache.org/jira/browse/MNG-6584) Maven version 3.6.0 does not show ReasonPhrase anymore~~
 - ~~[MNG-6789](https://issues.apache.org/jira/browse/MNG-6789) Maven Reproducible Build~~
+</details>
 </details>
 
 ## Core 4
