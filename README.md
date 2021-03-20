@@ -267,6 +267,9 @@ vs fork with package names rework (to avoid any conflict)
 - ~~22-24/10/2019 [ApacheCon Europe 2019](https://aceu19.apachecon.com/)~~
 </details>
 
+- 11/2021 Open Source Experience
+  - 30/3/2021 comité programme
+- 29/5/2021 [Hack Commit Push 2021](https://paris2021.hack-commit-pu.sh/)
 - 25/2/2020 Hackergarten
   - ~~[PR #58](https://github.com/quick-perf/quickperf/pull/58) make [Quickperf](https://github.com/quick-perf/quickperf) build reproducible (Minh-Trieu Ha)~~
   - make [Logback](https://github.com/qos-ch/logback) build reproducible (Bakary Djiba)
@@ -284,3 +287,9 @@ vs fork with package names rework (to avoid any conflict)
 
 - index.html fast display (no need for every .json)
 - [INFRA-16355](https://issues.apache.org/jira/browse/INFRA-16355) Git mirror
+
+
+Other
+=====
+
+- Attic 
