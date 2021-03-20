@@ -84,6 +84,9 @@ vs fork with package names rework (to avoid any conflict)
 - provide CLI test demo program to do artifact resolution then easily debug in an IDE
 - provide CLI test demo program to launch a Maven build then easily debug in an IDE
 - import [mvnsh](https://github.com/jdillon/mvnsh)
+- [mvnd](https://github.com/mvndaemon/mvnd) daemon and multi-threaded display
+- Deutsche Bank incremental build and cache
+- [MVNCENTRAL-1365](https://issues.sonatype.org/browse/MVNCENTRAL-1365) Olaf [talk](https://apachebigdataeu2016.sched.com/event/8U07/attacking-a-big-data-developer-olaf-flebbe-sciencecomputing-ag) [slides](http://events17.linuxfoundation.org/sites/events/files/slides/AttackingBigDataDeveloper_0.pdf)
 
 ## [Reproducible/Verifiable Builds](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=74682318)
 - ~~[MRELEASE-1029](https://issues.apache.org/jira/browse/MRELEASE-1029) maven-release-plugin update outputTimestamp~~
