@@ -93,7 +93,7 @@ vs fork with package names rework (to avoid any conflict)
 - import [mvnsh](https://github.com/jdillon/mvnsh)
 - [mvnd](https://github.com/mvndaemon/mvnd) daemon and multi-threaded display
 - [MNG-7129](https://issues.apache.org/jira/browse/MNG-7129) Deutsche Bank incremental build and cache
-- [MVNCENTRAL-1365](https://issues.sonatype.org/browse/MVNCENTRAL-1365) Olaf [talk](https://apachebigdataeu2016.sched.com/event/8U07/attacking-a-big-data-developer-olaf-flebbe-sciencecomputing-ag) [slides](http://events17.linuxfoundation.org/sites/events/files/slides/AttackingBigDataDeveloper_0.pdf)
+- [MVNCENTRAL-1365](https://issues.sonatype.org/browse/MVNCENTRAL-1365) Olaf [ApacheCon BigData Sevilla 2016 talk](https://apachebigdataeu2016.sched.com/event/8U07/attacking-a-big-data-developer-olaf-flebbe-sciencecomputing-ag) [slides](http://events17.linuxfoundation.org/sites/events/files/slides/AttackingBigDataDeveloper_0.pdf) and [ApacheCon Berlin 2018 IoT update](https://oflebbe.de/presentations/2018/attackingiotdev.pdf)
 
 ## [Reproducible/Verifiable Builds](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=74682318)
 - ~~[MRELEASE-1029](https://issues.apache.org/jira/browse/MRELEASE-1029) maven-release-plugin update outputTimestamp~~
