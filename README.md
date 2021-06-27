@@ -102,11 +102,11 @@ vs fork with package names rework (to avoid any conflict)
 - ~~[ASF 22](https://issues.apache.org/jira/projects/MPOM/versions/12343925) parent POM release, with RB activated~~
 - ~~[ASF 23](https://issues.apache.org/jira/projects/MPOM/versions/12346503) parent POM release, with RB fix~~
 - ~~[Maven parent POM 34](https://issues.apache.org/jira/projects/MPOM/versions/12344077), with RB activated~~
-- [Buildinfo plugin](https://github.com/apache/maven-studies/tree/maven-buildinfo-plugin)
+- [Artifact plugin](https://github.com/apache/maven-studies/tree/maven-buildinfo-plugin)
   - ~~ability to generate [buildinfo file](https://reproducible-builds.org/docs/jvm/)~~
   - ~~ability to check local build output against reference build~~
   - ~~ability to detect JDK+OS from reference build, display (from reference buildinfo or manifest) and add to generated minimal buildinfo when no reference available~~
-  - refactor to add separate check mojo in addition to check during buildinfo
+  - ~~[MARTIFACT-20](https://issues.apache.org/jira/browse/MARTIFACT-20) refactor to add separate check mojo in addition to check during buildinfo~~
   - ~~add explanations on how to test locally reproducibility (deploy reference to local dir)~~
   - ~~save comparison result of local build vs reference artifact~~
   - ~~detect that a Maven module is not installed or deployed, then should not be part of buildinfo~~
@@ -115,7 +115,7 @@ vs fork with package names rework (to avoid any conflict)
   - add a goal to report on dependencies reproducibility (against a trusted list...)
 - effective reproducibility tracking:
   - ~~track Maven Central for (effective) pom with reproducible timestamp~~
-  - track Maven Central for projects built with Maven, that could be enhanced to have reproducible build
+  - ~~track Maven Central for projects built with Maven, that could be enhanced to have reproducible build~~
   - ~~test reproducibility of these, manually or with containers~~
   - ~~Git repo to track and share rebuild recipes:~~ [reproducible-central](https://github.com/jvm-repo-rebuild/reproducible-central)
   - ~~statistics on reproduced builds in [reproducible-central](https://github.com/jvm-repo-rebuild/reproducible-central)~~
@@ -207,7 +207,7 @@ vs fork with package names rework (to avoid any conflict)
 - ~~[DOXIA-575](https://issues.apache.org/jira/browse/DOXIA-575) Add support for (X)HTML5~~
 - ~~[MSITE-836](https://issues.apache.org/jira/browse/MSITE-836) show report plugin when it fails with RuntimeException~~
 - [MSHARED-650](https://issues.apache.org/jira/browse/MSHARED-650) Fire ExecutionEvent from DefaultMavenReportExecutor
-- [DOXIA-614](https://issues.apache.org/jira/browse/DOXIA-614) source reference in Doxia Parser
+- ~~[DOXIA-614](https://issues.apache.org/jira/browse/DOXIA-614) source reference in Doxia Parser~~
 
 ## Misc
 - ~~[maven-remote-resources-plugin](https://maven.apache.org/plugins/maven-remote-resources-plugin/) release [version 1.6.0](https://issues.apache.org/jira/projects/MRRESOURCES/versions/12331230)~~
