@@ -134,7 +134,7 @@ vs fork with package names rework (to avoid any conflict)
   - ~~[CycloneDX core java PR #63](https://github.com/CycloneDX/cyclonedx-core-java/pull/63)~~
   - ~~[CycloneDX Maven Plugin PR #78](https://github.com/CycloneDX/cyclonedx-maven-plugin/pull/78)~~ to be merged
   - ~~[XStream PR#256](https://github.com/x-stream/xstream/pull/256)~~ to be merged
-  - [Package URL Java](https://github.com/package-url/packageurl-java)
+  - [Package URL Java](https://github.com/package-url/packageurl-java) [PR #23](https://github.com/package-url/packageurl-java/pull/23)
   - [Quarkus](https://github.com/quarkusio/quarkus)
   - [Jenkins](https://github.com/jenkinsci/jenkins)
   - [Jakarta EE APIs and RIs](https://github.com/eclipse-ee4j)
