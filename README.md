@@ -222,6 +222,7 @@ vs fork with package names rework (to avoid any conflict)
 - [extension demo](https://maven.apache.org/studies/extension-demo/)
 - extensions list like [plugins](https://maven.apache.org/plugins/)
   - [raydac/mvn-finisher](https://github.com/raydac/mvn-finisher)
+  - [timgifford/maven-buildtime-extension](https://github.com/timgifford/maven-buildtime-extension)
 - [MASFRES-20](https://issues.apache.org/jira/browse/MASFRES-20) [resource bundles](https://maven.apache.org/apache-resource-bundles/) to Git as single multi-module build and removal of parent POM from Maven parent POMs
 - ~~[INFRA-16467](https://issues.apache.org/jira/browse/INFRA-16467) move components out of CMS space~~
 - [Vestige](https://gaellalire.fr/gitlab/vestige/vestige/wikis/home)
