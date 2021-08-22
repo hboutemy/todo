@@ -132,9 +132,9 @@ vs fork with package names rework (to avoid any conflict)
   - ~~[Logback](https://github.com/qos-ch/logback) [PR#484](https://github.com/qos-ch/logback/pull/484)~~ to be merged
   - ~~[Arthas](https://github.com/alibaba/arthas) [PR#1128](https://github.com/alibaba/arthas/pull/1128)~~
   - ~~[CycloneDX core java PR #63](https://github.com/CycloneDX/cyclonedx-core-java/pull/63)~~
-  - ~~[CycloneDX Maven Plugin PR #78](https://github.com/CycloneDX/cyclonedx-maven-plugin/pull/78)~~ to be merged
-  - ~~[XStream PR#256](https://github.com/x-stream/xstream/pull/256)~~ to be merged
-  - [Package URL Java](https://github.com/package-url/packageurl-java) [PR #23](https://github.com/package-url/packageurl-java/pull/23)
+  - ~~[CycloneDX Maven Plugin PR #78](https://github.com/CycloneDX/cyclonedx-maven-plugin/pull/78)~~
+  - ~~[XStream PR#256](https://github.com/x-stream/xstream/pull/256)~~
+  - ~~[Package URL Java](https://github.com/package-url/packageurl-java) [PR #23](https://github.com/package-url/packageurl-java/pull/23)~~
   - [Quarkus](https://github.com/quarkusio/quarkus)
   - [Jenkins](https://github.com/jenkinsci/jenkins)
   - [Jakarta EE APIs and RIs](https://github.com/eclipse-ee4j)
