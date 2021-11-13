@@ -196,7 +196,7 @@ vs fork with package names rework (to avoid any conflict)
   - ~~springboot-maven-plugin:repackage [PR#20176](https://github.com/spring-projects/spring-boot/issues/20176)~~
   - [JFlex Maven Plugin](https://github.com/jflex-de/jflex) generates .java files containing current timestamp
   - ~~[org.jboss.jandex:jandex-maven-plugin](https://github.com/wildfly/jandex-maven-plugin) [PR#26](https://github.com/wildfly/jandex-maven-plugin/pull/26)~~ .idx, merged in 1.1.1
-  - [Felix Maven Bundle Plugin PR #116](https://github.com/apache/felix-dev/pull/115)
+  - ~~[Felix Maven Bundle Plugin PR #115](https://github.com/apache/felix-dev/pull/115)~~
 - check if plugins are able to produce reproducible output:
   - Quarkus
   - [Jenkins hpi plugin](https://github.com/jenkinsci/maven-hpi-plugin)
