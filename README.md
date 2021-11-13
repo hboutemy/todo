@@ -157,6 +157,13 @@ vs fork with package names rework (to avoid any conflict)
     - [directory-studio](https://github.com/apache/directory-studio)
     - [directory-server](https://github.com/apache/directory-server)
   - ~~[Apache Dubbo](https://github.com/apache/dubbo/pull/5954)~~
+  - [Apache Felix](https://github.com/apache/felix-dev/)
+    - https://github.com/apache/felix-dev/blob/master/configurator/pom.xml
+    - [Maven Bundle Plugin PR #116](https://github.com/apache/felix-dev/pull/116)
+    - https://github.com/apache/felix-dev/blob/master/webconsole/pom.xml
+    - https://github.com/apache/felix-dev/blob/master/http/parent/pom.xml
+    - https://github.com/apache/felix-dev/blob/master/inventory/pom.xml
+    - https://github.com/apache/felix-dev/blob/master/configadmin-plugins/interpolation/pom.xml
   - [Apache Johnzon](https://github.com/apache/johnzon)
   - [Apache OpenWebBeans](https://github.com/apache/openwebbeans)
   - [Apache ServiceMix](https://github.com/apache/servicemix)
@@ -189,6 +196,7 @@ vs fork with package names rework (to avoid any conflict)
   - ~~springboot-maven-plugin:repackage [PR#20176](https://github.com/spring-projects/spring-boot/issues/20176)~~
   - [JFlex Maven Plugin](https://github.com/jflex-de/jflex) generates .java files containing current timestamp
   - ~~[org.jboss.jandex:jandex-maven-plugin](https://github.com/wildfly/jandex-maven-plugin) [PR#26](https://github.com/wildfly/jandex-maven-plugin/pull/26)~~ .idx, merged in 1.1.1
+  - [Felix Maven Bundle Plugin PR #116](https://github.com/apache/felix-dev/pull/115)
 - check if plugins are able to produce reproducible output:
   - Quarkus
   - [Jenkins hpi plugin](https://github.com/jenkinsci/maven-hpi-plugin)
