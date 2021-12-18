@@ -72,7 +72,8 @@ My Maven TODO list
 - ~~[MNG-6656](https://issues.apache.org/jira/browse/MNG-6656) [Build vs Consumer POM](https://cwiki.apache.org/confluence/display/MAVEN/Build+vs+Consumer+POM)~~
 - [MNG-5001](https://issues.apache.org/jira/browse/MNG-5001) @readonly Mojo parameter annotation doesn't work
 - [MNG-5222](https://issues.apache.org/jira/browse/MNG-5222) warn when using deprecated plugin parameter
-- [MNG-6772](https://issues.apache.org/jira/browse/MNG-6772) dependencyManagement import or dependencyManagement import
+- [MNG-6772](https://issues.apache.org/jira/browse/MNG-6772) dependencyManagement import and repositories defined in pom.xml
+- [MNG-4645](https://issues.apache.org/jira/browse/MNG-4645) define central in settings.xml
 - [MNG-6795](https://issues.apache.org/jira/browse/MNG-6795) define a replacement for ReasonPhrase to display details about transfert failures
 - [MNG-6763](https://issues.apache.org/jira/browse/MNG-6763) Restrict repositories to specific groupIds
 - [MNG-5588](https://issues.apache.org/jira/browse/MNG-5588) provide easy way to define default plugins versions (after MNG-6562): pluginManagement import like dependencyManagement
@@ -92,8 +93,8 @@ vs fork with package names rework (to avoid any conflict)
 - provide CLI test demo program to do artifact resolution then easily debug in an IDE
 - provide CLI test demo program to launch a Maven build then easily debug in an IDE
 - import [mvnsh](https://github.com/jdillon/mvnsh)
-- [mvnd](https://github.com/mvndaemon/mvnd) daemon and multi-threaded display
-- [MNG-7129](https://issues.apache.org/jira/browse/MNG-7129) Deutsche Bank incremental build and cache
+- ~~[mvnd](https://github.com/mvndaemon/mvnd) daemon and multi-threaded display~~
+- ~~[MNG-7129](https://issues.apache.org/jira/browse/MNG-7129) Deutsche Bank incremental build and cache~~
 - [MVNCENTRAL-1365](https://issues.sonatype.org/browse/MVNCENTRAL-1365) Olaf [ApacheCon BigData Sevilla 2016 talk](https://apachebigdataeu2016.sched.com/event/8U07/attacking-a-big-data-developer-olaf-flebbe-sciencecomputing-ag) [slides](http://events17.linuxfoundation.org/sites/events/files/slides/AttackingBigDataDeveloper_0.pdf) and [ApacheCon Berlin 2018 IoT update](https://oflebbe.de/presentations/2018/attackingiotdev.pdf)
 
 ## [Reproducible/Verifiable Builds](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=74682318)
@@ -159,7 +160,7 @@ vs fork with package names rework (to avoid any conflict)
   - ~~[Apache Dubbo](https://github.com/apache/dubbo/pull/5954)~~
   - [Apache Felix](https://github.com/apache/felix-dev/)
     - https://github.com/apache/felix-dev/blob/master/configurator/pom.xml
-    - [Maven Bundle Plugin PR #116](https://github.com/apache/felix-dev/pull/116)
+    - ~~[Maven Bundle Plugin PR #116](https://github.com/apache/felix-dev/pull/116)~~
     - https://github.com/apache/felix-dev/blob/master/webconsole/pom.xml
     - https://github.com/apache/felix-dev/blob/master/http/parent/pom.xml
     - https://github.com/apache/felix-dev/blob/master/inventory/pom.xml
