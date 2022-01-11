@@ -218,6 +218,7 @@ vs fork with package names rework (to avoid any conflict)
 - ~~[MSITE-836](https://issues.apache.org/jira/browse/MSITE-836) show report plugin when it fails with RuntimeException~~
 - [MSHARED-650](https://issues.apache.org/jira/browse/MSHARED-650) Fire ExecutionEvent from DefaultMavenReportExecutor
 - ~~[DOXIA-614](https://issues.apache.org/jira/browse/DOXIA-614) source reference in Doxia Parser~~
+- [MSCMPUB-48](https://issues.apache.org/jira/browse/MSCMPUB-48) confusing message when content == checkout
 
 ## Misc
 - ~~[maven-remote-resources-plugin](https://maven.apache.org/plugins/maven-remote-resources-plugin/) release [version 1.6.0](https://issues.apache.org/jira/projects/MRRESOURCES/versions/12331230)~~
