@@ -222,6 +222,7 @@ vs fork with package names rework (to avoid any conflict)
 
 ## Misc
 - [MNGSITE-471](https://issues.apache.org/jira/browse/MNGSITE-471) Repository metadata mirror list outdated
+- [MVNCENTRAL-7190](https://issues.sonatype.org/browse/MVNCENTRAL-7190) metadata
 - ~~[maven-remote-resources-plugin](https://maven.apache.org/plugins/maven-remote-resources-plugin/) release [version 1.6.0](https://issues.apache.org/jira/projects/MRRESOURCES/versions/12331230)~~
 - ~~[MPIR-373](https://issues.apache.org/jira/browse/MPIR-373) warnings in 3.0.0~~
 - ~~[MPIR-375](https://issues.apache.org/jira/browse/MPIR-375) add plugin excludes feature for plugin-management report~~
