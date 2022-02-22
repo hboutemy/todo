@@ -99,7 +99,7 @@ vs fork with package names rework (to avoid any conflict)
 
 ## [Reproducible/Verifiable Builds](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=74682318)
 - ~~[MRELEASE-1029](https://issues.apache.org/jira/browse/MRELEASE-1029) maven-release-plugin update outputTimestamp~~
-- [PR 522](https://github.com/mojohaus/versions-maven-plugin/pull/522) [versions-maven-plugin/issues/453](https://github.com/mojohaus/versions-maven-plugin/issues/453) add an option to update Reproducible Build project.build.outputTimestamp while updating version
+- ~~[PR 522](https://github.com/mojohaus/versions-maven-plugin/pull/522) [versions-maven-plugin/issues/453](https://github.com/mojohaus/versions-maven-plugin/issues/453) add an option to update Reproducible Build project.build.outputTimestamp while updating version~~
 - ~~[ASF 22](https://issues.apache.org/jira/projects/MPOM/versions/12343925) parent POM release, with RB activated~~
 - ~~[ASF 23](https://issues.apache.org/jira/projects/MPOM/versions/12346503) parent POM release, with RB fix~~
 - ~~[Maven parent POM 34](https://issues.apache.org/jira/projects/MPOM/versions/12344077), with RB activated~~
@@ -165,7 +165,7 @@ vs fork with package names rework (to avoid any conflict)
     - https://github.com/apache/felix-dev/blob/master/http/parent/pom.xml
     - https://github.com/apache/felix-dev/blob/master/inventory/pom.xml
     - https://github.com/apache/felix-dev/blob/master/configadmin-plugins/interpolation/pom.xml
-  - Apache WSS4J https://github.com/apache/ws-wss4j
+  - ~~Apache WSS4J https://github.com/apache/ws-wss4j~~
   - [Apache Johnzon](https://github.com/apache/johnzon)
   - [Apache OpenWebBeans](https://github.com/apache/openwebbeans)
   - [Apache ServiceMix](https://github.com/apache/servicemix)
@@ -175,7 +175,7 @@ vs fork with package names rework (to avoid any conflict)
   - JBPM
   - Neo4j
   - [OWASP Dependency Check](https://github.com/jeremylong/DependencyCheck)
-  - Webjars
+  - [Webjars](https://github.com/webjars)
   - ~~WSO2 Carbon [PR #50](https://github.com/wso2/carbon-parent/pull/50)~~ to be merged
   - XWiki
   - [Airbus Cybersecurity Graylog plugins](https://github.com/airbus-cyber?q=graylog)
