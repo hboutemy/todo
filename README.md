@@ -210,6 +210,14 @@ vs fork with package names rework (to avoid any conflict)
   - [Jenkins hpi plugin](https://github.com/jenkinsci/maven-hpi-plugin)
 - provide process/tooling to check dependencies (projects dependencies, but also build dependencies, ie parent+plugins+their deps)
 
+## CycloneDX SBOM
+- ActiveMQ
+- Apache Directory Server
+- Camel
+- JSPWiki
+- Hadoop
+- Accumulo
+
 ## Doxia/site/pdf
 - [DOXIA-569](https://issues.apache.org/jira/browse/DOXIA-569) Markdown Sink
 - ~~[MPDF-8](https://issues.apache.org/jira/browse/MPDF-8) pdf multi-modules, **merge [m-pdf-p PR1](https://github.com/apache/maven-pdf-plugin/pull/1)**~~
@@ -255,7 +263,7 @@ vs fork with package names rework (to avoid any conflict)
 - [MDEP-644](https://issues.apache.org/jira/browse/MDEP-644) Re-Add Dependency Tree Verbose
 - ~~archive old Maven Git repositories~~
 - contribute Maven Plugin to [Uno-Jar](https://github.com/nsoft/uno-jar)
-- add repository format intro to [repositories documentation](http://maven.apache.org/guides/introduction/introduction-to-repositories.html)
+- ~~add repository format intro to [repositories documentation](http://maven.apache.org/guides/introduction/introduction-to-repositories.html)~~ [layout](https://maven.apache.org/repository/layout.html)
 - ~~[MWAR-433](https://issues.apache.org/jira/browse/MWAR-433) war oudated feature deletes generated content~~
 - profile builds:
   - [MNG-4639](https://issues.apache.org/jira/browse/MNG-4639)
