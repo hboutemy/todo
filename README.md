@@ -67,7 +67,7 @@ My Maven TODO list
 - ~~[MNG-7118](https://issues.apache.org/jira/browse/MNG-7118) Block HTTP repositories by default~~
 </details>
 
-- [MNG-7438](https://issues.apache.org/jira/browse/MNG-7438) add execution id to "Configuring mojo xxx with basic configurator" debug message
+- ~~[MNG-7438](https://issues.apache.org/jira/browse/MNG-7438) add execution id to "Configuring mojo xxx with basic configurator" debug message~~
 - [MNG-7353](https://issues.apache.org/jira/browse/MNG-7353) add support for "mvn plugin:version:goal"
 
 ## Core 4
