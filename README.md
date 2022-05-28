@@ -74,7 +74,7 @@ My Maven TODO list
 - ~~[MNG-6562](https://issues.apache.org/jira/browse/MNG-6562) WARN if plugins injected by default lifecycle bindings don't have their version locked in pom.xml or parent~~
 - ~~[MNG-6656](https://issues.apache.org/jira/browse/MNG-6656) [Build vs Consumer POM](https://cwiki.apache.org/confluence/display/MAVEN/Build+vs+Consumer+POM)~~
 - [MNG-5001](https://issues.apache.org/jira/browse/MNG-5001) @readonly Mojo parameter annotation doesn't work
-- [MNG-5222](https://issues.apache.org/jira/browse/MNG-5222) warn when using deprecated plugin parameter
+- ~~[MNG-5222](https://issues.apache.org/jira/browse/MNG-5222) warn when using deprecated plugin parameter~~
 - [MNG-6772](https://issues.apache.org/jira/browse/MNG-6772) dependencyManagement import and repositories defined in pom.xml
 - [MNG-4645](https://issues.apache.org/jira/browse/MNG-4645) define central in settings.xml
 - [MNG-6795](https://issues.apache.org/jira/browse/MNG-6795) define a replacement for ReasonPhrase to display details about transfert failures
@@ -101,6 +101,8 @@ vs fork with package names rework (to avoid any conflict)
 - [MVNCENTRAL-1365](https://issues.sonatype.org/browse/MVNCENTRAL-1365) Olaf [ApacheCon BigData Sevilla 2016 talk](https://apachebigdataeu2016.sched.com/event/8U07/attacking-a-big-data-developer-olaf-flebbe-sciencecomputing-ag) [slides](http://events17.linuxfoundation.org/sites/events/files/slides/AttackingBigDataDeveloper_0.pdf) and [ApacheCon Berlin 2018 IoT update](https://oflebbe.de/presentations/2018/attackingiotdev.pdf)
 
 ## [Reproducible/Verifiable Builds](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=74682318)
+<details><summary>done</summary>
+
 - ~~[MRELEASE-1029](https://issues.apache.org/jira/browse/MRELEASE-1029) maven-release-plugin update outputTimestamp~~
 - ~~[PR 522](https://github.com/mojohaus/versions-maven-plugin/pull/522) [versions-maven-plugin/issues/453](https://github.com/mojohaus/versions-maven-plugin/issues/453) add an option to update Reproducible Build project.build.outputTimestamp while updating version~~
 - ~~[ASF 22](https://issues.apache.org/jira/projects/MPOM/versions/12343925) parent POM release, with RB activated~~
@@ -127,6 +129,9 @@ vs fork with package names rework (to avoid any conflict)
   - ~~statistics on Maven-owned projects reproducibility~~ [reproducible-maven-HEAD](https://github.com/jvm-repo-rebuild/reproducible-maven-HEAD)
   - statistics on Plexus-owned projects reproducibility [reproducible-plexus-HEAD](https://github.com/jvm-repo-rebuild/reproducible-plexus-HEAD)
   - statistics on MojoHaus-owned projects reproducibility [reproducible-mojohaus-HEAD](https://github.com/jvm-repo-rebuild/reproducible-mojohaus-HEAD)
+
+</details>
+
 - [dist-tool-plugin](https://builds.apache.org/view/M-R/view/Maven/job/dist-tool-plugin/site/) report on reproducibility for Maven projects
 - (DREAM) provide a GitHub badge showing that a project has Reproducible Build with link to [reproducible central](https://github.com/jvm-repo-rebuild/reproducible-central) proof
 - add Maven to [RB's "who is involved"](https://reproducible-builds.org/who/)
