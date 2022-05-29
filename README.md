@@ -196,7 +196,7 @@ vs fork with package names rework (to avoid any conflict)
   - ~~[Swagger PR #3841](https://github.com/swagger-api/swagger-core/pull/3841)~~ to be merged
   - Eclipse RDF4J
   - Societe Generale [ci-droid*](https://github.com/societe-generale?q=ci-droid)
-  - com.vladsch.flexmark:flexmark
+  - ~~com.vladsch.flexmark:flexmark [PR#507](https://github.com/vsch/flexmark-java/pull/507)~~ to be merged
   - ~~[org.jline3 PR #628](https://github.com/jline/jline3/pull/628)~~ to be merged
   - ~~[JFlex](https://jflex.de/) [PR#765](https://github.com/jflex-de/jflex/pull/765)~~ to be merged
   - ~~[Fabric8 Kubernetes Client](http://fabric8.io/) [PR#2604](https://github.com/fabric8io/kubernetes-client/pull/2604)~~
