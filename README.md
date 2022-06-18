@@ -69,6 +69,7 @@ My Maven TODO list
 
 - ~~[MNG-7438](https://issues.apache.org/jira/browse/MNG-7438) add execution id to "Configuring mojo xxx with basic configurator" debug message~~
 - [MNG-7353](https://issues.apache.org/jira/browse/MNG-7353) add support for "mvn plugin:version:goal"
+- [MNG-7501](https://issues.apache.org/jira/browse/MNG-7501) display relative path to pom.xml
 
 ## Core 4
 - ~~[MNG-6562](https://issues.apache.org/jira/browse/MNG-6562) WARN if plugins injected by default lifecycle bindings don't have their version locked in pom.xml or parent~~
