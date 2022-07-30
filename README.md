@@ -71,7 +71,7 @@ My Maven TODO list
 - ~~[MNG-7438](https://issues.apache.org/jira/browse/MNG-7438) add execution id to "Configuring mojo xxx with basic configurator" debug message~~
 - ~~[MNG-7353](https://issues.apache.org/jira/browse/MNG-7353) add support for "mvn plugin:version:goal"~~
 - ~~[MNG-7501](https://issues.apache.org/jira/browse/MNG-7501) display relative path to pom.xml~~
-- Downlading/downloaded darker ASNI display
+- Downloading/downloaded messages: darker ANSI display
 
 ## Core 4
 - ~~[MNG-6562](https://issues.apache.org/jira/browse/MNG-6562) WARN if plugins injected by default lifecycle bindings don't have their version locked in pom.xml or parent~~
@@ -157,7 +157,7 @@ vs fork with package names rework (to avoid any conflict)
   - [Vaadin](https://github.com/vaadin/platform)
   - [Apache CXF](https://github.com/apache/cxf)
   - [Apache Directory](https://github.com/apache?q=directory-)
-    - [directory-project](https://github.com/apache/directory-project)
+    - ~~[directory-project](https://github.com/apache/directory-project)~~
     - [directory-buildtools](https://github.com/apache/directory-buildtools)
     - [directory-scimple](https://github.com/apache/directory-scimple)
     - [directory-ldap-api](https://github.com/apache/directory-ldap-api)
@@ -185,7 +185,7 @@ vs fork with package names rework (to avoid any conflict)
   - Hibernate
   - JBPM
   - Neo4j
-  - [OWASP Dependency Check](https://github.com/jeremylong/DependencyCheck)
+  - ~~[OWASP Dependency Check](https://github.com/jeremylong/DependencyCheck)~~
   - [Webjars](https://github.com/webjars)
   - ~~WSO2 Carbon [PR #50](https://github.com/wso2/carbon-parent/pull/50)~~ to be merged
   - XWiki
@@ -213,6 +213,8 @@ vs fork with package names rework (to avoid any conflict)
   - [JFlex Maven Plugin](https://github.com/jflex-de/jflex) generates .java files containing current timestamp
   - ~~[org.jboss.jandex:jandex-maven-plugin](https://github.com/wildfly/jandex-maven-plugin) [PR#26](https://github.com/wildfly/jandex-maven-plugin/pull/26)~~ .idx, merged in 1.1.1
   - ~~[Felix Maven Bundle Plugin PR #115](https://github.com/apache/felix-dev/pull/115)~~
+  - ~~[ServiceMix SM-5021](https://github.com/apache/servicemix-maven-plugins/commit/3010f6e97c54bb66558f4e2f2c203e910d203a62)~~
+  - [XBean Spring](https://github.com/jvm-repo-rebuild/reproducible-central/issues/84)
 - check if plugins are able to produce reproducible output:
   - Quarkus
   - [Jenkins hpi plugin](https://github.com/jenkinsci/maven-hpi-plugin)
