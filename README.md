@@ -215,6 +215,7 @@ vs fork with package names rework (to avoid any conflict)
   - ~~[Felix Maven Bundle Plugin PR #115](https://github.com/apache/felix-dev/pull/115)~~
   - ~~[ServiceMix SM-5021](https://github.com/apache/servicemix-maven-plugins/commit/3010f6e97c54bb66558f4e2f2c203e910d203a62)~~
   - [XBean Spring](https://github.com/jvm-repo-rebuild/reproducible-central/issues/84)
+  - [Checkstyle](https://github.com/checkstyle/checkstyle)
 - check if plugins are able to produce reproducible output:
   - Quarkus
   - [Jenkins hpi plugin](https://github.com/jenkinsci/maven-hpi-plugin)
