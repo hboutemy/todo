@@ -148,6 +148,7 @@ vs fork with package names rework (to avoid any conflict)
   - ~~[XStream PR#256](https://github.com/x-stream/xstream/pull/256)~~
   - ~~[Package URL Java](https://github.com/package-url/packageurl-java) [PR #23](https://github.com/package-url/packageurl-java/pull/23)~~
   - [Quarkus](https://github.com/quarkusio/quarkus)
+  - [Jackson *](https://github.com/FasterXML)
   - [Jenkins](https://github.com/jenkinsci/jenkins)
   - [Jakarta EE APIs and RIs](https://github.com/eclipse-ee4j)
     - ~~[ee4j parent PR #71](https://github.com/eclipse-ee4j/ee4j/pull/71)~~ to be merged
@@ -186,7 +187,7 @@ vs fork with package names rework (to avoid any conflict)
   - JBPM
   - Neo4j
   - ~~[OWASP Dependency Check](https://github.com/jeremylong/DependencyCheck)~~
-  - [Webjars](https://github.com/webjars)
+  - ~~[Webjars](https://github.com/webjars)~~
   - ~~WSO2 Carbon [PR #50](https://github.com/wso2/carbon-parent/pull/50)~~ to be merged
   - XWiki
   - [Airbus Cybersecurity Graylog plugins](https://github.com/airbus-cyber?q=graylog)
@@ -219,6 +220,7 @@ vs fork with package names rework (to avoid any conflict)
 - check if plugins are able to produce reproducible output:
   - Quarkus
   - [Jenkins hpi plugin](https://github.com/jenkinsci/maven-hpi-plugin)
+  - [Provisio](https://github.com/jvanzyl/provisio)
 - provide process/tooling to check dependencies (projects dependencies, but also build dependencies, ie parent+plugins+their deps)
 
 ## CycloneDX SBOM
