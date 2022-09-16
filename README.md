@@ -148,7 +148,7 @@ vs fork with package names rework (to avoid any conflict)
   - ~~[XStream PR#256](https://github.com/x-stream/xstream/pull/256)~~
   - ~~[Package URL Java](https://github.com/package-url/packageurl-java) [PR #23](https://github.com/package-url/packageurl-java/pull/23)~~
   - [Quarkus](https://github.com/quarkusio/quarkus)
-  - [Jackson *](https://github.com/FasterXML)
+  - [Jackson *](https://github.com/FasterXML): oss-parent [PR #31](https://github.com/FasterXML/oss-parent/pull/31), [jackson-parent](https://github.com/FasterXML/jackson-parent), [jackson-bom](https://github.com/FasterXML/jackson-bom)
   - [Jenkins](https://github.com/jenkinsci/jenkins)
   - [Jakarta EE APIs and RIs](https://github.com/eclipse-ee4j)
     - ~~[ee4j parent PR #71](https://github.com/eclipse-ee4j/ee4j/pull/71)~~ to be merged
