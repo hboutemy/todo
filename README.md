@@ -205,7 +205,7 @@ vs fork with package names rework (to avoid any conflict)
   - ~~[JFlex](https://jflex.de/) [PR#765](https://github.com/jflex-de/jflex/pull/765)~~ to be merged
   - ~~[Fabric8 Kubernetes Client](http://fabric8.io/) [PR#2604](https://github.com/fabric8io/kubernetes-client/pull/2604)~~
   - ~~hazendaz/base-parent [PR#332](https://github.com/hazendaz/base-parent/pull/332)~~
-  - spotbug-maven-plugin [GH waiting for base-parent 32](https://github.com/spotbugs/spotbugs-maven-plugin)
+  - ~~spotbug-maven-plugin [PR 491](https://github.com/spotbugs/spotbugs-maven-plugin/pull/491)~~
   - [git-commit-id-maven-plugin](https://github.com/git-commit-id/git-commit-id-maven-plugin)
 - fix plugins issues to produce reproducible output:
   - ~~maven-remote-resources-plugin 1.7.0 with [MRRESOURCES-114](https://issues.apache.org/jira/browse/MRRESOURCES-114)~~
