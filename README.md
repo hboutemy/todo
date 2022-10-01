@@ -179,7 +179,7 @@ vs fork with package names rework (to avoid any conflict)
     - https://github.com/apache/felix-dev/blob/master/inventory/pom.xml
     - https://github.com/apache/felix-dev/blob/master/configadmin-plugins/interpolation/pom.xml
   - ~~Apache WSS4J https://github.com/apache/ws-wss4j~~
-  - [Apache Johnzon](https://github.com/apache/johnzon)
+  - [Apache Johnzon](https://github.com/apache/johnzon) [PR 96](https://github.com/apache/johnzon/pull/93)
   - [Apache OpenWebBeans](https://github.com/apache/openwebbeans)
   - [Apache ServiceMix](https://github.com/apache/servicemix)
   - org.apache.hbase
