@@ -185,6 +185,8 @@ vs fork with package names rework (to avoid any conflict)
   - [Apache ServiceMix](https://github.com/apache/servicemix)
   - org.apache.hbase
   - org.apache.qpid
+  - Apache Pulsar
+  - Apache Pinot
   - Hibernate
   - JBPM
   - Neo4j
@@ -209,6 +211,8 @@ vs fork with package names rework (to avoid any conflict)
   - ~~hazendaz/base-parent [PR#332](https://github.com/hazendaz/base-parent/pull/332)~~
   - ~~spotbug-maven-plugin [PR 491](https://github.com/spotbugs/spotbugs-maven-plugin/pull/491)~~
   - [git-commit-id-maven-plugin](https://github.com/git-commit-id/git-commit-id-maven-plugin)
+  - antlr3 [PR 210](https://github.com/antlr/antlr3/pull/210)
+  - ~~antlr4 [PR 3809](https://github.com/antlr/antlr4/pull/3809)~~ merged in branch dev for 4.11.2
 - fix plugins issues to produce reproducible output:
   - ~~maven-remote-resources-plugin 1.7.0 with [MRRESOURCES-114](https://issues.apache.org/jira/browse/MRRESOURCES-114)~~
   - ~~[MSHADE-352](https://issues.apache.org/jira/browse/MSHADE-352) fix m-shade-p when using transorfmer~~
@@ -221,6 +225,8 @@ vs fork with package names rework (to avoid any conflict)
   - [Checkstyle](https://github.com/checkstyle/checkstyle)
   - [Provisio](https://github.com/jvanzyl/provisio) mvnd 0.8.1 release show that output is not reproducible
   - [Moditect Maven Plugin](https://github.com/moditect/moditect) [jackson release](https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/fasterxml/jackson/core/jackson-core-2.14.0-rc1.diffoscope)
+  - antlr3 timestamp + [order PR 213](https://github.com/antlr/antlr3/pull/213)
+  - antlr4
 - check if plugins are able to produce reproducible output:
   - Quarkus
   - [Jenkins hpi plugin](https://github.com/jenkinsci/maven-hpi-plugin)
