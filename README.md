@@ -186,7 +186,7 @@ vs fork with package names rework (to avoid any conflict)
   - org.apache.hbase
   - org.apache.qpid
   - Apache Pulsar
-  - Apache Pinot
+  - Apache Pinot [PR 9750](https://github.com/apache/pinot/pull/9750)
   - Hibernate
   - JBPM
   - Neo4j
