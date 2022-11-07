@@ -185,7 +185,7 @@ vs fork with package names rework (to avoid any conflict)
   - [Apache ServiceMix](https://github.com/apache/servicemix)
   - org.apache.hbase
   - org.apache.qpid
-  - Apache Pulsar
+  - Apache Pulsar [PR 18376](https://github.com/apache/pulsar/pull/18376) need Nifi-nar-maven-plugin de.ntcomputer:executable-packer-maven-plugin
   - Apache Pinot [PR 9750](https://github.com/apache/pinot/pull/9750)
   - Hibernate
   - JBPM
