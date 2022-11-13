@@ -74,10 +74,14 @@ My Maven TODO list
 - Downloading/downloaded messages: darker ANSI display
 
 ## Core 4
+<details><summary>4.0.0-alpha-2</summary>
+
 - ~~[MNG-6562](https://issues.apache.org/jira/browse/MNG-6562) WARN if plugins injected by default lifecycle bindings don't have their version locked in pom.xml or parent~~
 - ~~[MNG-6656](https://issues.apache.org/jira/browse/MNG-6656) [Build vs Consumer POM](https://cwiki.apache.org/confluence/display/MAVEN/Build+vs+Consumer+POM)~~
-- [MNG-5001](https://issues.apache.org/jira/browse/MNG-5001) @readonly Mojo parameter annotation doesn't work
 - ~~[MNG-5222](https://issues.apache.org/jira/browse/MNG-5222) warn when using deprecated plugin parameter~~
+</details>
+
+- [MNG-5001](https://issues.apache.org/jira/browse/MNG-5001) @readonly Mojo parameter annotation doesn't work
 - [MNG-6772](https://issues.apache.org/jira/browse/MNG-6772) dependencyManagement import and repositories defined in pom.xml
 - [MNG-4645](https://issues.apache.org/jira/browse/MNG-4645) define central in settings.xml
 - [MNG-6795](https://issues.apache.org/jira/browse/MNG-6795) define a replacement for ReasonPhrase to display details about transfert failures
@@ -138,7 +142,7 @@ vs fork with package names rework (to avoid any conflict)
 
 - [dist-tool-plugin](https://builds.apache.org/view/M-R/view/Maven/job/dist-tool-plugin/site/) report on reproducibility for Maven projects
 - (DREAM) provide a GitHub badge showing that a project has Reproducible Build with link to [reproducible central](https://github.com/jvm-repo-rebuild/reproducible-central) proof
-- add Maven to [RB's "who is involved"](https://reproducible-builds.org/who/)
+- ~~add Maven to [RB's "who is involved"](https://reproducible-builds.org/who/projects/)~~
 - provide PRs to make projects builds reproducible:
   - ~~AWS java SDK [PR #2223](https://github.com/aws/aws-sdk-java/pull/2223)~~ to be merged
   - ~~AWS SDK for Java v2 [PR #1759](https://github.com/aws/aws-sdk-java-v2/pull/1759)~~ to be merged
@@ -180,7 +184,7 @@ vs fork with package names rework (to avoid any conflict)
     - https://github.com/apache/felix-dev/blob/master/inventory/pom.xml
     - https://github.com/apache/felix-dev/blob/master/configadmin-plugins/interpolation/pom.xml
   - ~~Apache WSS4J https://github.com/apache/ws-wss4j~~
-  - [Apache Johnzon](https://github.com/apache/johnzon) [PR 96](https://github.com/apache/johnzon/pull/93)
+  - ~~[Apache Johnzon](https://github.com/apache/johnzon) [PR 96](https://github.com/apache/johnzon/pull/93)~~
   - [Apache OpenWebBeans](https://github.com/apache/openwebbeans)
   - [Apache ServiceMix](https://github.com/apache/servicemix)
   - org.apache.hbase
@@ -197,8 +201,8 @@ vs fork with package names rework (to avoid any conflict)
   - [Airbus Cybersecurity Graylog plugins](https://github.com/airbus-cyber?q=graylog)
   - ~~[Guiced EE](https://guicedee.com/) [PR#3](https://github.com/GedMarc/JWebMPDevKit/pull/3)~~
   - Liferay
-  - Cucumber
-  - Vertx
+  - [Cucumber](https://github.com/cucumber)
+  - [Vertx](https://github.com/eclipse-vertx/vert.x)
   - [Google Cloud Java client libraries](https://github.com/googleapis/java-shared-config)
   - ~~[Micronaut Maven plugin](https://github.com/micronaut-projects/micronaut-maven-plugin) [PR#11](https://github.com/micronaut-projects/micronaut-maven-plugin/pull/11)~~ merged for 1.0.0.RC4
   - ~~[Swagger PR #3841](https://github.com/swagger-api/swagger-core/pull/3841)~~ to be merged
