@@ -202,7 +202,8 @@ vs fork with package names rework (to avoid any conflict)
   - ~~[Guiced EE](https://guicedee.com/) [PR#3](https://github.com/GedMarc/JWebMPDevKit/pull/3)~~
   - Liferay
   - [Cucumber](https://github.com/cucumber)
-  - [Vertx](https://github.com/eclipse-vertx/vert.x)
+  - [Vertx](https://github.com/eclipse-vertx/vert.x) [PR 4537](https://github.com/eclipse-vertx/vert.x/pull/4537)
+  - Vertx SQL Client [PR 1256](https://github.com/eclipse-vertx/vertx-sql-client/pull/1256)
   - [Google Cloud Java client libraries](https://github.com/googleapis/java-shared-config)
   - ~~[Micronaut Maven plugin](https://github.com/micronaut-projects/micronaut-maven-plugin) [PR#11](https://github.com/micronaut-projects/micronaut-maven-plugin/pull/11)~~ merged for 1.0.0.RC4
   - ~~[Swagger PR #3841](https://github.com/swagger-api/swagger-core/pull/3841)~~ to be merged
