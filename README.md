@@ -201,7 +201,7 @@ vs fork with package names rework (to avoid any conflict)
   - [Airbus Cybersecurity Graylog plugins](https://github.com/airbus-cyber?q=graylog)
   - ~~[Guiced EE](https://guicedee.com/) [PR#3](https://github.com/GedMarc/JWebMPDevKit/pull/3)~~
   - Liferay
-  - [Cucumber](https://github.com/cucumber)
+  - [Cucumber](https://github.com/cucumber) [PR 2641](https://github.com/cucumber/cucumber-jvm/pull/2641)
   - [Vertx](https://github.com/eclipse-vertx/vert.x) [PR 4537](https://github.com/eclipse-vertx/vert.x/pull/4537)
   - Vertx SQL Client [PR 1256](https://github.com/eclipse-vertx/vertx-sql-client/pull/1256)
   - [Google Cloud Java client libraries](https://github.com/googleapis/java-shared-config)
