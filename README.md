@@ -201,7 +201,7 @@ vs fork with package names rework (to avoid any conflict)
   - [Airbus Cybersecurity Graylog plugins](https://github.com/airbus-cyber?q=graylog)
   - ~~[Guiced EE](https://guicedee.com/) [PR#3](https://github.com/GedMarc/JWebMPDevKit/pull/3)~~
   - Liferay
-  - [Cucumber](https://github.com/cucumber) [PR 2641](https://github.com/cucumber/cucumber-jvm/pull/2641)
+  - ~~[Cucumber](https://github.com/cucumber) [PR 2641](https://github.com/cucumber/cucumber-jvm/pull/2641)~~
   - [Vertx](https://github.com/eclipse-vertx/vert.x) [PR 4537](https://github.com/eclipse-vertx/vert.x/pull/4537)
   - Vertx SQL Client [PR 1256](https://github.com/eclipse-vertx/vertx-sql-client/pull/1256)
   - [Google Cloud Java client libraries](https://github.com/googleapis/java-shared-config)
@@ -216,6 +216,8 @@ vs fork with package names rework (to avoid any conflict)
   - ~~hazendaz/base-parent [PR#332](https://github.com/hazendaz/base-parent/pull/332)~~
   - ~~spotbug-maven-plugin [PR 491](https://github.com/spotbugs/spotbugs-maven-plugin/pull/491)~~
   - [git-commit-id-maven-plugin](https://github.com/git-commit-id/git-commit-id-maven-plugin)
+    - [PR 599](https://github.com/git-commit-id/git-commit-id-maven-plugin/pull/599)
+    - disable non-reproducible entries when Reproducible Builds is activated
   - antlr3 [PR 210](https://github.com/antlr/antlr3/pull/210)
   - ~~antlr4 [PR 3809](https://github.com/antlr/antlr4/pull/3809)~~ merged in branch dev for 4.11.2
 - fix plugins issues to produce reproducible output:
