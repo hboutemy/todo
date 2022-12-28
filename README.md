@@ -85,7 +85,7 @@ My Maven TODO list
 - [MNG-6772](https://issues.apache.org/jira/browse/MNG-6772) dependencyManagement import and repositories defined in pom.xml
 - [MNG-4645](https://issues.apache.org/jira/browse/MNG-4645) define central in settings.xml
 - [MNG-6795](https://issues.apache.org/jira/browse/MNG-6795) define a replacement for ReasonPhrase to display details about transfert failures
-- [MNG-6763](https://issues.apache.org/jira/browse/MNG-6763) Restrict repositories to specific groupIds
+- [MNG-6763](https://issues.apache.org/jira/browse/MNG-6763) Restrict repositories to specific groupIds: see https://github.com/cstamas/rrf-demo
 - [MNG-5588](https://issues.apache.org/jira/browse/MNG-5588) provide easy way to define default plugins versions (after MNG-6562): pluginManagement import like dependencyManagement
 - [MNG-6682](https://issues.apache.org/jira/browse/MNG-6682) source-release dependency type
 - [jansi Windows perf improvements](https://github.com/fusesource/jansi/pull/150)
