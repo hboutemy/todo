@@ -71,6 +71,10 @@ My Maven TODO list
 - ~~[MNG-7438](https://issues.apache.org/jira/browse/MNG-7438) add execution id to "Configuring mojo xxx with basic configurator" debug message~~
 - ~~[MNG-7353](https://issues.apache.org/jira/browse/MNG-7353) add support for "mvn plugin:version:goal"~~
 - ~~[MNG-7501](https://issues.apache.org/jira/browse/MNG-7501) display relative path to pom.xml~~
+
+3.9.1
+- ~~[MNG-5185](https://issues.apache.org/jira/browse/MNG-5185) Improve "missing dependency" error message when _maven.repositories/_remote.repositories contains other repository ids than requested~~
+- [MNG-7001](https://issues.apache.org/jira/browse/MNG-7001) more...
 - Downloading/downloaded messages: darker ANSI display
 
 ## Core 4
