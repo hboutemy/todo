@@ -1,6 +1,8 @@
 My Maven TODO list
 =========
 
+- [shading discussion](https://yauaa.basjes.nl/developer/shadingdependencies/)
+
 <details><summary>past</summary>
 
 ## Core 3.5.x
