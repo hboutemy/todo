@@ -2,6 +2,12 @@ My Maven TODO list
 =========
 
 - [shading discussion](https://yauaa.basjes.nl/developer/shadingdependencies/)
+- bytebuddy JDK 1.8.0_362 vs previous
+- flatten-maven-plugin: sisu Named used as compiler apt
+- felix [maven-bundle-plugin](https://repo1.maven.org/maven2/org/apache/felix/maven-bundle-plugin/) waiting for 5.1.9 including [FELIX-6602](https://issues.apache.org/jira/browse/FELIX-6602)
+- [moditect](https://github.com/moditect/moditect) waiting for 1.0.0 release
+- pure RB
+- assembly umask 022
 
 <details><summary>past</summary>
 
