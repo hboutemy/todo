@@ -8,6 +8,8 @@ My Maven TODO list
 - [moditect](https://github.com/moditect/moditect) waiting for 1.0.0 release
 - pure RB
 - assembly umask 022
+- plexus-utils + plexus-xml https://github.com/codehaus-plexus/plexus-utils/pull/236
+- at end phase
 
 <details><summary>past</summary>
 
