@@ -9,7 +9,7 @@ My Maven TODO list
 - pure RB
 - assembly umask 022
 - plexus-utils + plexus-xml https://github.com/codehaus-plexus/plexus-utils/pull/236
-- at end phase
+- at end phase https://maven.apache.org/ref/3.9.1/maven-core/apidocs/org/apache/maven/lifecycle/LifecycleExecutor.html
 
 <details><summary>past</summary>
 
