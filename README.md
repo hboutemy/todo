@@ -3,12 +3,11 @@ My Maven TODO list
 
 - [shading discussion](https://yauaa.basjes.nl/developer/shadingdependencies/)
 - bytebuddy JDK 1.8.0_362 vs previous
-- flatten-maven-plugin: sisu Named used as compiler apt
-- felix [maven-bundle-plugin](https://repo1.maven.org/maven2/org/apache/felix/maven-bundle-plugin/) waiting for 5.1.9 including [FELIX-6602](https://issues.apache.org/jira/browse/FELIX-6602)
+- ~~felix [maven-bundle-plugin](https://repo1.maven.org/maven2/org/apache/felix/maven-bundle-plugin/) 5.1.9 including [FELIX-6602](https://issues.apache.org/jira/browse/FELIX-6602)~~
 - ~~[moditect](https://github.com/moditect/moditect) waiting for 1.0.0 release~~
-- upgrade moditect to 1.0.0.Final in [Jackson OSS parent](https://github.com/FasterXML/oss-parent/blob/master/pom.xml#L128)
+- ~~upgrade moditect to 1.0.0.Final in [Jackson OSS parent](https://github.com/FasterXML/oss-parent/blob/master/pom.xml#L128)~~
 - pure RB
-- assembly umask 022
+- ~~assembly umask 022~~
 - plexus-utils + plexus-xml https://github.com/codehaus-plexus/plexus-utils/pull/236
 - at end phase https://maven.apache.org/ref/3.9.1/maven-core/apidocs/org/apache/maven/lifecycle/LifecycleExecutor.html
 
