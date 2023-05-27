@@ -10,6 +10,7 @@ My Maven TODO list
 - ~~assembly umask 022~~
 - plexus-utils + plexus-xml https://github.com/codehaus-plexus/plexus-utils/pull/236
 - at end phase https://maven.apache.org/ref/3.9.1/maven-core/apidocs/org/apache/maven/lifecycle/LifecycleExecutor.html
+- `MAVEN_OPTS="-Dorg.slf4j.simpleLogger.showLogName=true" mvn clean verify`
 
 <details><summary>past</summary>
 
