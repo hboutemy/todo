@@ -104,6 +104,7 @@ My Maven TODO list
 - [MNG-5588](https://issues.apache.org/jira/browse/MNG-5588) provide easy way to define default plugins versions (after MNG-6562): pluginManagement import like dependencyManagement
 - [MNG-6682](https://issues.apache.org/jira/browse/MNG-6682) source-release dependency type
 - [jansi Windows perf improvements](https://github.com/fusesource/jansi/pull/150)
+- [MNG-5697](https://issues.apache.org/jira/browse/MNG-5697) remove LifecycleMapping (/) and ArtifactHandler (x) from maven-core: move to target packaging plugin
 
 ## Core future
 - [relocation](https://maven.apache.org/guides/mini/guide-relocation.html) (poi:poi becomes officially org.apache.poi:poi)\
