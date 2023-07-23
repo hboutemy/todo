@@ -84,9 +84,10 @@ My Maven TODO list
 - ~~[MNG-7501](https://issues.apache.org/jira/browse/MNG-7501) display relative path to pom.xml~~
 
 3.9.1
-- ~~[MNG-5185](https://issues.apache.org/jira/browse/MNG-5185) Improve "missing dependency" error message when _maven.repositories/_remote.repositories contains other repository ids than requested~~
+- ~~[MNG-5185](https://issues.apache.org/jira/browse/MNG-5185) Improve "missing dependency" error message when _maven.repositories/_remote.repositories contains other repository ids than requested: if artifact not found, display which repositories were searched, with info on where the repository was defined (settings, pom) and how settings' mirrorOf affected the result)~~
 - [MNG-7001](https://issues.apache.org/jira/browse/MNG-7001) more...
 - Downloading/downloaded messages: darker ANSI display
+
 
 ## Core 4
 <details><summary>4.0.0-alpha-2</summary>
@@ -122,7 +123,7 @@ vs fork with package names rework (to avoid any conflict)
 - ~~[mvnd](https://github.com/mvndaemon/mvnd) daemon and multi-threaded display~~
 - ~~[MNG-7129](https://issues.apache.org/jira/browse/MNG-7129) Deutsche Bank incremental build and cache~~
 - [MVNCENTRAL-1365](https://issues.sonatype.org/browse/MVNCENTRAL-1365) Olaf [ApacheCon BigData Sevilla 2016 talk](https://apachebigdataeu2016.sched.com/event/8U07/attacking-a-big-data-developer-olaf-flebbe-sciencecomputing-ag) [slides](http://events17.linuxfoundation.org/sites/events/files/slides/AttackingBigDataDeveloper_0.pdf) and [ApacheCon Berlin 2018 IoT update](https://oflebbe.de/presentations/2018/attackingiotdev.pdf)
-- [MNG-5185](https://issues.apache.org/jira/browse/MNG-5185) Improve "missing dependency" error message when _maven.repositories/_remote.repositories contains other repository ids than requested: if artifact not found, display which repositories were searched, with info on where the repository was defined (settings, pom) and how settings' mirrorOf affected the result)
+- [MPH-183](https://issues.apache.org/jira/projects/MPH/issues/MPH-183) / [MNG-7344](https://issues.apache.org/jira/browse/MNG-7344) Effective-pom + verbose should show import path to BOM dependencyManagement import
 
 ## [Reproducible/Verifiable Builds](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=74682318)
 <details><summary>done</summary>
