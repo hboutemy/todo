@@ -257,7 +257,8 @@ vs fork with package names rework (to avoid any conflict)
 - provide process/tooling to check dependencies (projects dependencies, but also build dependencies, ie parent+plugins+their deps)
 - interesting cases in the wild:
   - https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/com/flowlogix/flowlogix-7.0.2.diffoscope
-
+  - OS details https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/dubbo/dubbo-parent-3.1.9.diffoscope
+ 
 ## CycloneDX SBOM
 - ActiveMQ
 - Apache Directory Server
