@@ -261,6 +261,7 @@ vs fork with package names rework (to avoid any conflict)
   - non-reference dependencies detected by CycloneDX https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/maven/parent/maven-parent-40.diffoscope
   - JDK patch version in module-info.class https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/io/smallrye/jandex/jandex-parent-3.1.2.diffoscope
   - release build polluted by Eclipse m2e output https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/spdx/spdx-maven-plugin/README.md
+  - 1 non-reproducible tests.jar https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/jspwiki/README.md
  
 ## CycloneDX SBOM
 - ActiveMQ
