@@ -264,6 +264,7 @@ vs fork with package names rework (to avoid any conflict)
   - 1 non-reproducible tests.jar https://github.com/jvm-repo-rebuild/reproducible-central/blob/master/content/org/apache/jspwiki/README.md
   - specific way to build from git checkout https://github.com/jvm-repo-rebuild/reproducible-central/tree/master/content/io/jstach/jstachio/README.md
   - require timezone specification
+  - [semantically reproducible](https://lists.reproducible-builds.org/pipermail/rb-general/2023-June/)
  
 ## CycloneDX SBOM
 - ActiveMQ
