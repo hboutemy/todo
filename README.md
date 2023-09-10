@@ -86,7 +86,7 @@ My Maven TODO list
 3.9.1
 - ~~[MNG-5185](https://issues.apache.org/jira/browse/MNG-5185) Improve "missing dependency" error message when _maven.repositories/_remote.repositories contains other repository ids than requested: if artifact not found, display which repositories were searched, with info on where the repository was defined (settings, pom) and how settings' mirrorOf affected the result)~~
 - [MNG-7001](https://issues.apache.org/jira/browse/MNG-7001) more...
-- Downloading/downloaded messages: darker ANSI display
+- [MNG-7875](https://issues.apache.org/jira/browse/MNG-7875) Downloading/downloaded messages: darker ANSI display
 
 
 ## Core 4
