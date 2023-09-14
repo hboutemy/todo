@@ -5,10 +5,11 @@ My Maven TODO list
 - bytebuddy JDK 1.8.0_362 vs previous
 - ~~felix [maven-bundle-plugin](https://repo1.maven.org/maven2/org/apache/felix/maven-bundle-plugin/) 5.1.9 including [FELIX-6602](https://issues.apache.org/jira/browse/FELIX-6602)~~
 - ~~[moditect](https://github.com/moditect/moditect) waiting for 1.0.0 release~~
+- [moditect issue 199](https://github.com/moditect/moditect/issues/199) modified time
 - ~~upgrade moditect to 1.0.0.Final in [Jackson OSS parent](https://github.com/FasterXML/oss-parent/blob/master/pom.xml#L128)~~
 - pure RB
 - ~~assembly umask 022~~
-- plexus-utils + plexus-xml https://github.com/codehaus-plexus/plexus-utils/pull/236
+- ~~plexus-utils + plexus-xml https://github.com/codehaus-plexus/plexus-utils/pull/236~~
 - at end phase https://maven.apache.org/ref/3.9.1/maven-core/apidocs/org/apache/maven/lifecycle/LifecycleExecutor.html
 - `MAVEN_OPTS="-Dorg.slf4j.simpleLogger.showLogName=true" mvn clean verify`
 
@@ -85,8 +86,11 @@ My Maven TODO list
 
 3.9.1
 - ~~[MNG-5185](https://issues.apache.org/jira/browse/MNG-5185) Improve "missing dependency" error message when _maven.repositories/_remote.repositories contains other repository ids than requested: if artifact not found, display which repositories were searched, with info on where the repository was defined (settings, pom) and how settings' mirrorOf affected the result)~~
-- [MNG-7001](https://issues.apache.org/jira/browse/MNG-7001) more...
+
+3.9.5
 - [MNG-7875](https://issues.apache.org/jira/browse/MNG-7875) Downloading/downloaded messages: darker ANSI display
+- [MPH-183](https://issues.apache.org/jira/projects/MPH/issues/MPH-183) / [MNG-7344](https://issues.apache.org/jira/browse/MNG-7344) Effective-pom + verbose should show import path to BOM dependencyManagement import
+- [MNG-7001](https://issues.apache.org/jira/browse/MNG-7001) more...
 
 
 ## Core 4
@@ -123,7 +127,6 @@ vs fork with package names rework (to avoid any conflict)
 - ~~[mvnd](https://github.com/mvndaemon/mvnd) daemon and multi-threaded display~~
 - ~~[MNG-7129](https://issues.apache.org/jira/browse/MNG-7129) Deutsche Bank incremental build and cache~~
 - [MVNCENTRAL-1365](https://issues.sonatype.org/browse/MVNCENTRAL-1365) Olaf [ApacheCon BigData Sevilla 2016 talk](https://apachebigdataeu2016.sched.com/event/8U07/attacking-a-big-data-developer-olaf-flebbe-sciencecomputing-ag) [slides](http://events17.linuxfoundation.org/sites/events/files/slides/AttackingBigDataDeveloper_0.pdf) and [ApacheCon Berlin 2018 IoT update](https://oflebbe.de/presentations/2018/attackingiotdev.pdf)
-- [MPH-183](https://issues.apache.org/jira/projects/MPH/issues/MPH-183) / [MNG-7344](https://issues.apache.org/jira/browse/MNG-7344) Effective-pom + verbose should show import path to BOM dependencyManagement import
 
 ## [Reproducible/Verifiable Builds](https://cwiki.apache.org/confluence/pages/viewpage.action?pageId=74682318)
 <details><summary>done</summary>
