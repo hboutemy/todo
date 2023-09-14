@@ -5,8 +5,8 @@ My Maven TODO list
 - bytebuddy JDK 1.8.0_362 vs previous
 - ~~felix [maven-bundle-plugin](https://repo1.maven.org/maven2/org/apache/felix/maven-bundle-plugin/) 5.1.9 including [FELIX-6602](https://issues.apache.org/jira/browse/FELIX-6602)~~
 - ~~[moditect](https://github.com/moditect/moditect) waiting for 1.0.0 release~~
-- [moditect issue 199](https://github.com/moditect/moditect/issues/199) modified time
 - ~~upgrade moditect to 1.0.0.Final in [Jackson OSS parent](https://github.com/FasterXML/oss-parent/blob/master/pom.xml#L128)~~
+- [moditect issue 199](https://github.com/moditect/moditect/issues/199) modified time
 - pure RB
 - ~~assembly umask 022~~
 - ~~plexus-utils + plexus-xml https://github.com/codehaus-plexus/plexus-utils/pull/236~~
@@ -88,7 +88,7 @@ My Maven TODO list
 - ~~[MNG-5185](https://issues.apache.org/jira/browse/MNG-5185) Improve "missing dependency" error message when _maven.repositories/_remote.repositories contains other repository ids than requested: if artifact not found, display which repositories were searched, with info on where the repository was defined (settings, pom) and how settings' mirrorOf affected the result)~~
 
 3.9.5
-- [MNG-7875](https://issues.apache.org/jira/browse/MNG-7875) Downloading/downloaded messages: darker ANSI display
+- ~~[MNG-7875](https://issues.apache.org/jira/browse/MNG-7875) Downloading/downloaded messages: darker ANSI display~~
 - [MPH-183](https://issues.apache.org/jira/projects/MPH/issues/MPH-183) / [MNG-7344](https://issues.apache.org/jira/browse/MNG-7344) Effective-pom + verbose should show import path to BOM dependencyManagement import
 - [MNG-7001](https://issues.apache.org/jira/browse/MNG-7001) more...
 
@@ -101,9 +101,10 @@ My Maven TODO list
 - ~~[MNG-5222](https://issues.apache.org/jira/browse/MNG-5222) warn when using deprecated plugin parameter~~
 </details>
 
+- ~~[MNG-4645](https://issues.apache.org/jira/browse/MNG-4645) define central in settings.xml~~
+
 - [MNG-5001](https://issues.apache.org/jira/browse/MNG-5001) @readonly Mojo parameter annotation doesn't work
 - [MNG-6772](https://issues.apache.org/jira/browse/MNG-6772) dependencyManagement import and repositories defined in pom.xml
-- [MNG-4645](https://issues.apache.org/jira/browse/MNG-4645) define central in settings.xml
 - [MNG-6795](https://issues.apache.org/jira/browse/MNG-6795) define a replacement for ReasonPhrase to display details about transfert failures
 - [MNG-6763](https://issues.apache.org/jira/browse/MNG-6763) Restrict repositories to specific groupIds: see https://github.com/cstamas/rrf-demo
 - [MNG-5588](https://issues.apache.org/jira/browse/MNG-5588) provide easy way to define default plugins versions (after MNG-6562): pluginManagement import like dependencyManagement
