@@ -398,6 +398,7 @@ vs fork with package names rework (to avoid any conflict)
 Other
 =====
 
-scope of dependencies: Maven (scope), Gradle (configuration), NPM (development), Composer (isDevRequirement), Poetry (group) and Pipenv (category) 
+scope of dependencies: Maven (scope), Gradle (configuration), NPM (development), Composer (isDevRequirement), Poetry (group) and Pipenv (category)
+ n the SBOM via [property](https://github.com/CycloneDX/cyclonedx-property-taxonomy/tree/main/cdx) (because every ecosystem has an own name, own well-known values, ...)
 
 - Attic 
