@@ -89,6 +89,7 @@ My Maven TODO list
 
 3.9.5
 - ~~[MNG-7875](https://issues.apache.org/jira/browse/MNG-7875) Downloading/downloaded messages: darker ANSI display~~
+  - [MNG-8300](https://issues.apache.org/jira/browse/MNG-8300) broken in 4.0.0-alpha-11 to 4.0.0-beta-4
 - [MPH-183](https://issues.apache.org/jira/projects/MPH/issues/MPH-183) / [MNG-7344](https://issues.apache.org/jira/browse/MNG-7344) Effective-pom + verbose should show import path to BOM dependencyManagement import
 - [MNG-7001](https://issues.apache.org/jira/browse/MNG-7001) more...
 
@@ -112,6 +113,7 @@ My Maven TODO list
 - [MNG-6682](https://issues.apache.org/jira/browse/MNG-6682) source-release dependency type
 - [jansi Windows perf improvements](https://github.com/fusesource/jansi/pull/150)
 - [MNG-5697](https://issues.apache.org/jira/browse/MNG-5697) remove LifecycleMapping (/) and ArtifactHandler (x) from maven-core: move to target packaging plugin
+- [MNG-8283](https://issues.apache.org/jira/browse/MNG-8283) Tamasz's CLI ng
 
 ## Core future
 - [relocation](https://maven.apache.org/guides/mini/guide-relocation.html) (poi:poi becomes officially org.apache.poi:poi)\
