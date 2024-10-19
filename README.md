@@ -6,10 +6,11 @@ My Maven TODO list
 - ~~felix [maven-bundle-plugin](https://repo1.maven.org/maven2/org/apache/felix/maven-bundle-plugin/) 5.1.9 including [FELIX-6602](https://issues.apache.org/jira/browse/FELIX-6602)~~
 - ~~[moditect](https://github.com/moditect/moditect) waiting for 1.0.0 release~~
 - ~~upgrade moditect to 1.0.0.Final in [Jackson OSS parent](https://github.com/FasterXML/oss-parent/blob/master/pom.xml#L128)~~
-- [moditect issue 199](https://github.com/moditect/moditect/issues/199) modified time
-- pure RB
+- ~~[moditect issue 199](https://github.com/moditect/moditect/issues/199) modified time~~
+- ~~pure RB~~
 - ~~assembly umask 022~~
 - ~~plexus-utils + plexus-xml https://github.com/codehaus-plexus/plexus-utils/pull/236~~
+- fix aggregator CLI limmitation: current workarounds = atEnd strategy, profile with `defaultGoal`, target TBD
 - at end phase https://maven.apache.org/ref/3.9.1/maven-core/apidocs/org/apache/maven/lifecycle/LifecycleExecutor.html
 - `MAVEN_OPTS="-Dorg.slf4j.simpleLogger.showLogName=true" mvn clean verify`
 
@@ -122,7 +123,6 @@ vs fork with classes conflict (a wanted fork but keeping same package names for 
 vs fork with package names rework (to avoid any conflict)
 - [MNG-5814](https://issues.apache.org/jira/browse/MNG-5814) check signature of plugins against trusted list
 - ascii progress bar, probably using ansi escape codes
-- fix aggregator CLI limmitation: current workarounds = atEnd strategy, profile with `defaultGoal`, target TBD
 - check artifact magic numbers, at least for zips, to detect download failures without downloading sha1 files (see [test case](https://github.com/Arnaud-Nauwynck/test-snippets/tree/master/test-http-repo))
 - [MNG-5689](https://issues.apache.org/jira/browse/MNG-5689) define strict checksum per repository
 - [MNG-6679](https://issues.apache.org/jira/browse/MNG-6679)/[MRESOLVER-90](https://issues.apache.org/jira/browse/MRESOLVER-90) HTML content in POM: Maven should validate content before storing in local repo
