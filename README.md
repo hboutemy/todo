@@ -122,6 +122,7 @@ vs fork with classes conflict (a wanted fork but keeping same package names for 
 vs fork with package names rework (to avoid any conflict)
 - [MNG-5814](https://issues.apache.org/jira/browse/MNG-5814) check signature of plugins against trusted list
 - ascii progress bar, probably using ansi escape codes
+- fix aggregator CLI limmitation: current workarounds = atEnd strategy, profile with `defaultGoal`, target TBD
 - check artifact magic numbers, at least for zips, to detect download failures without downloading sha1 files (see [test case](https://github.com/Arnaud-Nauwynck/test-snippets/tree/master/test-http-repo))
 - [MNG-5689](https://issues.apache.org/jira/browse/MNG-5689) define strict checksum per repository
 - [MNG-6679](https://issues.apache.org/jira/browse/MNG-6679)/[MRESOLVER-90](https://issues.apache.org/jira/browse/MRESOLVER-90) HTML content in POM: Maven should validate content before storing in local repo
