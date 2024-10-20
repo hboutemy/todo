@@ -11,6 +11,7 @@ My Maven TODO list
 - ~~assembly umask 022~~
 - ~~plexus-utils + plexus-xml https://github.com/codehaus-plexus/plexus-utils/pull/236~~
 - [MNG-7991](https://issues.apache.org/jira/browse/MNG-7991) fix aggregator CLI limmitation: current workarounds = atEnd strategy, profile with `defaultGoal`, target TBD
+  - [MNG-8337](https://issues.apache.org/jira/browse/MNG-8337) n+1/n
 - at end phase https://maven.apache.org/ref/3.9.1/maven-core/apidocs/org/apache/maven/lifecycle/LifecycleExecutor.html
 - `MAVEN_OPTS="-Dorg.slf4j.simpleLogger.showLogName=true" mvn clean verify`
 
