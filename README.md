@@ -97,6 +97,8 @@ My Maven TODO list
 - [MPH-183](https://issues.apache.org/jira/projects/MPH/issues/MPH-183) / [MNG-7344](https://issues.apache.org/jira/browse/MNG-7344) Effective-pom + verbose should show import path to BOM dependencyManagement import
 - [MNG-7001](https://issues.apache.org/jira/browse/MNG-7001) more...
 
+3.9.10
+- [MNG-8712](https://issues.apache.org/jira/browse/MNG-8712) POM dependency version is a requirement
 
 ## Core 4
 <details><summary>4.0.0-alpha-2</summary>
