@@ -2,6 +2,8 @@ My Maven TODO list
 =========
 
 - [shading discussion](https://yauaa.basjes.nl/developer/shadingdependencies/)
+- [MSHARED-1466](https://issues.apache.org/jira/browse/MSHARED-1466) target/release JDK in MANIFEST
+- [PR 573](https://github.com/apache/maven-site/pull/573) site drop of most apt
 - bytebuddy JDK 1.8.0_362 vs previous
 - ~~felix [maven-bundle-plugin](https://repo1.maven.org/maven2/org/apache/felix/maven-bundle-plugin/) 5.1.9 including [FELIX-6602](https://issues.apache.org/jira/browse/FELIX-6602)~~
 - ~~[moditect](https://github.com/moditect/moditect) waiting for 1.0.0 release~~
