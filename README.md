@@ -101,6 +101,8 @@ My Maven TODO list
 - [MNG-8712](https://issues.apache.org/jira/browse/MNG-8712) POM dependency version is a requirement
 
 ## Core 4
+- [gnodet maven4-presentation](https://gnodet.github.io/maven4-presentation/)
+
 <details><summary>4.0.0-alpha-2</summary>
 
 - ~~[MNG-6562](https://issues.apache.org/jira/browse/MNG-6562) WARN if plugins injected by default lifecycle bindings don't have their version locked in pom.xml or parent~~
