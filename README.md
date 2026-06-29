@@ -136,6 +136,7 @@ vs fork with package names rework (to avoid any conflict)
 - provide CLI test demo program to do artifact resolution then easily debug in an IDE
 - provide CLI test demo program to launch a Maven build then easily debug in an IDE
 - import [mvnsh](https://github.com/jdillon/mvnsh)
+- [#11819](https://github.com/apache/maven/issues/11819) Redesign Maven console output: smart terminal, log file, structured summaries
 - ~~[mvnd](https://github.com/mvndaemon/mvnd) daemon and multi-threaded display~~
 - ~~[MNG-7129](https://issues.apache.org/jira/browse/MNG-7129) Deutsche Bank incremental build and cache~~
 - [MVNCENTRAL-1365](https://issues.sonatype.org/browse/MVNCENTRAL-1365) Olaf [ApacheCon BigData Sevilla 2016 talk](https://apachebigdataeu2016.sched.com/event/8U07/attacking-a-big-data-developer-olaf-flebbe-sciencecomputing-ag) [slides](http://events17.linuxfoundation.org/sites/events/files/slides/AttackingBigDataDeveloper_0.pdf) and [ApacheCon Berlin 2018 IoT update](https://oflebbe.de/presentations/2018/attackingiotdev.pdf)
