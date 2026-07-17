@@ -18,7 +18,7 @@ Maven Performance Mind Map
 - real builds to test:
   - Modello ()
   - Quarkus
-  - 
+  - Keycloak: TODO test GHA
 - investigations:
   - Surefire fork (safe process isolation) vs in-process
   - 
