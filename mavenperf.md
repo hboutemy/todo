@@ -8,6 +8,7 @@ Maven Performance Mind Map
     - `pom.xml` `project.build.extensions`,
     - 3.3.1+ project's `.mvn/extensions.xml`,
     - 3.10+ user's `~/m2/extensions.xml` or install's `{maven.home}/conf/extensions.xml`
+  - investiguer l'overhead des extensions
 - options to improve:
   - TBD: dev workflow vs CI
   - fastbuild vs with UT vs with UT & ITs
@@ -17,4 +18,7 @@ Maven Performance Mind Map
 - real builds to test:
   - Modello ()
   - Quarkus
+  - 
+- investigations:
+  - Surefire fork (safe process isolation) vs in-process
   - 
