@@ -1,6 +1,20 @@
 Maven Performance Mind Map
 ==========================
 
+[mvnflight](https://github.com/jeanbisutti/mvnflight)
+
 - measure build: 5 [extensions](https://maven.apache.org/extensions/index.html) profiler, Takari profiler, opentelemetry-maven-extension, jfr-maven-extension, maven-timeline
-- options to improve: build cache, mvnd (with smart-builder)
+  - Maven extensions [study](https://maven.apache.org/studies/extension-demo/):
+    - `pom.xml` `project.build.extensions`,
+    - 3.3.1+ project's `.mvn/extensions.xml`,
+    - 3.10+ user's `~/m2/extensions.xml` or install's `{maven.home}/conf/extensions.xml`
+- options to improve:
   - TBD: dev workflow vs CI
+  - fastbuild vs with UT vs with UT & ITs
+  - dependency cache
+  - parallel, with smart-builder in mvnd
+  - build cache (rebuild avoidance)
+- real builds to test:
+  - Modello ()
+  - Quarkus
+  - 
