@@ -9,11 +9,12 @@ Maven Performance Mind Map
     - 3.3.1+ project's `.mvn/extensions.xml`,
     - 3.10+ user's `~/m2/extensions.xml` or install's `{maven.home}/conf/extensions.xml`
   - investiguer l'overhead des extensions
-- options to improve:
+- options to improve build:
   - TBD: dev workflow vs CI
   - fastbuild vs with UT vs with UT & ITs
   - dependency cache
-  - parallel, with smart-builder in mvnd
+  - parallel, w/o or with smart-builder
+  - mvnd
   - build cache (rebuild avoidance)
 - real builds to test:
   - Modello ()
@@ -21,4 +22,8 @@ Maven Performance Mind Map
   - Keycloak: TODO test GHA
 - investigations:
   - Surefire fork (safe process isolation) vs in-process
-  - 
+  - overhead of mvnflight
+- improvements:
+  - beginning mvnflight: build summary (packaging)
+  - end mvnflight: report size, build summary
+  - dependency cache
