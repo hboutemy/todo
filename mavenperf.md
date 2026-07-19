@@ -24,6 +24,6 @@ Maven Performance Mind Map
   - Surefire fork (safe process isolation) vs in-process
   - overhead of mvnflight
 - improvements:
-  - beginning mvnflight: build summary (packaging)
-  - end mvnflight: report size, build summary
+  - ~~beginning mvnflight: build summary (packaging)~~
+  - ~~end mvnflight: report size, build summary~~
   - dependency cache
