@@ -27,3 +27,4 @@ Maven Performance Mind Map
   - ~~beginning mvnflight: build summary (packaging)~~
   - ~~end mvnflight: report size, build summary~~
   - dependency cache
+- how to compare 2 measures, to see where improvement have happened?
