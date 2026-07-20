@@ -11,7 +11,7 @@ Maven Performance Mind Map
   - investiguer l'overhead des extensions
 - options to improve build:
   - TBD: dev workflow vs CI
-  - fastbuild vs with UT vs with UT & ITs
+  - fastbuild vs with UT vs with UT & ITs, doc/site
   - dependency cache
   - parallel, w/o or with smart-builder
   - mvnd
