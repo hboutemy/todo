@@ -16,11 +16,6 @@ Maven Performance Mind Map
   - parallel, w/o or with smart-builder
   - mvnd
   - build cache (rebuild avoidance)
-- public publication, while keeping source private:
-  - Maven Central [SNAPSHOT](https://central.sonatype.org/publish/publish-portal-snapshots/): see [namespace](https://central.sonatype.org/register/namespace/#by-code-hosting-services), require [GH `mvnflight` org](https://github.com/mvnflight) to be able to deploy to `io.github.mvnflight`
-  - [GitHub packages](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-apache-maven-registry): how to have public package while keeping Git private?
-  - Jitpack.io: [price](https://jitpack.io/private#subscribe) for private Git
-  - any web server, like https://jeanbisutti.github.io/mvnflight, at least for SNAPSHOT, waiting for a decision for future releases? for example site publishing `target/repo` from `mvn clean deploy -DaltDeploymentRepository=local::file:target/repo`
 - real builds to test:
   - [Modello](https://github.com/codehaus-plexus/modello): [GHA](https://github.com/codehaus-plexus/modello/actions/workflows/maven.yml)
   - [Quarkus](https://github.com/quarkusio/quarkus): [GHA](https://github.com/quarkusio/quarkus/actions) uses Develocity
@@ -33,3 +28,15 @@ Maven Performance Mind Map
   - ~~end mvnflight: report size, build summary~~
   - dependency cache
 - how to compare 2 measures, to see where improvement have happened?
+
+## Publication
+
+External consumption requires public publication, while keeping source private.
+
+Many options available, with their own complexities:
+
+1. Maven Central [SNAPSHOT](https://central.sonatype.org/publish/publish-portal-snapshots/): see [namespace](https://central.sonatype.org/register/namespace/#by-code-hosting-services), require [GH `mvnflight` org](https://github.com/mvnflight) to be able to deploy to `io.github.mvnflight`
+2. [GitHub packages](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-apache-maven-registry): how to have public package while keeping Git private?
+3. Jitpack.io: [price](https://jitpack.io/private#subscribe) for private Git
+4. any web server, like https://jeanbisutti.github.io/mvnflight, at least for SNAPSHOT, waiting for a decision for future releases?
+   for example site publishing `target/repo` from `mvn clean deploy -DaltDeploymentRepository=local::file:target/repo`
