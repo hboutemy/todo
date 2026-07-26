@@ -16,10 +16,15 @@ Maven Performance Mind Map
   - parallel, w/o or with smart-builder
   - mvnd
   - build cache (rebuild avoidance)
+- public publication, while keeping source private:
+  - Maven Central SNAPSHOT:
+  - GitHub packages: 
+  - Jitpack.io: [price](https://jitpack.io/private#subscribe)
+  - any web server...
 - real builds to test:
-  - Modello ()
-  - Quarkus
-  - Keycloak: TODO test GHA
+  - [Modello](https://github.com/codehaus-plexus/modello): [GHA](https://github.com/codehaus-plexus/modello/actions/workflows/maven.yml)
+  - [Quarkus](https://github.com/quarkusio/quarkus): [GHA](https://github.com/quarkusio/quarkus/actions) uses Develocity
+  - [Keycloak](https://github.com/keycloak/keycloak): TODO test GHA like [CI workflow on main](https://github.com/keycloak/keycloak/actions/workflows/ci.yml?query=branch%3Amain)
 - investigations:
   - Surefire fork (safe process isolation) vs in-process
   - overhead of mvnflight
