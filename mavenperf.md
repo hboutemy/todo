@@ -40,3 +40,4 @@ Many options available, with their own complexities:
 3. Jitpack.io: [price](https://jitpack.io/private#subscribe) for private Git
 4. any web server, like https://jeanbisutti.github.io/mvnflight, at least for SNAPSHOT, waiting for a decision for future releases?
    for example site publishing `target/repo` from `mvn clean deploy -DaltDeploymentRepository=local::file:target/repo`
+   Manual deployment done as a POC to https://github.com/hboutemy/mvnflight/tree/gh-pages
