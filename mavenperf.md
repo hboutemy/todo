@@ -20,6 +20,7 @@ Maven Performance Mind Map
   - [Modello](https://github.com/codehaus-plexus/modello): [GHA](https://github.com/codehaus-plexus/modello/actions/workflows/maven.yml)
   - [Quarkus](https://github.com/quarkusio/quarkus): [GHA](https://github.com/quarkusio/quarkus/actions) uses Develocity
   - [Keycloak](https://github.com/keycloak/keycloak): TODO test GHA like [CI workflow on main](https://github.com/keycloak/keycloak/actions/workflows/ci.yml?query=branch%3Amain)
+    => [runs on personal account](https://github.com/hboutemy/keycloak/actions)
 - investigations:
   - Surefire fork (safe process isolation) vs in-process
   - overhead of mvnflight
