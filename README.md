@@ -2,6 +2,13 @@ My Maven TODO list
 =========
 
 - [shading discussion](https://yauaa.basjes.nl/developer/shadingdependencies/)
+  - CDX https://github.com/CycloneDX/cyclonedx-maven-plugin/issues/472
+  - partial vs full (fatjar) shade, additional vs replace
+  - examples:
+    - full: io.yupiik.maven/yupiik-tools-cli-1.2.16-fatjar.jar, doxia-converter, hadoop-client-runtime
+    - partial: TBD
+    - packaging led: war, ear, ...
+    - repackaging: Spring, Quarkus, ...
 - [MSHARED-1466](https://issues.apache.org/jira/browse/MSHARED-1466) target/release JDK in MANIFEST
 - [PR 573](https://github.com/apache/maven-site/pull/573) site drop of most apt
 - bytebuddy JDK 1.8.0_362 vs previous
