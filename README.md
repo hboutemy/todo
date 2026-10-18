@@ -24,6 +24,18 @@ My Maven TODO list
 - at end phase https://maven.apache.org/ref/3.9.1/maven-core/apidocs/org/apache/maven/lifecycle/LifecycleExecutor.html
 - `MAVEN_OPTS="-Dorg.slf4j.simpleLogger.showLogName=true" mvn clean verify`
 
+## Projects
+
+- Maven 4.0
+  - 4.1 or 4.2 with mixins and simplified coordinates definition
+- Java Modules support in Maven 4.0
+  - remove plexus-archiver dependency from maven archiver
+  - followup: consolidate compiler and javadoc
+  - followup: consolidate jar + sources
+- XML descriptor-less / Maven 4 annotations plugins
+- merge Doxia Sitetools into Maven Site Plugin
+- Site layered breadcrumbs
+
 <details><summary>past</summary>
 
 ## Core 3.5.x
