@@ -12,11 +12,12 @@ Maven Performance Mind Map
 - options to improve build:
   - TBD: dev workflow vs CI
   - fastbuild vs with UT vs with UT & ITs, doc/site
-  - dependency cache
+  - dependency cache: [`actions/setup-java cache`](https://github.com/actions/setup-java#caching)
   - parallel, w/o or with smart-builder
   - mvnd
-  - build cache (rebuild avoidance)
+  - build cache (rebuild avoidance on consecutive builds)
 - real builds to test:
+  - [Spring PetClininc](https://mvn-perf.github.io/spring-petclinic/)
   - [Modello](https://github.com/codehaus-plexus/modello): [GHA](https://github.com/codehaus-plexus/modello/actions/workflows/maven.yml)
   - [Quarkus](https://github.com/quarkusio/quarkus): [GHA](https://github.com/quarkusio/quarkus/actions) uses Develocity
   - [Keycloak](https://github.com/keycloak/keycloak): TODO test GHA like [CI workflow on main](https://github.com/keycloak/keycloak/actions/workflows/ci.yml?query=branch%3Amain)
@@ -42,3 +43,22 @@ Many options available, with their own complexities:
 4. any web server, like https://jeanbisutti.github.io/mvnflight, at least for SNAPSHOT, waiting for a decision for future releases?
    for example site publishing `target/repo` from `mvn clean deploy -DaltDeploymentRepository=local::file:target/repo`
    Manual deployment done as a POC to https://github.com/hboutemy/mvnflight/tree/gh-pages
+
+## Download Measure
+
+- [Maven Core Extensions Demo](https://maven.apache.org/studies/extension-demo/)
+- start of extension: info on local cache content (WARN if empty, no org.apache.maven.plugins, ...)
+- resolve by download vs cache
+  - plugins
+  - project dependencies (requiresDependencyResolution / requiresDependencyCollection)
+  - other
+- time passed waiting for download
+- hits & size of download, metadata, pom, asc, fingerprint, other (jar, zip, ...)
+- resolved from cache: how old is the file? (restored from old run or recent run?)
+- correlation of download with CPU (low) usage?
+
+- install
+- upload
+
+- advanced local repository
+- parallel build
