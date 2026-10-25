@@ -27,13 +27,13 @@ My Maven TODO list
 ## Projects
 
 - Maven 4.0
-  - 4.1 or 4.2 with mixins and simplified coordinates definition
-- Java Modules support in Maven 4.0
-  - remove plexus-archiver dependency from maven archiver
+  - [4.1 or 4.2](https://github.com/apache/maven/pull/13656) with mixins and [simplified coordinates definition](https://github.com/apache/maven/pull/11904)
+- [Java Modules support in Maven 4.0](https://cwiki.apache.org/confluence/spaces/MAVEN/pages/393677487/Full+Java+Modules+Support+-+Current+State)
+  - remove plexus-archiver dependency from maven archiver https://github.com/apache/maven-archiver/pull/422
   - followup: consolidate compiler and javadoc
   - followup: consolidate jar + sources
-- XML descriptor-less / Maven 4 annotations plugins
-- merge Doxia Sitetools into Maven Site Plugin
+- XML descriptor-less? / Maven 4 annotations processor for XML descriptor generation https://github.com/apache/maven/issues/13644
+- merge Doxia Sitetools into Maven Site Plugin: see [modern](https://lists.apache.org/thread.html/nc4cjzj8wovnbtt7y189mbbqffvjbngw)
 - Site layered breadcrumbs
 
 <details><summary>past</summary>
